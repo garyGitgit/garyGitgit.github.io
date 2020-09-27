@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div>
-	<object data="myfile.pdf" type="application/pdf" width="100%" height="100%">
+	<object data="/assets/myfile.pdf" type="application/pdf" width="100%" height="100%">
   		<p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
 	</object>
 </div>
