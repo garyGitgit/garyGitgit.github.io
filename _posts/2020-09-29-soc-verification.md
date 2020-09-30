@@ -3,7 +3,7 @@ title: What is SoC design verification?
 tags: [SoC, Verification]
 style: fill
 color: warning
-description: SoC (System On Chip) design verification is a process that the product works correctly in a variety of scenarios. It is also a process of finding out a bug hiding in the hardware design.
+description: SoC (System On Chip) design verification is a process that the product works correctly in a variety of scenarios. It is also a process of finding out bugs and defects hiding in the hardware design.
 <!-- external_url: https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74 -->
 ---
 
