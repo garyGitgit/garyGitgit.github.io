@@ -53,7 +53,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-
+  research:
+    output: true
+    permalink: /research/:name
+  activities:
+    output: true
+    permalink: /activities/:name  
 
 ### Disqus ###
 disqus: your-short-name-disqus                          # Your website Shortname on disqus
@@ -71,6 +76,16 @@ defaults:
   - scope:
       path: ""
       type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "activities"
     values:
       layout: "page"
   - scope:
