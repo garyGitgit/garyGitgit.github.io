@@ -1,10 +1,10 @@
 ---
-name: SoC Simulation Log Analytics
-tools: [Python, Spacy, Word2Vec, NLP, Exynos, 2020]
-image: https://scalegrid.io/blog/wp-content/uploads/2014/07/34611538_thumbnail-copy.jpg
-description: This project analyzes SoC verification simulation log with NLP techniques such as Word2Vec and Doc2Vec.
+name: Smartphone Education for the Elderly
+tools: [Education, Volunteer, Smartphone, 2016]
+image: https://drive.google.com/uc?id=1k09pFWSPoqrKeb5jqVTifmaeW6NeHaBP
+description: I and my team volunteered to let the elderly know how to use smartphone. The volunteer was broadcasted in the local news.
 ---
 
-# SoC Simulation Log Analytics
+# Smartphone Education for the Elderly
 
-Description: Samsung Electronics
+Description: Volunteer

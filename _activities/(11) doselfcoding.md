@@ -1,13 +1,10 @@
 ---
-name: SoC Design Verification Automation
-tools: [Perl, Python, Oracle PL/SQL, MongoDB, Git, Github, Exynos, 2019]
-image: https://images.samsung.com/is/image/samsung/p5/semiconductor/minisite/exynos/newsroom/blog-detail/detail-new-exynos-symbol-presents-exciting-possibilities-for-the-future.jpg?$ORIGIN_JPG$
-description: This project automates workflow in both SoC verification  and IP / block verficiation.
+name: Coding Education Curator, Do Self Coding
+tools: [Coding, Education, Blog, 2020]
+image: https://img1.daumcdn.net/thumb/C500x500.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/16kl/image/Uc8hhxyzS0WujE_PcSxXexUHYXo.jpg
+description: I'm writing a blog about coding education. I also communicate with the readers via 'Q Talk', which means a curation talk. 
 ---
 
-# SoC Design Verification Automation
+# Coding Education Curator, Do Self Coding
 
-Description: Samsung Electronics <br>
-
-DVLR <br>
-IPLR <br>
+Description: Education <br>

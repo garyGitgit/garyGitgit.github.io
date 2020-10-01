@@ -1,13 +1,13 @@
 ---
-name: SoC Design Verification Automation
-tools: [Perl, Python, Oracle PL/SQL, MongoDB, Git, Github, Exynos, 2019]
-image: https://images.samsung.com/is/image/samsung/p5/semiconductor/minisite/exynos/newsroom/blog-detail/detail-new-exynos-symbol-presents-exciting-possibilities-for-the-future.jpg?$ORIGIN_JPG$
-description: This project automates workflow in both SoC verification  and IP / block verficiation.
+name: Sleep and Respiration Data Monitoring System
+tools: [Python, Django, IEEE Access, 2020]
+image: https://cdn.pixabay.com/photo/2015/10/30/12/12/bed-1013889_960_720.jpg
+description: This project montiors sleep and respiration data in real time.
 ---
 
-# SoC Design Verification Automation
+# Sleep and Respiration Data Monitoring System
 
-Description: Samsung Electronics <br>
+Description: HCI lab <br>
 
 DVLR <br>
 IPLR <br>
