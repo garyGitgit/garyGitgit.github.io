@@ -7,7 +7,4 @@ description: This project automates workflow in both SoC verification  and IP / 
 
 # SoC Design Verification Automation
 
-Description: Samsung Electronics <br>
-
-DVLR <br>
-IPLR <br>
+Description: TBD <br>

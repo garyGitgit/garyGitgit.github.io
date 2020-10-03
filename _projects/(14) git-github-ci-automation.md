@@ -8,4 +8,4 @@ description: This project enables developers to configuration management and con
 
 # Git & Github based Continuous Integration Automation
 
-Description: Samsung Electronics
+Description: TBD <br>

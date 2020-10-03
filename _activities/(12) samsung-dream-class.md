@@ -8,4 +8,4 @@ description: I volunteered for Samsung Dream Class, a program created by Samsung
 
 # Samsung Dream Class
 
-Description: Volunteer <br>
+Description: TBD <br>

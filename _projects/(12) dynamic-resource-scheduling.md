@@ -8,4 +8,4 @@ description: This project improves SoC Emulation resource utilzation with dynami
 
 # Dynamic Resource Scheduling for SoC Emulation
 
-Description: Samsung Electronics <br>
+Description: TBD <br>

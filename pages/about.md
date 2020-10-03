@@ -9,12 +9,16 @@ weight: 1
 
 ## **Introduction** 
 <br>
+
+<img src="https://avatars2.githubusercontent.com/u/16892436?s=460&u=30c2e125ca2aa6c4183bed0dfbd73380a05ca291&v=4" alt="me" style="border-radius: 50%; width: 30%;">
+<br>
+
 Hi I am **{{ site.author.name }}** (Sangwoo Noh). <br><br>
 I'm currently working in **Samsung Electronics** as a **software engineer**. <br>
-My main job is to develop automation software for SoC ([Exynos](https://www.samsung.com/semiconductor/minisite/exynos/)) [design verification](https://garygitgit.github.io/blog/soc-verification). <br>
+My main job is to develop automation software for SoC ([Exynos](https://www.samsung.com/semiconductor/minisite/exynos/)) [design verification](https://garygitgit.github.io/blog/soc-verification). <br><br>
 I also work for improving SoC design verification with data analytics and machine learning / deep learning. <br>
-Even if I mostly use Python to work on those jobs, I have experiences on developing websites and Android application and developing server program with Django.<br><br>
-My main interest is SoC, machine learning / deep learning, data analytics, plus coding education and mobile healthcare. <br><br>
+Even if I mostly use Python to work on those jobs, I have experiences on developing websites, Android application and a server program with Django.<br><br>
+My main interests are SoC, machine learning / deep learning, data analytics plus coding education and mobile healthcare. <br><br>
 
 - Go to [Projects](https://garygitgit.github.io/projects/) to see what I 've worked on. <br>
 - Go to [Research](https://garygitgit.github.io/research/) to see my publication. <br>
@@ -27,42 +31,42 @@ My main interest is SoC, machine learning / deep learning, data analytics, plus 
 ## **Skills** 
 <br>
 
-#### :large_orange_diamond: Programming Languages
+#### :ballot_box_with_check: Programming Languages
 - Mostly Used<br>
 -- Python<br>
 - Experienced:<br>
 -- Perl, Java, C, C++, HTML, CSS, Javascript, Markdown <br>
 <br>
 
-#### :large_orange_diamond: Database
+#### :ballot_box_with_check: Database
 - Mostly Used<br>
 -- Oracle PL/SQL <br>
 - Experienced<br>
 -- MongoDB, MySQL, sqlite3 <br>
 <br>
 
-#### :large_orange_diamond: Data Analytics & Machine Learning
+#### :ballot_box_with_check: Data Analytics & Machine Learning
 - Mostly Used<br>
 -- Pandas, Numpy, Keras, Matplotlib, Seaborn <br>
 - Experienced<br>
--- Tensorflow, Sklearn, Spacy, Word2Vec, K means <br>
+-- Tensorflow, Sklearn, Spacy, Word2Vec, Reinforcement Learning, K means <br>
 <br>
 
-#### :large_orange_diamond: Frontend Programming
+#### :ballot_box_with_check: Frontend Programming
 - Mostly Used<br>
 -- Python argparse (CLI), Android, Html, CSS, Javascript (GUI)<br>
 - Experienced<br>
 -- PyQT <br>
 <br>
 
-#### :large_orange_diamond: Backend Programming
+#### :ballot_box_with_check: Backend Programming
 - Mostly Used<br>
 -- Django (Python) <br>
 - Experienced<br>
 -- Spring Framework (Java)<br>
 <br>
 
-#### :large_orange_diamond: Tools
+#### :ballot_box_with_check: Tools
 - Mostly Used<br>
 -- Vim, Jupyter Notebook, Pycharm, Git, Github
 - Experienced<br>
@@ -70,7 +74,7 @@ My main interest is SoC, machine learning / deep learning, data analytics, plus 
 <br>
 
 #### :shipit: Others
-- Parse (Android)
+- Heroku (PaaS), Parse (Android), Jekyll
 <br>
 
 ---

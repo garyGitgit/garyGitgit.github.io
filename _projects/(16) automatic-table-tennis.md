@@ -8,4 +8,4 @@ description: This project is table tennis scoring system automation based on wea
 
 # Automatic Table Tennis Scoring System
 
-Description: HCI / Mobile Healthcare Lab
+Description: TBD <br>

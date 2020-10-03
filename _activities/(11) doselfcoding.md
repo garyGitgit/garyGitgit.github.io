@@ -7,4 +7,4 @@ description: I'm writing a blog about coding education. I also communicate with 
 
 # Coding Education Curator, Do Self Coding
 
-Description: Education <br>
+Description: TBD <br>

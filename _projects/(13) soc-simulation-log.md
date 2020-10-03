@@ -7,4 +7,4 @@ description: This project analyzes SoC verification simulation log with NLP tech
 
 # SoC Simulation Log Analytics
 
-Description: Samsung Electronics
+Description: TBD <br>
