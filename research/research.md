@@ -9,9 +9,9 @@ weight: 3
 <div style="overflow-x:auto;">
 	<table >
 	  <tr>
-	    <td style="border:none; display: block"><img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F2%2F0%2F5%2F8%2F21638502-1-eng-GB%2F22692824137_096821ea43_ore.jpg?source=nar-cms" style="border-radius: 20%;width:30vw;height:30vh;" alt="soc"></td>
-	    <td style="border:none; display: block"><img src="https://newsimg.hankookilbo.com/2019/03/28/201903280930767896_1.jpg" style="border-radius: 20%;;width:30vw;height:30vh" alt="ai"></td>
-	    <td style="border:none; display: block"><img src="https://bgr.com/wp-content/uploads/2020/01/apple-watch-iphone-se-sign.jpg?quality=70&strip=all&w=640&h=500&crop=1" style="border-radius: 20%;width:30vw;height:30vh"  alt="mhealth"></td>
+	    <td style="border:none;width: auto; height: auto"><img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F2%2F0%2F5%2F8%2F21638502-1-eng-GB%2F22692824137_096821ea43_ore.jpg?source=nar-cms" style="border-radius: 20%" alt="soc"></td>
+	    <td style="border:none;width: auto; height: auto"><img src="https://newsimg.hankookilbo.com/2019/03/28/201903280930767896_1.jpg" style="border-radius: 20%;" alt="ai"></td>
+	    <td style="border:none;width: auto; height: auto"><img src="https://bgr.com/wp-content/uploads/2020/01/apple-watch-iphone-se-sign.jpg?quality=70&strip=all&w=640&h=500&crop=1" style="border-radius: 20%"  alt="mhealth"></td>
 	   </tr>
 	   <tr>
 	   		<td style="text-align: center; border:none; background-color: white">System on Chip</td>
