@@ -8,8 +8,9 @@ weight: 3
 
 <br>
 
-
+<div class="test">
 SoC verification with machine learning / deep learning, Mobile wearable, Mobile healthcare
+</div>
 
 ---
 
