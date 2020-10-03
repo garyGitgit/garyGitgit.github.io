@@ -10,7 +10,7 @@ weight: 1
 ## **Introduction** 
 <br>
 
-<img src="https://avatars2.githubusercontent.com/u/16892436?s=460&u=30c2e125ca2aa6c4183bed0dfbd73380a05ca291&v=4" alt="me" style="border-radius: 50%; width: 30%;">
+<img src="https://avatars2.githubusercontent.com/u/16892436?s=460&u=30c2e125ca2aa6c4183bed0dfbd73380a05ca291&v=4" alt="me" style="border-radius: 50%; width: 30vw;">
 <br>
 
 Hi I am **{{ site.author.name }}** (Sangwoo Noh). <br><br>
