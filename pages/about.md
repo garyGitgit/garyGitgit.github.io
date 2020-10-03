@@ -21,7 +21,7 @@ Even if I mostly use Python to work on those jobs, I have experiences on develop
 My main interests are SoC, machine learning / deep learning, data analytics plus coding education and mobile healthcare. <br><br>
 
 - Go to [Projects](https://garygitgit.github.io/projects/) to see what I 've worked on. <br>
-- Go to [Research](https://garygitgit.github.io/research/) to see my publication. <br>
+- Go to [Research](https://garygitgit.github.io/research/research) to see my publication. <br>
 - Go to [Activities](https://garygitgit.github.io/activities/) to see my social activities. <br>
 - Go to [Blog](https://garygitgit.github.io/blog/) to see my posts. <br>
 - Click [here]((https://drive.google.com/file/d/1xxH-xfvY2-Ccb033d1JmElHPqVozcAsM/view?usp=sharing)) to see my CV. <br>
