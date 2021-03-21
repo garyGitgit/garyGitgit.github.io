@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Software Infrastructure (DevOps)">
+  <meta property="og:description" content="Gary Noh">
+
+  <title>Software Infrastructure (DevOps)</title>
+  <meta name="description" content="Gary Noh">
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/"><h5><b>Gary's  blog</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About me</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/research/research">Research</a>
+
+      <a class="nav-item nav-link " href="/activities/">Activities</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      
+
+    </div>
+  </div>
+
+</nav>
+  <div class="col-lg-10 mx-auto mt-5 post">
+  <h1 id="software-infrastructure-devops">Software Infrastructure (DevOps)</h1>
+
+<p><br /></p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+  <li><a href="#1">1. CI/CD with Github &amp; Jenkins</a> <br /></li>
+  <li><a href="#2">2. Virtual Env with Anaconda</a> <br /></li>
+  <li><a href="#3">3. MongoDB</a> <br /></li>
+</ul>
+
+<p><br /></p>
+<hr />
+
+<p><br /></p>
+
+<h3 id="-1-cicd-with-github--jenkins"><a name="1"> 1. CI/CD with Github &amp; Jenkins</a></h3>
+<p><br /></p>
+
+<h4 id="description">Description</h4>
+<p>
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+</p>
+
+<figure class="image">
+    <img src="https://www.jenkins.io/images/logo-title-opengraph.png" alt="drawing" style="width:500px;" />
+    <figcaption class="image-caption">Figure 1. Jenkins</figcaption>
+</figure>
+
+<p>
+1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+</p>
+
+<p><br /></p>
+
+<h4 id="skills">Skills</h4>
+<div>
+    <div class="chip lang">Python</div>
+    <div class="chip db">Oracle PL/SQL</div>
+    <div class="chip theory">Reinforcement Learning</div>
+    <div class="chip tools">Keras</div>
+</div>
+
+<p><br /></p>
+
+<h4 id="period">Period</h4>
+<p><br /></p>
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 Jan</div>
+                <h5 class="font-size-16">2019</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-warning">31 Oct</div>
+                <h5 class="font-size-16">DVCon</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">31 Dec</div>
+                <h5 class="font-size-16">2019</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4 id="related-articles">Related Articles</h4>
+<p>dvcon.pdf
+<br /><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<h3 id="2-virtual-env-with-anaconda"><a name="2">2. Virtual Env with Anaconda</a></h3>
+
+<p><br /></p>
+
+<h4 id="description-1">Description</h4>
+<p>
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+</p>
+
+<figure class="image">
+    <img src="https://assets-cdn.anaconda.com/assets/_1200x630_fit_center-center_82_none/anaconda-meta.jpg?mtime=20200506175707&amp;focal=none&amp;tmtime=20210216163404" alt="drawing" style="width:500px;" />
+    <figcaption class="image-caption">Figure 2. Anaconda</figcaption>
+</figure>
+
+<p>
+1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+</p>
+
+<p><br /></p>
+
+<h4 id="skills-1">Skills</h4>
+<div>
+    <div class="chip lang">Python</div>
+    <div class="chip db">Oracle PL/SQL</div>
+    <div class="chip theory">Reinforcement Learning</div>
+    <div class="chip tools">Keras</div>
+</div>
+
+<p><br /></p>
+
+<h4 id="period-1">Period</h4>
+<p><br /></p>
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 Jan</div>
+                <h5 class="font-size-16">2019</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-warning">31 Oct</div>
+                <h5 class="font-size-16">DVCon</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">31 Dec</div>
+                <h5 class="font-size-16">2019</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4 id="related-articles-1">Related Articles</h4>
+<p>dvcon.pdf
+<br /><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<h3 id="-3-mongodb"><a name="3"> 3. MongoDB</a></h3>
+<p><br /></p>
+
+<h4 id="description-2">Description</h4>
+<p>
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+</p>
+
+<figure class="image">
+    <img src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" alt="drawing" style="width:500px;" />
+    <figcaption class="image-caption">Figure 3. MongoDB</figcaption>
+</figure>
+
+<p>
+1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+</p>
+
+<p><br /></p>
+
+<h4 id="skills-2">Skills</h4>
+<div>
+    <div class="chip lang">Python</div>
+    <div class="chip lang">Perl</div>
+    <div class="chip tools">Pymongo</div>
+    <div class="chip tools">Perl for MongoDB</div>
+</div>
+
+<p><br /></p>
+
+<h4 id="period-2">Period</h4>
+<p><br /></p>
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 Jan</div>
+                <h5 class="font-size-16">2019</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-warning">31 Oct</div>
+                <h5 class="font-size-16">DVCon</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">31 Dec</div>
+                <h5 class="font-size-16">2019</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4 id="related-articles-2">Related Articles</h4>
+<p>dvcon.pdf
+<br /><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<h2 id="other-projects">Other Projects</h2>
+<ul>
+  <li><a href="https://garygitgit.github.io/projects/">Overview</a> <br /></li>
+  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verfication Platform</a> <br /></li>
+  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">Machine Learning / Data Analytics</a> <br /></li>
+  <li><a href="https://garygitgit.github.io/projects/14-human-activity-hci">Human Acitvity Recognition / HCI</a> <br /></li>
+  <li><a href="https://garygitgit.github.io/projects/15-mobile">Mobile</a> <br /></li>
+  <li><a href="https://garygitgit.github.io/projects/16-webpage">Web / Web Application</a> <br /></li>
+</ul>
+
+<!-- my style -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<style>
+.chip{
+    display: inline-block;
+    padding: 0 15px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.lang{
+    background-color: #673AB7;
+    color: #FFFFFF;
+}
+.db{
+    background-color: #009688;
+    color: #FFFFFF;
+}
+.frontend{
+    background-color: #0D47A1;
+    color: #FFFFFF;
+}
+.backend{
+    background-color: #FF5722;
+    color: #FFFFFF;
+}
+.devops{
+    background-color: #607D8B;
+    color: #FFFFFF;
+}
+.tools{
+    background-color: #FF6F00;
+    color: #FFFFFF;
+}
+.theory{
+    background-color: #0288D1;
+    color: #FFFFFF;
+}
+
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+.soft-primary {
+    background-color: rgb(64,144,203)!important;
+    color: #FFFFFF;
+}
+.soft-success {
+    background-color: rgb(71,189,154)!important;
+    color: #FFFFFF;
+}
+.soft-danger {
+    background-color: rgb(231,76,94)!important;
+}
+.soft-warning {
+    background-color: rgb(249,213,112)!important;
+}
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+.image-caption{
+  text-align: center;
+}
+
+</style>
+
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Gary Noh</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:sw79899@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/garyGitgit"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/garynoh"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>
