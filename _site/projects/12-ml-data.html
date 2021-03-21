@@ -80,8 +80,9 @@
 <figure class="image">
     <img src="https://www.smartdatacollective.com/wp-content/uploads/2018/11/top-7-data-analytics-tools-2019.jpg" alt="drawing" style="width:500px;" />
 </figure>
-<p><code>
-The projects are related to machine learning and data analytics for Exynos series in <b>S.LSI division, Samsung Electronics</b>. This page also includes data analytics for coding institution in Seoul, South Korea. The projects have been motivated <u><b>to find better optimal solutions than human's idea based on data analytics, machine learning and deep learning</b></u>.
+<p><br />
+<code>
+    The projects are related to machine learning and data analytics to solve problems in <b>S.LSI division, Samsung Electronics</b>.
 </code></p>
 
 <p><br /></p>
@@ -89,7 +90,6 @@ The projects are related to machine learning and data analytics for Exynos serie
 <ul>
   <li><code><a href="#1">1. Reinforcement Learning for Resource Management</a></code><br /></li>
   <li><code><a href="#2">2. Simulation Log Analytics for Testcase Similarity</a><code><br /></code></code></li>
-  <li><code><a href="#3">3. Data Analytics for Coding Institutions</a><code><br /></code></code></li>
 </ul>
 
 <p><br /></p>
@@ -103,15 +103,15 @@ The projects are related to machine learning and data analytics for Exynos serie
 <h4><code>Description</code></h4>
 <p>
 <code>
-This project has been motivated <b>to improve emulation resource management with reinforcement learning and find the optimal solution</b>. The heuristic based approach has improved resource utilization much, however, the emulation environment cases are too diverse to define algorithms and polcies depending on different situations. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by Deep Mind, has been applied to solve this problem.</code>
+This project has been motivated <b>to maximize SoC/IP emulation resource utilization with reinforcement learning</b>. The heuristic based approach has improved resource utilization (<a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verfication</a>), however, environments are too diverse to define algorithms and polcies depending on each situation. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by DeepMind, has been applied to solve this problem.</code>
 </p>
 <p><code>
-To acheive the application for DDQN, the simulation environmnet has been developed, and simulation data has been generated from the previous job data. From the experiment, it has been shown that algorithm based on reinforcement learning has been better performance than no policy.
+My role was to <b>develop a simulation environment, implemented and trained DDQN model</b>. The training data has been collected from the previous data collected in Oracle DB. As a result, it has been shown that DDQN algorithm is better performance than random policy and no policy.
 </code></p>
 
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;" />
-    <figcaption class="image-caption"><code>Reward in each episode on training (left), comparision between trained model and no policy (right)</code></figcaption>
+    <figcaption class="image-caption"><code>[Reward in each episode on training (left), comparision between trained model and no policy (right)]</code></figcaption>
 </figure>
 <p><br /></p>
 <h4><code>Skills</code></h4>
@@ -173,7 +173,9 @@ To acheive the application for DDQN, the simulation environmnet has been develop
 
 <h4><code>Description</code></h4>
 <p><code>
-This project has been motivated to categorize testcases based on simulation logs. 
+This project has been motivated <b>to find out meaningful information from hundreds TBs of simulation log data</b>. Even if each simulation generated large amount of log data, they mostly discarded after simulation. My role was <b>to store simulation log data into MongoDB, distributed NoSQL data and analyze log data with Natural Language Processing (NLP) technique. </b> <b>Word2Vec and Spacy</b> has been used to handle log data, and <b>T-SNE</b> has been used to find out the vector distance between each logs.<br />
+<br />
+As a result, meaningful similarity has been found in each logs, which was not demonstrated in user-defined features. 
 </code>
 </p>
 
@@ -185,6 +187,7 @@ This project has been motivated to categorize testcases based on simulation logs
     <div class="chip theory">Word2Vec</div>
     <div class="chip tools">Spacy</div>
     <div class="chip tools">T-SNE</div>
+    <div class="chip tools">Juypter</div>
 </div>
 
 <p><br /></p>
@@ -196,82 +199,15 @@ This project has been motivated to categorize testcases based on simulation logs
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
-                <div class="event-date soft-primary">1 Jan</div>
-                <h5 class="font-size-16">2019</h5>
+                <div class="event-date soft-primary">24 Aug</div>
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
-                <div class="event-date soft-warning">31 Oct</div>
-                <h5 class="font-size-16">DVCon</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">31 Dec</div>
-                <h5 class="font-size-16">2019</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<p><br /></p>
-
-<hr />
-
-<p><br /></p>
-
-<h3><code>3. Data Analytics for Coding Institutions</code></h3>
-
-<p><br /></p>
-
-<h4><code>Description</code></h4>
-<p><code>
-Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</code>
-</p>
-
-<figure class="image">
-    <img src="https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/16kl/image/GkHDJ58FR7BbIRD3dLQ206lFrgc.png" alt="drawing" style="width:500px;" />
-</figure>
-
-<p><br /></p>
-
-<h4><code>Skills</code></h4>
-<div>
-    <div class="chip lang">Python</div>
-    <div class="chip tools">Pandas</div>
-    <div class="chip tools">Numpy</div>
-</div>
-
-<p><br /></p>
-
-<h4><code>Period</code></h4>
-<p>1 month
-<br /></p>
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 Jan</div>
-                <h5 class="font-size-16">2019</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-warning">31 Oct</div>
-                <h5 class="font-size-16">DVCon</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">31 Dec</div>
-                <h5 class="font-size-16">2019</h5>
+                <div class="event-date soft-success">31 Oct</div>
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>

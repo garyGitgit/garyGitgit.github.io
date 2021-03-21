@@ -13,8 +13,9 @@ tools: [Samsung Electronics, 2018-2021]
 
 <br/>
 <code>
-The projects are related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>. The projects have been motivated <u><b>to standardize SoC design and verification workflows and improve efficiency</b></u> by collaborating with software and automation technology.
+The projects are related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
 </code>
+<br/><br/>
 <h4> <code> Table of Contents </code> </h4>
 - <code><a href="#1">1. Regression Automation</a></code><br/>
 - <code><a href="#2">2. Resource Management</a><code><br/>
@@ -28,7 +29,12 @@ The projects are related to design verification for Exynos series in <b>S.LSI di
 <br/>
 <h4><code> Description </code></h4>
 <p><code>
-The project has been motivated <b>to automate SoC/IP regression workflow</b>. It has centralized and improved the individual users' verification workflow and finally reduced TAT time and bug reports after tape-out. My role was <b>to develop a user interface</b> for SoC/IP regression automation, including <b>Command Line Interface (CLI) and Graphical User Interface (GUI)</b>. GUI has been developed to separate the application logic from interface logic with <b>Model-View-Conteroller (MVC) design pattern</b>. Vue.js and Electron has been used for the user interface, and Django REST Framework has been used to develop application logic in the backend. </code></p>
+This project has been motivated <b>to automate SoC/IP regression workflow</b>. It has standardized and improved individual users' verification workflow and finally reduced TAT time and bug reports after tape-out. <br/>
+<br/>
+My role was <b>to develop a user interface</b> for SoC/IP regression automation, including <b>Command Line Interface (CLI) and Graphical User Interface (GUI)</b>. CLI has been develped with Perl and Python, and GUI has been developed with Web technology: Vue.js and Electron has been used for the user interface, and Django REST Framework has been used to develop application logic in the backend. Not only GUI has improved usability but also has separated application logic from interface logic with <b>Model-View-Conteroller (MVC) design pattern</b>. <br/>
+<br/>
+I also used both <b>Oracle PL/SQL and MongoDB</b> for normalized data and denormalized data repsectively. I especially worked as a MongoDB administrator for distributed databases.
+</code></p>
 <p><code>
 To see details, please refer to the paper in 'Related Articles' below.
  </code></p>
@@ -90,13 +96,15 @@ To see details, please refer to the paper in 'Related Articles' below.
 
 <h4><code>Description</code></h4>
 <p><code>
-The project has been motivated <b>to manage SoC/IP emulation resource efficiently and maximize resource utilization.</b> I developed a <b>resource scheduling algorithm</b> to manage emulation resource dynamically in different situations. I analyzed time series data of emulation jobs and developed a dynamic resource scheduling algorithm in a heustic way. <b>The algorithm has been improved resource utilization by 20% and reduced pending time by 70%. </b>
+This project has been motivated <b>to manage SoC/IP emulation resource efficiently and maximize resource utilization.</b> <br/>
+<br/>
+My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different situations. To acheive the goal, I collected the data in to databases and analyzed time series data of emulation jobs and developed a dynamic resource scheduling algorithm in a heustic way. <b>The algorithm has been improved resource utilization by 20% and reduced total pending time by 70%. </b>
 </code></p>
 <p><code> 
-Furthermore, I've explored the novel approach with <b>Reinforcement Learning</b>. I developed <b>simulation environment of emulation farm with event queue and researched Deep Q Network (DQN) algorithm</b> to apply Reinforcement Learning. The research has been proved that the RL algorithm has better performance than random resource management. The techiques are detailed in <a href="http://127.0.0.1:4000/projects/12-ml-data">machine learning/data analytics</a>.
+Furthermore, to find out the better optimal solution, I've researched <b>Reinforcement Learning</b> for resource management. First, I developed <b>simulation environment of emulation farm with event queue, and next applied Double Deep Q Network (DDQN) algorithm</b>. The research has been proved that DDQN algorithm has better performance than random resource management. 
 </code></p>
 <p><code>
-To see details, please refer to the paper in 'Related Articles' below.
+To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://127.0.0.1:4000/projects/12-ml-data">machine learning/data analytics</a>.
  </code></p>
 
 <br/>
@@ -107,6 +115,8 @@ To see details, please refer to the paper in 'Related Articles' below.
     <div class="chip db">Oracle PL/SQL</div>
     <div class="chip theory">Reinforcement Learning</div>
     <div class="chip tools">Keras</div>
+    <div class="chip tools">Jupyter</div>
+    <div class="chip tools">Pycharm</div>
 </div>
 
 <br/>
@@ -154,12 +164,16 @@ To see details, please refer to the paper in 'Related Articles' below.
 
 <h4><code>Description</code></h4>
 <code>
-This project is one of the collaboration project between software engineers and hardware engineers. I've had a chance to do <b>AMBA Bus design verification</b> in Exynos design. My role was <b>to find out bugs in RTL in APB and AHB</b> APB is an AMBA Peripheral Bus and is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB is Advanced High Performance Bus with a high throughput and high performance to transfer and receive data. I've run multiple testcases, including SFR test and burst tests and found out some RTL bugs. I've also automated some workflows such as mapping masters and slaves when setting up verification environment.
+This project is one of the collaboration project between software engineers and hardware engineers. I've collaborated in <b>AMBA Bus design verification</b> for Exynos design. <br/>
+<br/>
+My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I've generated multiple testcases, including SFR test and burst tests and found out some RTL bugs. <br/>
+<br/>
+I've also automated some workflow such as mapping masters and slaves in verification environment setup as a software engineer.
 </code>
 
 <figure class="image">
     <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;"/>
-    <figcaption class="image-caption"><code>AMBA Bus Protocol (ARM official guide)</code></figcaption>
+    <figcaption class="image-caption"><code>[AMBA Bus Protocol (ARM official guide)]</code></figcaption>
 </figure>
 
 <h4><code>Skills</code></h4>
