@@ -172,8 +172,7 @@ To see details, please refer to the paper in 'Related Articles' below.
  </code></p>
 <br/>
 
-<div class="container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<div class="video-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <br/>
 <h4><code>Skills</code></h4>
@@ -390,7 +389,7 @@ code{
 .image-caption{
   text-align: center;
 }
-.container {
+.video-container {
   position: relative;
   overflow: hidden;
   width: 100%;

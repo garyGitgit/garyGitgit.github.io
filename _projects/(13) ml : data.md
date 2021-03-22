@@ -1,7 +1,7 @@
 ---
 name: Machine Learning / Data Analytics
 image: https://cdn3.iconfinder.com/data/icons/research-element/1000/graph-512.png
-tools: [Samsung Electronics, 2019-2020]
+tools: [Samsung Electronics, 2019-Present]
 <!-- external_url: https://www.google.com -->
 ---
 

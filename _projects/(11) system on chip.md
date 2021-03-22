@@ -1,7 +1,7 @@
 ---
 name: SoC Verification 
 image: https://cdn2.iconfinder.com/data/icons/vivid/48/processor-512.png
-tools: [Samsung Electronics, 2018-2021]
+tools: [Samsung Electronics, 2018-Present]
 ---
 
 <h2 style="text-align:center;"><code> SoC Verification</code> </h2>

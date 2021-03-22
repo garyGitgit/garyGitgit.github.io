@@ -1,7 +1,7 @@
 ---
 name: Software Infrastructure (DevOps)
 image: https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/cloud-computing-512.png
-tools: [Samsung Electronics, 2018-2021]
+tools: [Samsung Electronics, 2018-Present]
 ---
 
 <h2 style="text-align:center;"><code>Software Infrastructure (DevOps)</code> </h2>
