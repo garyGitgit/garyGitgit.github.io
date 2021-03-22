@@ -20,10 +20,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="SoC Verification">
+  <meta property="og:title" content="Software Infrastructure (DevOps)">
   <meta property="og:description" content="Gary Noh">
 
-  <title>SoC Verification</title>
+  <title>Software Infrastructure (DevOps)</title>
   <meta name="description" content="Gary Noh">
 
   
@@ -73,62 +73,43 @@
 
 </nav>
   <div class="col-lg-10 mx-auto mt-5 post">
-  <h2 style="text-align:center;"><code> SoC Verification</code> </h2>
+  <h2 style="text-align:center;"><code>Software Infrastructure (DevOps)</code> </h2>
 <p><br /></p>
 
 <figure class="image">
-    <img src="https://images.samsung.com/is/image/samsung/p5/semiconductor/minisite/exynos/newsroom/blog-detail/detail-new-exynos-symbol-presents-exciting-possibilities-for-the-future.jpg" alt="drawing" style="width:500px;" />
+    <img src="https://miro.medium.com/max/3964/1*EBXc9eJ1YRFLtkNI_djaAw.png" alt="drawing" style="width:500px;" />
 </figure>
 
 <p><br />
 <code>
-The projects are related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
+The projects are related to software management, <b>CI/CD and configuration management automation</b> in S.LSI Division, Samsung Electronics. To acheive the goal, I set up <b>Github and Jenkins</b> for team members and Python virtual environment with <b>Anaconda</b>.
 </code>
 <br /><br /></p>
 <h4> <code> Table of Contents </code> </h4>
 <ul>
-  <li><code><a href="#1">1. Regression Automation</a></code><br /></li>
-  <li><code><a href="#2">2. Resource Management</a><code><br /></code></code></li>
-  <li><code><a href="#3">3. AMBA Bus Verification</a></code><br /></li>
+  <li><code><a href="#1">1. CI/CD Automation</a></code><br /></li>
+  <li><code><a href="#2">2. Python Virtual Environment</a><code><br /></code></code></li>
+  <li><code><a href="#3">3. DB &amp; Server Monitoring</a><code><br />
+<br /></code></code></li>
 </ul>
-
-<p><br /></p>
 <hr />
 
 <p><br /></p>
 
-<h3><code> <a name="1">1. Regression Automation </a></code></h3>
+<h3><code> <a name="1">1. CI/CD Automation</a></code></h3>
 <p><br /></p>
 <h4><code> Description </code></h4>
 <p><code>
-This project has been motivated <b>to automate SoC/IP regression workflow</b>. It has standardized and improved individual users' verification workflow and finally reduced TAT time and bug reports after tape-out. <br />
-<br />
-My role was <b>to develop a user interface</b> for SoC/IP regression automation, including <b>Command Line Interface (CLI) and Graphical User Interface (GUI)</b>. CLI has been develped with Perl and Python, and GUI has been developed with Web technology: Vue.js and Electron has been used for the user interface, and Django REST Framework has been used to develop application logic in the backend. Not only GUI has improved usability but also has separated application logic from interface logic with <b>Model-View-Conteroller (MVC) design pattern</b>. <br />
-<br />
-I also used both <b>Oracle PL/SQL and MongoDB</b> for normalized data and denormalized data repsectively. I especially worked as a MongoDB administrator for distributed databases.
+This project has been motivated <b>to manage and automate CI/CD with Github and Jenkins</b>. Github is used for configuration management based on <b>Gitflow</b>, and <b>Github webhook</b> has been used to launch build and deploy when pull request. <b>Blue Ocean</b> has been used for creating pipelines.
 </code></p>
-<p><code>
-To see details, please refer to the paper in 'Related Articles' below.
- </code></p>
-
-<p><br />
-<!-- <figure class="image">
-    <img src="https://static.javatpoint.com/tutorial/software-testing/images/regression-testing-intro.png" alt="drawing" style="width:500px;"/>
-    <figcaption class="image-caption"><code>Figure 1. Regression test</code></figcaption>
-</figure> --></p>
+<p><br /></p>
 
 <h4><code>Skills</code></h4>
 <div>
-    <div class="chip lang">Python</div>
-    <div class="chip lang">Perl</div>
-    <div class="chip db">Oracle PL/SQL</div>
-    <div class="chip db">MongoDB</div>
-    <div class="chip devops">Nginx</div>
-    <div class="chip devops">Gunicorn</div>
-    <div class="chip frontend">Vue</div>
-    <div class="chip frontend">Electron</div>
-    <div class="chip backend">Django</div>
-    <div class="chip backend">REST API</div>
+    <div class="chip lang">C shell</div>
+    <div class="chip devops">Jenkins</div>
+    <div class="chip devops">Blue Ocean</div>
+    <div class="chip devops">Github</div>
 </div>
 
 <p><br /></p>
@@ -156,66 +137,43 @@ To see details, please refer to the paper in 'Related Articles' below.
 
 <h4><code>Related Articles</code></h4>
 <ul>
-   <li><a href="http://events.dvcon.org/2020/proceedings/papers/03_3.pdf"><code>DVCon Paper (2020)</code></a></li>
+   <li><code></code></li>
 </ul>
 <p><br /></p>
 <hr />
 
 <p><br /></p>
 
-<h3><code><a name="2">2. Resource Management</a></code></h3>
-
+<h3><code> <a name="2">2. Python Virtual Environment</a></code></h3>
 <p><br /></p>
-
-<h4><code>Description</code></h4>
+<h4><code> Description </code></h4>
 <p><code>
-This project has been motivated <b>to manage SoC/IP emulation resource efficiently and maximize resource utilization.</b> <br />
-<br />
-My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different situations. To acheive the goal, I collected the data in to databases and analyzed time series data of emulation jobs and developed a dynamic resource scheduling algorithm in a heustic way. <b>The algorithm has been improved resource utilization by 20% and reduced total pending time by 70%. </b>
+This project has been motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
 </code></p>
-<p><code> 
-Furthermore, to find out the better optimal solution, I've researched <b>Reinforcement Learning</b> for resource management. First, I developed <b>simulation environment of emulation farm with event queue, and next applied Double Deep Q Network (DDQN) algorithm</b>. The research has been proved that DDQN algorithm has better performance than random resource management. 
-</code></p>
-<p><code>
-To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://127.0.0.1:4000/projects/12-ml-data">machine learning/data analytics</a>.
- </code></p>
-
-<p><br /></p>
 
 <h4><code>Skills</code></h4>
 <div>
-    <div class="chip lang">Python</div>
-    <div class="chip db">Oracle PL/SQL</div>
-    <div class="chip theory">Reinforcement Learning</div>
-    <div class="chip tools">Keras</div>
-    <div class="chip tools">Jupyter</div>
-    <div class="chip tools">Pycharm</div>
+    <div class="chip lang">C shell</div>
+    <div class="chip devops">Anaconda</div>
 </div>
 
 <p><br /></p>
 
 <h4><code>Period</code></h4>
-<p><code>1 year</code></p>
+<p><code>1+ years</code></p>
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jan</div>
-                <code class="font-size-16">2019</code>
+                <code class="font-size-16">2020</code>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
-                <div class="event-date soft-warning">31 Oct</div>
-                <code class="font-size-16">DVCon</code>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">31 Dec</div>
-                <code class="font-size-16">2019</code>
+                <div class="event-date soft-success">Present</div>
+                <code class="font-size-16">2021</code>
                 <p class="text-muted"></p>
             </div>
         </li>
@@ -224,77 +182,68 @@ To see details, please refer to the paper in 'Related Articles' below, and the t
 
 <h4><code>Related Articles</code></h4>
 <ul>
-   <li><a href="http://events.dvcon.org/Europe/2019/proceedings/papers/10_2.pdf"><code>DVCon Paper (2019)</code></a></li>
+   <li><a href="https://youtu.be/uW4g6c7vMa0"><code>[Video] Demo</code></a></li>
 </ul>
 <p><br /></p>
-
 <hr />
 
 <p><br /></p>
 
-<h3><code><a name="3">3. AMBA Bus Verification</a></code></h3>
-
+<h3><code> <a name="3">3. DB &amp; Server Monitoring</a></code></h3>
 <p><br /></p>
-
-<h4><code>Description</code></h4>
+<h4><code> Description </code></h4>
 <p><code>
-This project is one of the collaboration project between software engineers and hardware engineers. I've collaborated in <b>AMBA Bus design verification</b> for Exynos design. <br />
-<br />
-My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I've generated multiple testcases, including SFR test and burst tests and found out some RTL bugs. <br />
-<br />
-I've also automated some workflow such as mapping masters and slaves in verification environment setup as a software engineer.
+This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>. Metrics has been collected with metrics collecter, and Prometheus and Grafana have been used to monitor and visualize data. 
 </code></p>
-
-<figure class="image">
-    <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&amp;fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;" />
-    <figcaption class="image-caption"><code>[AMBA Bus Protocol (ARM official guide)]</code></figcaption>
-</figure>
 
 <h4><code>Skills</code></h4>
 <div>
-    <div class="chip lang">System Verilog</div>
     <div class="chip lang">Python</div>
-    <div class="chip tools">IWB</div>
-    <div class="chip tools">Verdi</div>
+    <div class="chip tools">Prometheus</div>
+    <div class="chip tools">Grafana</div>
 </div>
 
 <p><br /></p>
 
 <h4><code>Period</code></h4>
-<p><code>5 months</code></p>
+<p><code>1+ months</code></p>
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
-                <div class="event-date soft-primary">1 June</div>
-                <code class="font-size-16">2020</code>
+                <div class="event-date soft-primary">1 Mar</div>
+                <code class="font-size-16">2021</code>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
-                <div class="event-date soft-success">31 Nov</div>
-                <code class="font-size-16">2020</code>
+                <div class="event-date soft-success">Present</div>
+                <code class="font-size-16">2021</code>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
+<h4><code>Related Articles</code></h4>
+<ul>
+   <li><a href="https://youtu.be/uW4g6c7vMa0"><code>[Video] Demo</code></a></li>
+</ul>
+<p><br /></p>
 <hr />
 
 <p><br /></p>
-
 <h2><code>Other Projects</code></h2>
 <p><code>You can go back or move to the other projects directly by pressing one of below items:</code></p>
 
 <ul>
   <li><code><a href="https://garygitgit.github.io/projects">Overview</a></code></li>
+  <li><code><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></code></li>
   <li><code><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></code></li>
   <li><code><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></code></li>
   <li><code><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></code></li>
   <li><code><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></code></li>
 </ul>
 
 <!-- my style -->

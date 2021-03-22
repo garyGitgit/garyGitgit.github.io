@@ -215,11 +215,11 @@ I've also automated some workflow such as mapping masters and slaves in verifica
 
 <ul>
   <li><code><a href="https://garygitgit.github.io/projects">Overview</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/12-ml-data">Machine Learning/Data Analytics</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/13-sw-infra">Software Infrastructure (DevOps)</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/14-human-activity-hci)">Human Acitvity Recognition/HCI</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/15-mobile">Mobile</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/16-webpag">Web/Web Application</a></code></li>
+  <li><code><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></code></li>
+  <li><code><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></code></li>
+  <li><code><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></code></li>
+  <li><code><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></code></li>
+  <li><code><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></code></li>
 </ul>
 
 <!-- my style -->
