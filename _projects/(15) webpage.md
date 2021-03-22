@@ -85,8 +85,7 @@ This project has been motivated <b>to develop web application for SoC/IP regress
 This project has been motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
 </code></p>
 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uW4g6c7vMa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="text-align:center;" ></iframe></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uW4g6c7vMa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="text-align:center;" ></iframe>
 <br/>
 
 <h4><code>Skills</code></h4>
