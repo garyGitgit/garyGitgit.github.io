@@ -101,7 +101,7 @@ The goal of this project was <b>to schedule SoC/IP emulation resource efficientl
 My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different situations. To acheive the goal, I collected time series data into <b>Oracle DB</b> and analyzed data with <b>Jupyter, Seaborn and Pandas</b>. I also developed a dynamic resource scheduling algorithm in a data-driven way. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
 </code></p>
 <p><code> 
-Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment with <b>PyQT</b> in a event-driven way, and I applied Double Deep Q Network (DDQN) algorithm</b>, an algorithm developed by DeepMind team. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
+Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment with <b>PyQT</b> in a event-driven way, and I applied <b>Double Deep Q Network (DDQN) algorithm</b>, an algorithm developed by DeepMind team. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
 </code></p>
 <p><code>
 To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://garyGitgit.github.io/projects/12-ml-data">machine learning/data analytics</a>.
