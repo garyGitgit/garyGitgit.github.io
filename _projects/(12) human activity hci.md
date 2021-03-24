@@ -217,7 +217,7 @@ To see details, please refer to the paper in 'Related Articles' below.
 <h4><code>Description</code></h4>
 <p>
 <code>
-The goal of this project was <b>to improve a smartphone usability for the elderly with conversational 3D virtual assistant.</b>. To acheive the goal, 3D virtual companion has replaced the original interface with speech-recognition and 3D interface. </code></p>
+The goal of this project was <b>to improve a smartphone usability for the elderly with conversational 3D virtual assistant</b>. To acheive the goal, 3D virtual companion has replaced the original interface with speech-recognition and 3D interface. </code></p>
 
 <p>
 <code>
