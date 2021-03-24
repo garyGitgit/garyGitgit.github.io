@@ -13,7 +13,7 @@ tools: [Samsung Electronics, 2018-Present]
 
 <br/>
 <code>
-The projects are related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
+The projects were related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
 </code>
 <br/><br/>
 <h4> <code> Table of Contents </code> </h4>
