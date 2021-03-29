@@ -6,6 +6,38 @@
       "tags"     : "SoC, Verification",
       "url"      : "/blog/soc-verification",
       "date"     : "2020-09-29 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "What is CI/CD Automation?",
+      "category" : "",
+      "tags"     : "Jenkins, Github, Blue Ocean",
+      "url"      : "/blog/post5",
+      "date"     : "2020-09-29 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "What is Django and Django REST Framework?",
+      "category" : "",
+      "tags"     : "Django, Django REST Framework",
+      "url"      : "/blog/post4",
+      "date"     : "2020-09-29 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "What is Gunicorn and Nginx?",
+      "category" : "",
+      "tags"     : "Gunicorn, Nginx",
+      "url"      : "/blog/post3",
+      "date"     : "2020-09-29 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "What is Anaconda?",
+      "category" : "",
+      "tags"     : "Anaconda, Python",
+      "url"      : "/blog/post2",
+      "date"     : "2020-09-29 00:00:00 +0900"
     } 
   
 ]
