@@ -32,10 +32,10 @@ tools: [Samsung Electronics, 2019-Present]
 <h4><code>Description</code></h4>
 <p>
 <code>
-This project has been motivated <b>to maximize SoC/IP emulation resource utilization with reinforcement learning</b>. The heuristic based approach has improved resource utilization (<a href='https://garygitgit.github.io/projects/11-system-on-chip'>SoC Verfication</a>), however, environments are too diverse to define algorithms and polcies depending on each situation. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by DeepMind, has been applied to solve this problem.</code>
+The goal of this project was <b>to maximize SoC/IP emulation resource utilization with reinforcement learning</b>. The heuristic based approach improved resource utilization (<a href='https://garygitgit.github.io/projects/11-system-on-chip'>SoC Verfication</a>), however, environments were too diverse to define a fixed algorithm. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by DeepMind, was applied to solve this problem.</code>
 </p>
 <p><code>
-My role was to <b>develop a simulation environment, implemented and trained DDQN model</b>. The training data has been collected from the previous data collected in Oracle DB. As a result, it has been shown that DDQN algorithm is better performance than random policy and no policy.
+My role was to <b>develop a training environment and find an appropriate DDQN model through training</b>. The training data was collected from previous dataset in Oracle DB. The test result showed that DDQN algorithm had better performance than random policy and no policy.
 </code></p>
 
 <figure class="image">
@@ -101,9 +101,12 @@ My role was to <b>develop a simulation environment, implemented and trained DDQN
 
 <h4><code>Description</code></h4>
 <p><code>
-This project has been motivated <b>to find out meaningful information from hundreds TBs of simulation log data</b>. Even if each simulation generated large amount of log data, they mostly discarded after simulation. My role was <b>to store simulation log data into MongoDB, distributed NoSQL data and analyze log data with Natural Language Processing (NLP) technique. </b> <b>Word2Vec and Spacy</b> has been used to handle log data, and <b>T-SNE</b> has been used to find out the vector distance between each logs.<br/>
+The goal of this project was <b>to find out meaningful information from hundreds TBs of simulation log data</b>, which was mostly discarded after simulation. <br/>
+
 <br/>
-As a result, meaningful similarity has been found in each logs, which was not demonstrated in user-defined features. 
+My role was <b>to set up distributed databases and store simulation log data. I also analyzed log data with Natural Language Processing (NLP) technique, such as Word2Vec and Spacy</b>. <b>T-SNE</b> was used to find out the vector distance between each simulation log<br/>.
+<br/>
+As a result, meaningful similarity was found in each log, which was not demonstrated in user-defined features. 
 </code>
 </p>
 

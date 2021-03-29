@@ -13,7 +13,7 @@ tools: [Samsung Electronics, 2018-Present]
 
 <br/>
 <code>
-The projects are related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
+The projects were related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
 </code>
 <br/><br/>
 <h4> <code> Table of Contents </code> </h4>
@@ -29,11 +29,11 @@ The projects are related to design verification for Exynos series in <b>S.LSI di
 <br/>
 <h4><code> Description </code></h4>
 <p><code>
-This project has been motivated <b>to automate SoC/IP regression workflow</b>. It has standardized and improved individual users' verification workflow and finally reduced TAT time and bug reports after tape-out. <br/>
+The goal of this project was <b>to automate SoC/IP regression workflow</b>. It standardized and improved individual verification engineers' workflow and finally reduced TAT time and bug reports after tape-out. <br/>
 <br/>
-My role was <b>to develop a user interface</b> for SoC/IP regression automation, including <b>Command Line Interface (CLI) and Graphical User Interface (GUI)</b>. CLI has been develped with Perl and Python, and GUI has been developed with Web technology: Vue.js and Electron has been used for the user interface, and Django REST Framework has been used to develop application logic in the backend. Not only GUI has improved usability but also has separated application logic from interface logic with <b>Model-View-Conteroller (MVC) design pattern</b>. <br/>
+My role was <b>to develop a user interface</b> for SoC/IP regression automation, including <b>Command Line Interface (CLI) and Graphical User Interface (GUI)</b>. CLI and GUI were developed in <b>Perl/Python</b> and <b>Vue.js/Electron</b> respectively. Django was used to develop a backend server, and Django REST Framework was used for REST API. <br/>
 <br/>
-I also used both <b>Oracle PL/SQL and MongoDB</b> for normalized data and denormalized data repsectively. I especially worked as a MongoDB administrator for distributed databases.
+Both <b>Oracle PL/SQL and MongoDB</b> was used to handle normalized data and denormalized data repsectively. I especially worked as a MongoDB administrator for distributed databases.
 </code></p>
 <p><code>
 To see details, please refer to the paper in 'Related Articles' below.
@@ -96,15 +96,15 @@ To see details, please refer to the paper in 'Related Articles' below.
 
 <h4><code>Description</code></h4>
 <p><code>
-This project has been motivated <b>to manage SoC/IP emulation resource efficiently and maximize resource utilization.</b> <br/>
+The goal of this project was <b>to schedule SoC/IP emulation resource efficiently and maximize emulation utilization.</b> <br/>
 <br/>
-My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different situations. To acheive the goal, I collected the data in to databases and analyzed time series data of emulation jobs and developed a dynamic resource scheduling algorithm in a heustic way. <b>The algorithm has been improved resource utilization by 20% and reduced total pending time by 70%. </b>
+My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different situations. To acheive the goal, I collected time series data into <b>Oracle DB</b> and analyzed data with <b>Jupyter, Seaborn and Pandas</b>. I also developed a dynamic resource scheduling algorithm in a data-driven way. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
 </code></p>
 <p><code> 
-Furthermore, to find out the better optimal solution, I've researched <b>Reinforcement Learning</b> for resource management. First, I developed <b>simulation environment of emulation farm with event queue, and next applied Double Deep Q Network (DDQN) algorithm</b>. The research has been proved that DDQN algorithm has better performance than random resource management. 
+Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment with <b>PyQT</b> in a event-driven way, and I applied <b>Double Deep Q Network (DDQN) algorithm</b>, an algorithm developed by DeepMind team. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
 </code></p>
 <p><code>
-To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://127.0.0.1:4000/projects/12-ml-data">machine learning/data analytics</a>.
+To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://garyGitgit.github.io/projects/12-ml-data">machine learning/data analytics</a>.
  </code></p>
 
 <br/>
@@ -114,6 +114,7 @@ To see details, please refer to the paper in 'Related Articles' below, and the t
     <div class="chip lang">Python</div>
     <div class="chip db">Oracle PL/SQL</div>
     <div class="chip theory">Reinforcement Learning</div>
+    <div class="chip tools">PyQT</div>
     <div class="chip tools">Keras</div>
     <div class="chip tools">Jupyter</div>
     <div class="chip tools">Pycharm</div>
@@ -164,12 +165,12 @@ To see details, please refer to the paper in 'Related Articles' below, and the t
 
 <h4><code>Description</code></h4>
 <code>
-This project is one of the collaboration project between software engineers and hardware engineers. I've collaborated in <b>AMBA Bus design verification</b> for Exynos design. <br/>
+The goal of this project was for AMBA Bus verification for Exynos design.<br/>
 <br/>
-My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I've generated multiple testcases, including SFR test and burst tests and found out some RTL bugs. <br/>
+My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I generated multiple testcases, including SFR test and burst tests with <b>System Verilog and IWB</b> and found out RTL bugs. <br/>
 <br/>
-I've also automated some workflow such as mapping masters and slaves in verification environment setup as a software engineer.
-</code>
+I also automated bus verification workflow in <b>Python</b>.
+</code
 
 <figure class="image">
     <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;"/>
