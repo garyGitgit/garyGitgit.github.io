@@ -62,6 +62,8 @@
 
       <a class="nav-item nav-link " href="/research/publications">Publications</a>
 
+      <a class="nav-item nav-link " href="/cv/cv">CV</a>
+
       <a class="nav-item nav-link " href="/activities/">Activities</a>
 
       <a class="nav-item nav-link " href="/blog/">Blog</a>
@@ -80,13 +82,13 @@
 </figure>
 <p><br />
 <code>
-    The projects are related <b>to recognize human activities from mobile devices</b>, such as wearable devices and mobile devices, in <b>Mobile Healthcare/HCI lab</b> and <b>IoT startup</b>.
+    The projects were related <b>to recognize human activities from mobile devices</b>, such as wearable devices and mobile phones, in <b>Mobile Healthcare/HCI lab</b> and <b>IoT startup</b>.
 </code>
 <br /><br /></p>
 <h4><code>Table of Contents</code></h4>
 <ul>
-  <li><code><a href="#1">1. Sleep Respiration Monitoring</a></code><br /></li>
-  <li><code><a href="#2">2. Activity Recognition with Wearable Devices</a></code><br /></li>
+  <li><code><a href="#1">1. Activity Recognition with Wearable Devices</a></code><br /></li>
+  <li><code><a href="#2">2. Sleep Respiration Monitoring</a></code><br /></li>
   <li><code><a href="#3">3. Human Proximity Recognition</a><code><br /></code></code></li>
   <li><code><a href="#4">4. 3D Virtual Mobile Interface</a><code><br /></code></code></li>
 </ul>
@@ -96,16 +98,83 @@
 
 <p><br /></p>
 
-<h3><code><a name="1"> 1. Sleep Respiration Monitoring</a></code></h3>
+<h3><code><a name="1">1. Activity Recognition with Wearable Devices</a></code></h3>
 <p><br /></p>
 
 <h4><code>Description</code></h4>
 <p>
 <code>
-This project has been motivated <b>to track human respiration rate on sleeping</b>.
+The goal of this project was <b>to develop fully automated table tennis scoring system based on smartwatches and mobile phones</b>. Smartwatches were used to recognize swing gestures and classify their swing types. Mobile phones were used to recognize which place a ball is dropped.
+</code>
+</p>
+
+<p><code>
+My role was to <b>develop human activity recognition and design the software arcthitecture of the project</b>. Swing data were collected from Android smartwatch and swing gestures were classified into 3 type: forehand, backhand and no swing. <b>Accelerometer and gravity sensors</b> were used to classify swing types, and the noise data were filtered with filtering algorithms. The software architecture was designed to integrate gesture recognition, <b>sound detection with FFT and Wifi-Direct</b> technology. 
+</code></p>
+
+<p><code>
+To see details, please refer to the paper in 'Related Articles' below.
+ </code></p>
+
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;" />
+    <figcaption class="image-caption"><i><code>Swing detection algorithm (top) and implementation of the architecture (bottom)</code></i></figcaption>
+</figure>
+
+<p><br /></p>
+<h4><code>Skills</code></h4>
+<div>
+    <div class="chip lang">Java</div>
+    <div class="chip theory">FFT</div>
+    <div class="chip tools">Android</div>
+    <div class="chip tools">Android Wearable</div>
+</div>
+
+<p><br /></p>
+
+<h4><code>Period</code></h4>
+<p>1+ years</p>
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 Mar</div>
+                <h5 class="font-size-16">2017</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">30 June</div>
+                <h5 class="font-size-16">2018</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4><code>Related Articles</code></h4>
+<ul>
+   <li><a href="http://jiita.org/v3n103/"><code>[Paper] JIITA (2019)</code></a></li>
+   <li><a href="http://www.iadisportal.org/digital-library/automatic-table-tennis-scoring-system-based-on-smart-wearable-devices"><code>[Paper] IADIS (2018)</code></a></li>
+   <li><a href="https://drive.google.com/file/d/19G6qlyg7FrMxjag_xdcJuz_fxEOXCcVE/view?usp=sharing"><code>[Video] Demo</code></a></li>
+   <li><a href="https://drive.google.com/file/d/19G6qlyg7FrMxjag_xdcJuz_fxEOXCcVE/view?usp=sharing"><code>[Video] Swing detection</code></a></li>
+</ul>
+<p><br /></p>
+<hr />
+
+<p><br /></p>
+
+<h3><code><a name="2">2. Sleep Respiration Monitoring</a></code></h3>
+<p><br /></p>
+
+<h4><code>Description</code></h4>
+<p>
+<code>
+The goal of this project was <b>to track human respiration rate on sleeping</b>.
 <br />
 <br />
-My role was to <b>develop a server to collect respiration data on sleep and display the status in real time</b>. The system had also gone through stree test to measure how the server would handle real time data given sleep respiration data transferred in high rate. 
+My role was to <b>develop a server to collect respiration data on sleep and visualize the status in real time</b>. The stress test was performed to measure how much one server could sustain a bunch of data sent every 500ms. 
 </code></p>
 <p><code>
 To see details, please refer to the paper in 'Related Articles' below.
@@ -157,88 +226,16 @@ To see details, please refer to the paper in 'Related Articles' below.
 
 <p><br /></p>
 
-<h3><code><a name="2"> 2. Activity Recognition with Wearable Devices</a></code></h3>
+<h3><code><a name="3">3. Human Proximity Recognition</a></code></h3>
 <p><br /></p>
 
 <h4><code>Description</code></h4>
 <p>
 <code>
-This project has been motivated <b>to develop fully automated table tennis scoring system based on wearble devices and mobile phones</b>. Wearable devices have been used to recognize and classify users' swing gesture and swing types, and mobile phones have been used to recognize which side the ball is dropped.
-</code>
-</p>
-
-<p><code>
-My role was to <b>analyze swing gestures and design the arcthitecture of the project</b>. Swing data have been collected from Android smartwatch and swing gestures are classified into 3 type: forehand, backhand and no swing. <b>Accelerometer and gravity sensors</b> are used to detect swing gestures, and the noise data has been filtered with filtering algorithms. The project architecture has been designed to integrate gesture recognition, <b>sound detection with FFT and Wifi-Direct</b> for communication. 
-</code></p>
-
-<p><code>
-To see details, please refer to the paper in 'Related Articles' below.
- </code></p>
-
-<figure class="image">
-    <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;" />
-    <figcaption class="image-caption"><i><code>Swing detection algorithm (top) and implementation of the architecture (bottom)</code></i></figcaption>
-</figure>
-
-<p><br /></p>
-<h4><code>Skills</code></h4>
-<div>
-    <div class="chip lang">Python</div>
-    <div class="chip db">Oracle PL/SQL</div>
-    <div class="chip theory">Reinforcement Learning</div>
-    <div class="chip theory">DDQN</div>
-    <div class="chip tools">Keras</div>
-    <div class="chip tools">PyQT</div>
-    <div class="chip tools">Pandas</div>
-    <div class="chip tools">Numpy</div>
-    <div class="chip tools">Seaborn</div>
-</div>
-
-<p><br /></p>
-
-<h4><code>Period</code></h4>
-<p>1+ years</p>
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 Mar</div>
-                <h5 class="font-size-16">2017</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">30 June</div>
-                <h5 class="font-size-16">2018</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<h4><code>Related Articles</code></h4>
-<ul>
-   <li><a href="http://jiita.org/v3n103/"><code>[Paper] JIITA (2019)</code></a></li>
-   <li><a href="http://www.iadisportal.org/digital-library/automatic-table-tennis-scoring-system-based-on-smart-wearable-devices"><code>[Paper] IADIS (2018)</code></a></li>
-   <li><a href="https://drive.google.com/file/d/19G6qlyg7FrMxjag_xdcJuz_fxEOXCcVE/view?usp=sharing"><code>[Video] Demo</code></a></li>
-   <li><a href="https://drive.google.com/file/d/19G6qlyg7FrMxjag_xdcJuz_fxEOXCcVE/view?usp=sharing"><code>[Video] Swing detection</code></a></li>
-</ul>
-<p><br /></p>
-<hr />
-
-<p><br /></p>
-
-<h3><code><a name="3"> 3. Human Proximity Recognition</a></code></h3>
-<p><br /></p>
-
-<h4><code>Description</code></h4>
-<p>
-<code>
-This project has been motivated <b>to develop human proximity algorithm to lock and unlock a smart bike lock</b>. 
+The goal of this project was <b>to develop human proximity algorithm to lock and unlock a smart bike lock</b>. 
 <br />
 <br />
-My role was to <b>analyze RSSI, Received Signal Strength Indication, from Bluetooth Low Energy (BLE) in the Android phone and develop the algorithm to detect owners' presence</b>. Kalman filter has been used to filter the noise in RSSI and detect owners.
+My role was to <b>analyze RSSI, Received Signal Strength Indication, from Bluetooth Low Energy (BLE) in the Android phone and develop the proximity algorithm to detect owners' approach</b>. The sensor data was generated from a nRF chip, noise mixed with RSSI was filtered with Kalman filter.
 </code></p>
 <p><code>
 To see details, please refer to the paper in 'Related Articles' below.
@@ -289,17 +286,17 @@ To see details, please refer to the paper in 'Related Articles' below.
 <hr />
 
 <p><br /></p>
-<h3><code><a name="4"> 4. 3D Virtual Mobile Interface</a></code></h3>
+<h3><code><a name="4">4. 3D Virtual Mobile Interface</a></code></h3>
 <p><br /></p>
 
 <h4><code>Description</code></h4>
 <p>
 <code>
-This project has been motivated <b>to improve smartphone usabilty for the elderly.</b>. To acheive the goal, 3D virtual companion has replaced the original interface with speech-recognition and 3D interface. </code></p>
+The goal of this project was <b>to improve a smartphone usability for the elderly with conversational 3D virtual assistant</b>. To acheive the goal, 3D virtual companion has replaced the original interface with speech-recognition and 3D interface. </code></p>
 
 <p>
 <code>
-My role was to <b>design the overall architecture and develop application logic layer between 3D interface and NLP engine</b>. The application logic layer received a user's speech from STT, reorganize texts and transfer speech data to NLP engine. And next, 3D virtual companion was rendered according to anlayzed intention based on users' speech. The implemented functions included making calls, sending text messages, checking weather condition and executing some applications.
+My role was to <b>design software architecture and develop application logic layer between 3D interface and NLP engine</b>. The application logic layer received user's speech, converted it into text, and transfer speech data to NLP engine. And next, 3D virtual companion was rendered according to anlayzed intention based on users' speech. The implemented functions included making calls, sending text messages, checking weather condition and executing some applications.
 </code></p>
 <p><br /></p>
 <figure class="image">
