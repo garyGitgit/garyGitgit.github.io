@@ -14,17 +14,18 @@ weight: 1
 
 
 <p><code>
-Hi I am <b>Sangwoo Noh</b> (Gary Noh). <br><br>
-I'm currently working as a <b>software engineer</b> in <b>Samsung Electronics</b>, South Korea. I've developed automation system for SoC <a href ="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> <a href="https://garygitgit.github.io/blog/soc-verification">design verification</a> in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi. I also worked in <b>startup companies</b> in my university. <br/> <br/>
-I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning, from startups, Mobile Healthcare/HCI lab and Samsung Electronics.<br><br>
+Hi I'm <b>Sangwoo (Gary) Noh</b>
+.<br><br>
+I'm currently working as a <b>software engineer</b> in <b>Samsung Electronics</b>, South Korea. I've developed automation system for SoC <a href ="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> <a href="https://garygitgit.github.io/blog/soc-verification">design verification</a> in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I also worked in <b>startup companies</b>. <br/> <br/>
+I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning.<br><br>
 My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verification and reinforcement learning</b>.
 </code></p>
 
 <ul>
-    <li><code>Go to <a href="https://garygitgit.github.io/projects/">Projects</a> to see what I 've worked on.</code></li>
-    <li><code>Go to <a href="https://garygitgit.github.io/research/publications/">Publications</a> to see my publications.</code></li>
-    <li><code>Go to <a href="https://garygitgit.github.io/activities/">Activities</a> to see my social activities.</code></li>
-    <li><code>Go to <a href="https://garygitgit.github.io/cv/cv">CV</a> to see my CV.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/projects/">Projects</a> to read what I 've worked on.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/research/publications/">Publications</a> to read my papers.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/activities/">Activities</a> to read my social activities.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/cv/cv">CV</a> to read my CV.</code></li>
 </ul>
 
 <br>
@@ -78,18 +79,14 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 <hr>
 <br>
 
-<!-- <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div> -->
-<h3><code>Careers</code></h3>
+<h3><code>Experiences</code></h3>
 <br/>
 
 <h5><code><b>Samsung Electronics</b></code></h5>
 <h6 style="display:inline-block"><code>Software Enigneer</code></h6>
 <div class="chip">2018 - Present</div>
 <ul>
-    <li><code>S.LSI Division, South Korea</code></li>
+    <li><code>S.LSI Division (Hwasung, South Korea)</code></li>
 </ul>
 <br/>
 
@@ -101,12 +98,12 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 </ul>
 <br/>
 
-<h5><code><b>Internships</b></code></h5>
+<h5><code><b>Internship</b></code></h5>
 <h6 style="display:inline-block"><code>Intern</code></h6>
 <div class="chip">2017 - 2017</div>
 <ul>
     <li><code>Cloudike, Cloud Company (Seoul)</code></li>
-    <li><code>PeopleSpace, Startup Incubator (Irvine, California)</code></li>
+    <li><code>PeopleSpace, Startup Incubator (Irvine, California, US)</code></li>
 </ul>
 <br/>
 
@@ -114,7 +111,15 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 <h6 style="display:inline-block"><code>Software Engineer</code></h6>
 <div class="chip">2016 - 2017</div>
 <ul>
-    <li><code>Gyeonggi Center for Creative Economy & Innovation, Pangyo</code></li>
+    <li><code>Gyeonggi Center for Creative Economy & Innovation (Pangyo, South Korea)</code></li>
+</ul>
+<br/>
+
+<h5><code><b>Gachon Univ.</b></code></h5>
+<h6 style="display:inline-block"><code>Bachelor's Degree</code></h6>
+<div class="chip">2012 - 2018</div>
+<ul>
+    <li><code>Department of Software (Seongnam, South Korea)</code></li>
 </ul>
 <br/>
 

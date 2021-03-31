@@ -21,10 +21,10 @@ Mobile Wearable, Mobile Healthcare, Human Computer Interaction, Behavioral A.I, 
 <ul>
   <li><code>Authors : A.Choi, <b>S.Noh</b> and H.Shin, 2020. IEEE Access</code></li>
   <li><code>Keywords: Biomedical monitoring, Biomedical telemetry, Health information management, Remote monitoring</code></li>
-  <li><code>Related Articles: <a href="https://ieeexplore.ieee.org/document/9075220?denied=">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#1">Project</a></code></li>
+  <li><code>Articles: <a href="https://ieeexplore.ieee.org/document/9075220?denied=">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#1">Project</a></code></li>
 </ul>
 
-<h5><code>Swing gesture recognition with wearable sensors for playing a table tennis game</code></h5>
+<h5><code><b>Swing gesture recognition with wearable sensors for playing a table tennis game</b></code></h5>
 <ul>
   <li><code>Authors : <b>S.Noh</b> and A.Choi, 2019. JIITA</code></li>
   <li><code>Keywords: Activity recognition, accelerometer, gyroscope, wearable sensors</code></li>

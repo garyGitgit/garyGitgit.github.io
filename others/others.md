@@ -1,94 +1,24 @@
-<!DOCTYPE html>
+---
+layout: page
+title: Others
+<!-- permalink: /docs/ -->
+weight: 4
+---
 
-<!--
-  portfolYOU Jekyll theme by Youssef Raafat
-  Free for personal and commercial use under the MIT license
-  https://github.com/YoussefRaafatNasry/portfolYOU
--->
+<h2><code>Others</code></h2>
+<br/>
+<h3><code>Honors & Awards</code></h3>
+<ul>
+    <li><code>Best Paper Awards (2019) <i>S.LSI Division, Samsung Electronics</i></code></li>
+    <li><code>4-years scholarship (2012-2018) <i>Gachone Univ.</i></code></li>
+</ul>
+<br/>
+<hr/>
+<br/>
 
-<html lang="en" class="h-100">
-
-<head>
-
-  
-  
-
-  
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Publications">
-  <meta property="og:description" content="Sangwoo Noh">
-
-  <title>Publications</title>
-  <meta name="description" content="Sangwoo Noh">
-
-  
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
-
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
-
-  <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-  <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
-
-</head>
-
-
-<body class="d-flex flex-column h-100">
-
-  <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
-
-  <a class="navbar-brand" href="/"><h5><b>Sangwoo's  blog</b></h5></a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About me</a>
-
-      <a class="nav-item nav-link " href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link active" href="/research/publications">Publications</a>
-
-      <a class="nav-item nav-link " href="/cv/cv">CV</a>
-
-      <a class="nav-item nav-link " href="/others/others">Others</a>
-
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
-
-      
-
-    </div>
-  </div>
-
-</nav>
-  <div class="col-lg-10 mx-auto mt-5 post">
-  <h2><code>Publications</code></h2>
-<p><br /></p>
-<h3><code>Research Areas</code></h3>
-<p><code>
-Mobile Wearable, Mobile Healthcare, Human Computer Interaction, Behavioral A.I, Reinforcement Learning, Resource Management, SoC Verification
-</code></p>
-<p><br /></p>
-<hr />
-
-<p><br /></p>
-
-<h3><code>Journals</code> </h3>
-<p><br /></p>
-<h5><code>Internet-based Unobtrusive Tele-Monitoring System for Sleep and Respiration</code></h5>
+<h3><code>Presentations</code> </h3>
+<br/>
+<h5><code><b>Internet-based Unobtrusive Tele-Monitoring System for Sleep and Respiration</b></code></h5>
 <ul>
   <li><code>Authors : A.Choi, <b>S.Noh</b> and H.Shin, 2020. IEEE Access</code></li>
   <li><code>Keywords: Biomedical monitoring, Biomedical telemetry, Health information management, Remote monitoring</code></li>
@@ -101,12 +31,12 @@ Mobile Wearable, Mobile Healthcare, Human Computer Interaction, Behavioral A.I, 
   <li><code>Keywords: Activity recognition, accelerometer, gyroscope, wearable sensors</code></li>
   <li><code>Articles: <a href="http://jiita.org/v3n103/">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
 </ul>
-<p><br /></p>
+<br/>
 
 <h3><code>Conferences</code> </h3>
-<p><br /></p>
+<br/>
 
-<h5><code>Developing Dynamic Resource Management System in SoC Emulation</code></h5>
+<h5><code><b>Developing Dynamic Resource Management System in SoC Emulation</b></code></h5>
 <ul>
   <li><code>Authors : S.Choi*, <b>S.Noh*</b> , S.Yim and S.B.Choi, 2019 . Design Verification Conference (DVCON)</code></li>
   <i><code>*Equal Contribution</code></i>
@@ -114,28 +44,28 @@ Mobile Wearable, Mobile Healthcare, Human Computer Interaction, Behavioral A.I, 
   <li><code>Articles: <a href="http://events.dvcon.org/events/proceedings.aspx?id=278--10">Paper</a>, <a href="https://garygitgit.github.io/projects/11-system-on-chip#2">Project</a></code></li>
 </ul>
 
-<h5><code>Automatic table tennis scoring system based on smart wearable devices</code></h5>
+<h5><code><b>Automatic table tennis scoring system based on smart wearable devices</b></code></h5>
 <ul>
   <li><code>Authors : <b>S.Noh</b>, Y.Lee, Y.Kim, J.Cho and A.Choi, 2018. International Association for the Development of the Information Society (IADIS)</code></li>
   <li><code>Keywords: Table Tennis, Activity Recognition, Wearable Device, Fast Fourier Transform</code></li>
   <li><code>Articles: <a href="http://www.iadisportal.org/digital-library/automatic-table-tennis-scoring-system-based-on-smart-wearable-devices">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
 </ul>
 
-<h5><code>Virtual Companion Based Mobile User Interface: An Intelligent and Simplified Mobile User Interface for the Elderly Users</code></h5>
+<h5><code><b>Virtual Companion Based Mobile User Interface: An Intelligent and Simplified Mobile User Interface for the Elderly Users</b></code></h5>
 <ul>
   <li><code>Authors : <b>S.Noh</b> , J.Han., J.Jo and A.Choi, 2017, June. In 2017 International Symposium on Ubiquitous Virtual Reality (ISUVR) (pp. 8-9). IEEE.</code></li>
   <li><code>Keywords: User Interface, Mobile Communication, Meteorology, Speech Recognition, Senior Citizens</code></li>
   <li><code>Articles: <a href="https://ieeexplore.ieee.org/document/7988642">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#4">Project</a></code></li>
 </ul>
 
-<h5><code>Gesture recognition with wearable sensors for playing a table tennis game</code></h5>
+<h5><code><b>Gesture recognition with wearable sensors for playing a table tennis game</b></code></h5>
 <ul>
   <li><code>Authors : <b>S.Noh</b> and A.Choi, 2018. Korea Computer Congress (KCC) (pp.1797-1798)</code></li>
   <li><code>Keywords: Activity Recognition, Wearable Device, Table Tennis</code></li>
   <li><code>Articles: <a href="http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07503500">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
 </ul>
 
-<h5><code>Automatic table tennis scoring system based on smart wearable devices and smartphone</code></h5>
+<h5><code><b>Automatic table tennis scoring system based on smart wearable devices and smartphone</b></code></h5>
 <ul>
   <li><code>Authors : <b>S.Noh</b>, Y.Lee, Y.Kim, J.Cho and A.Choi, 2018. Korea Computer Congress (KCC) (pp.1799-1801)</code></li>
   <li><code>Keywords: Activity Recognition, Wearable Device, FFT, Table Tennis</code></li>
@@ -248,64 +178,3 @@ code{
 }
 
 </style>
-
-
-</div>
-  </main>
-
-  <footer class="mt-auto py-3 text-center">
-
-  <small class="text-muted mb-2">
-    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>Sangwoo Noh</strong>
-  </small>
-
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:sw79899@gmail.com"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/garyGitgit"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/garynoh"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#007bb5'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-linkedin-in fa-1x"></i>
-    </a>
-
-</div><small id="attribution">
-    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
-  </small>
-  
-</footer>
-  
-  <!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Popper.js CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-
-<!-- Bootstrap JS CDN -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-<!-- wow.js CDN & Activation -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-<script> new WOW().init(); </script>
-
-<!-- Initialize all tooltips -->
-<script>
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
-
-</body>
-
-</html>
