@@ -1,7 +1,7 @@
 ### Site Settings ###
-title               : Gary's  blog
+title               : Sangwoo's  blog
 description         : >-
-                      Gary Noh
+                      Sangwoo Noh
                       
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 #repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -22,7 +22,7 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Gary Noh
+  name              : Sangwoo Noh
   image             : https://avatars2.githubusercontent.com/u/16892436?s=460&u=30c2e125ca2aa6c4183bed0dfbd73380a05ca291&v=4
 # behance           : your_username
 # dribbble          : your_username

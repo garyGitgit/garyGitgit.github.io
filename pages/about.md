@@ -5,87 +5,224 @@ permalink: /about/
 weight: 1
 ---
 
-# **About Me**
+<h2><code>About me</code></h2>
 
-## **Introduction** 
 <br>
 
 <img src="https://avatars2.githubusercontent.com/u/16892436?s=460&u=30c2e125ca2aa6c4183bed0dfbd73380a05ca291&v=4" alt="me" style="border-radius: 50%; width: 30vw;">
 <br>
 
-Hi I am **{{ site.author.name }}** (Sangwoo Noh). <br><br>
-I'm currently working in **Samsung Electronics** as a **software engineer**. <br>
-My main job is to develop automation software for SoC ([Exynos](https://www.samsung.com/semiconductor/minisite/exynos/)) [design verification](https://garygitgit.github.io/blog/soc-verification). <br><br>
-I also work for improving SoC design verification with data analytics and machine learning / deep learning. <br>
-Even if I mostly use Python to work on those jobs, I have experiences on developing websites, Android application and a server program with Django.<br><br>
-My main interests are SoC, machine learning / deep learning, data analytics plus coding education and mobile healthcare. <br><br>
 
-- Go to [Projects](https://garygitgit.github.io/projects/) to see what I 've worked on. <br>
-- Go to [Research](https://garygitgit.github.io/research/research) to see my publication. <br>
-- Go to [Activities](https://garygitgit.github.io/activities/) to see my social activities. <br>
-- Go to [Blog](https://garygitgit.github.io/blog/) to see my posts. <br>
-- Click [here]((https://drive.google.com/file/d/1xxH-xfvY2-Ccb033d1JmElHPqVozcAsM/view?usp=sharing)) to see my CV. <br>
+<p><code>
+Hi I am <b>Sangwoo Noh</b> (Gary Noh). <br><br>
+I'm currently working as a <b>software engineer</b> in <b>Samsung Electronics</b>, South Korea. I've developed automation system for SoC <a href ="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> <a href="https://garygitgit.github.io/blog/soc-verification">design verification</a> in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi. I also worked in <b>startup companies</b> in my university. <br/> <br/>
+I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning, from startups, Mobile Healthcare/HCI lab and Samsung Electronics.<br><br>
+My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verification and reinforcement learning</b>.
+</code></p>
 
----
+<ul>
+    <li><code>Go to <a href="https://garygitgit.github.io/projects/">Projects</a> to see what I 've worked on.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/research/publications/">Publications</a> to see my publications.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/activities/">Activities</a> to see my social activities.</code></li>
+    <li><code>Go to <a href="https://garygitgit.github.io/cv/cv">CV</a> to see my CV.</code></li>
+</ul>
 
-## **Skills** 
+<br>
+<hr>
+<br>
+<h3><code>Skills</code></h3>
 <br>
 
-#### :ballot_box_with_check: Programming Languages
-- Mostly Used<br>
--- Python<br>
-- Experienced:<br>
--- Perl, Java, C, C++, HTML, CSS, Javascript, Markdown <br>
+<h5><code>Programming Languages</code></h5>
+<div class="chip lang">Python</div>
+<div class="chip lang">Perl</div>
+<div class="chip lang">Java</div>
+<div class="chip lang">C++</div>
 <br>
 
-#### :ballot_box_with_check: Database
-- Mostly Used<br>
--- Oracle PL/SQL <br>
-- Experienced<br>
--- MongoDB, MySQL, sqlite3 <br>
+<h5><code>Database</code></h5>
+<div class="chip db">Oracle PL/SQL</div>
+<div class="chip db">MongoDB</div>
 <br>
 
-#### :ballot_box_with_check: Data Analytics & Machine Learning
-- Mostly Used<br>
--- Pandas, Numpy, Keras, Matplotlib, Seaborn <br>
-- Experienced<br>
--- Tensorflow, Sklearn, Spacy, Word2Vec, Reinforcement Learning, K means <br>
+<h5><code>Data Analytics & Machine Learning</code></h5>
+<div class="chip tools">Pandas</div>
+<div class="chip tools">Numpy</div>
+<div class="chip tools">Keras</div>
+<div class="chip tools">Spacy</div>
+<div class="chip theory">Word2Vec</div>
+<div class="chip theory">Reinforcement Learning</div>
+
 <br>
 
-#### :ballot_box_with_check: Frontend Programming
-- Mostly Used<br>
--- Python argparse (CLI), Android, Html, CSS, Javascript (GUI)<br>
-- Experienced<br>
--- PyQT <br>
+<h5><code>Frontend Programming</code></h5>
+<div class="chip frontend">Android (Mobile)</div>
+<div class="chip frontend">Vue (Web)</div>
+<div class="chip frontend">Electron (Web)</div>
+<div class="chip frontend">PyQT (App)</div>
 <br>
 
-#### :ballot_box_with_check: Backend Programming
-- Mostly Used<br>
--- Django (Python) <br>
-- Experienced<br>
--- Spring Framework (Java)<br>
+<h5><code>Backend Programming</code></h5>
+<div class="chip backend">Django</div>
+<div class="chip backend">Gunicorn</div>
+<div class="chip backend">Nginx</div>
 <br>
 
-#### :ballot_box_with_check: Tools
-- Mostly Used<br>
--- Vim, Jupyter Notebook, Pycharm, Git, Github
-- Experienced<br>
--- X Code, Android Studio, Visual Studio, Eclipse, IntelliJ, Sublime Text, Atom <br>
+<h5><code>Devops</code></h5>
+<div class="chip devops">Git</div>
+<div class="chip devops">Github</div>
+<div class="chip devops">Jenkins</div>
+<div class="chip devops">Blue Ocean</div>
 <br>
 
-#### :shipit: Others
-- Heroku (PaaS), Parse (Android), Jekyll
+<hr>
 <br>
-
----
 
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div> -->
-## **Careers**
+<h3><code>Careers</code></h3>
+<br/>
 
-<div class="row">
-{% include about/timeline.html %}
-</div><br>
+<h5><code><b>Samsung Electronics</b></code></h5>
+<h6 style="display:inline-block"><code>Software Enigneer</code></h6>
+<div class="chip">2018 - Present</div>
+<ul>
+    <li><code>S.LSI Division, South Korea</code></li>
+</ul>
+<br/>
+
+<h5><code><b>HCI/Mobile Healthcare Lab</b></code></h5>
+<h6 style="display:inline-block"><code>Research Assistant</code></h6>
+<div class="chip">2017 - 2018</div>
+<ul>
+    <li><code>Advised by Prof. Ahyoung Choi, Gachon Univ.</code></li>
+</ul>
+<br/>
+
+<h5><code><b>Internships</b></code></h5>
+<h6 style="display:inline-block"><code>Intern</code></h6>
+<div class="chip">2017 - 2017</div>
+<ul>
+    <li><code>Cloudike, Cloud Company (Seoul)</code></li>
+    <li><code>PeopleSpace, Startup Incubator (Irvine, California)</code></li>
+</ul>
+<br/>
+
+<h5><code><b>Bisecu, IoT Startup</b></code></h5>
+<h6 style="display:inline-block"><code>Software Engineer</code></h6>
+<div class="chip">2016 - 2017</div>
+<ul>
+    <li><code>Gyeonggi Center for Creative Economy & Innovation, Pangyo</code></li>
+</ul>
+<br/>
+
+<style>
+code{
+    color: #000000;
+}
+.chip{
+    display: inline-block;
+    padding: 0 15px;
+    height: 30px;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+.lang{
+    background-color: #673AB7;
+    color: #FFFFFF;
+}
+.db{
+    background-color: #009688;
+    color: #FFFFFF;
+}
+.frontend{
+    background-color: #0D47A1;
+    color: #FFFFFF;
+}
+.backend{
+    background-color: #FF5722;
+    color: #FFFFFF;
+}
+.devops{
+    background-color: #607D8B;
+    color: #FFFFFF;
+}
+.tools{
+    background-color: #FF6F00;
+    color: #FFFFFF;
+}
+.theory{
+    background-color: #0288D1;
+    color: #FFFFFF;
+}
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    
+}
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+.soft-primary {
+    background-color: rgb(64,144,203)!important;
+    color: #FFFFFF;
+}
+.soft-success {
+    background-color: rgb(71,189,154)!important;
+    color: #FFFFFF;
+}
+.soft-danger {
+    background-color: rgb(231,76,94)!important;
+}
+.soft-warning {
+    background-color: rgb(249,213,112)!important;
+}
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+.image-caption{
+  text-align: center;
+}
+
+</style>
+
 
