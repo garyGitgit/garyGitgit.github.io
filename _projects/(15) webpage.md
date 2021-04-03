@@ -5,7 +5,7 @@ tools: [HTML, CSS, Javascript, Vue.js, Electron, Django, REST API]
 tools: [Samsung Electronics, HCI / Mobile Healthcare Lab, Cosmetic Startup, 2017-2018]
 ---
 
-<h2 style="text-align:center;"><code>Web / Web Application</code> </h2>
+<h2 style="text-align:center;">Web / Web Application </h2>
 <br/>
 
 <figure class="image">
@@ -13,28 +13,29 @@ tools: [Samsung Electronics, HCI / Mobile Healthcare Lab, Cosmetic Startup, 2017
 </figure>
 
 <br/>
-<code>
+
+<p>
 The projects are related to web frontend, backend and web application. My major skills includes <b>Vue.js and Electron for frontend and Django and Django REST Framework for backend</b>.
-</code>
-<br/><br/>
-<h4> <code> Table of Contents </code> </h4>
-- <code><a href="#1">1. Samsung, SoC/IP regression automation GUI</a></code><br/>
-- <code><a href="#2">2. Cloudike, cloud company API web page</a><code><br/>
-- <code><a href="#3">3. TIA'M, cosmetic startup automation web page</a></code><br/>
+</p>
+<br/>
+<h4>  Table of Contents  </h4>
+- <a href="#1">1. Samsung, SoC/IP regression automation GUI</a><br/>
+- <a href="#2">2. Cloudike, cloud company API web page</a><br/>
+- <a href="#3">3. TIA'M, cosmetic startup automation web page</a><br/>
 
 <br/>
 <hr>
 <br/>
 
-<h3><code> <a name="1">1. Samsung, SoC/IP regression automation GUI</a></code></h3>
+<h3> <a name="1">1. Samsung, SoC/IP regression automation GUI</a></h3>
 <br/>
-<h4><code> Description </code></h4>
-<p><code>
+<h4> Description </h4>
+<p>
 This project has been motivated <b>to develop web application for SoC/IP regression automation</b>. To acheive the goal, the user interface has been developed with <b>Vue.js and Electron</b>, and backend server has been developed with <b>Django REST Framework</b>. I also designed REST API structure and developed both frontend and backend.
-</code></p>
+</p>
 <br/>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Javascript</div>
     <div class="chip lang">Python</div>
@@ -49,47 +50,47 @@ This project has been motivated <b>to develop web application for SoC/IP regress
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>1+ months</code>
+<h4>Period</h4>
+1+ months
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Mar</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><code></code></li>
+   <li></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code> <a name="2">2. Cloudike, cloud company API web page</a></code></h3>
+<h3> <a name="2">2. Cloudike, cloud company API web page</a></h3>
 <br/>
-<h4><code> Description </code></h4>
- <p><code>
+<h4> Description </h4>
+ <p>
 This project has been motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
-</code></p>
+</p>
 
 <div class="video-container">
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/uW4g6c7vMa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></div>
 <br/>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Python</div>
     <div class="chip lang">HTML</div>
@@ -101,44 +102,44 @@ This project has been motivated <b>to develop a documetation and test web page f
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>5 months</code>
+<h4>Period</h4>
+5 months
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jul</div>
-                <code class="font-size-16">2017</code>
+                <h5 class="font-size-16">2017></h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">31 Aug</div>
-                <code class="font-size-16">2017</code>
+                <h5 class="font-size-16">2017</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><a href="https://youtu.be/uW4g6c7vMa0"><code>[Video] Demo</code></a></li>
+   <li><a href="https://youtu.be/uW4g6c7vMa0">[Video] Demo</a></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code> <a name="3">3. TIA'M, cosmetic startup automation web page</a></code></h3>
+<h3> <a name="3">3. TIA'M, cosmetic startup automation web page</a></h3>
 <br/>
-<h4><code> Description </code></h4>
- <p><code>
+<h4> Description </h4>
+ <p>
 This project has been motivated <b>to automate workflow in costemtic startup, TIA'M</b>.
-</code></p>
+</p>
 <br/>
 <br/>
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Javascript</div>
     <div class="chip lang">Python</div>
@@ -148,28 +149,28 @@ This project has been motivated <b>to automate workflow in costemtic startup, TI
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>1+ months</code>
+<h4>Period</h4>
+1+ months
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Mar</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
    <li></li>
 </ul>
@@ -177,16 +178,16 @@ This project has been motivated <b>to automate workflow in costemtic startup, TI
 <hr/>
 <br/>
 
-<h2><code>Other Projects</code></h2>
-<p><code>You can go back or move to the other projects directly by pressing one of below items:</code></p>
+<h2>Other Projects</h2>
+<p>You can go back or move to the other projects directly by pressing one of below items:</p>
 
 <ul>
-  <li><code><a href="https://garygitgit.github.io/projects">Overview</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></code></li>
+  <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
+  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
+  <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
+  <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>
 </ul>
 
 
@@ -196,14 +197,14 @@ This project has been motivated <b>to automate workflow in costemtic startup, TI
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <style>
-code{
-    color: #000000;
+body{
+  font-family: 'Roboto', sans-serif;
 }
 .chip{
     display: inline-block;
     padding: 0 15px;
     height: 30px;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 30px;
     border-radius: 25px;

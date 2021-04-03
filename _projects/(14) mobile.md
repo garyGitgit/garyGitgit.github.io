@@ -4,7 +4,7 @@ image: https://cdn0.iconfinder.com/data/icons/business-startup-10/50/68-512.png
 tools: [HCI / Mobile Healthcare Lab, IoT Startup, 2017-2018]
 ---
 
-<h2 style="text-align:center;"><code>Mobile</code> </h2>
+<h2 style="text-align:center;">Mobile </h2>
 <br/>
 
 <figure class="image">
@@ -12,32 +12,32 @@ tools: [HCI / Mobile Healthcare Lab, IoT Startup, 2017-2018]
 </figure>
 
 <br/>
-<code>
+<p>
 The projects are related to Android applications. My major skills include <b>Java, Android programming, Android Wearable programming</b>.
-</code>
-<br/><br/>
-<h4> <code> Table of Contents </code> </h4>
-- <code><a href="#1">1. Coding Starter, coding education app</a></code><br/>
-- <code><a href="#2">2. Bisecu, smart bike lock app</a><code><br/>
-- <code><a href="#3">3. Automatic Table Tennis Scoring app</a></code><br/>
+</p>
+<br/>
+<h4>  Table of Contents  </h4>
+- <a href="#1">1. Coding Starter, coding education app</a><br/>
+- <a href="#2">2. Bisecu, smart bike lock app</a><br/>
+- <a href="#3">3. Automatic Table Tennis Scoring app</a><br/>
 
 <br/>
 <hr>
 <br/>
 
-<h3><code> <a name="1">1. Coding Starter, coding education app</a></code></h3>
+<h3> <a name="1">1. Coding Starter, coding education app</a></h3>
 <br/>
-<h4><code> Description </code></h4>
-<p><code>
+<h4> Description </h4>
+<p>
 This project has been motivated <b>to provide free coding education contents</b>. To acheive the goal, the user interface was designed to be easy to study on the mobile environment with one finger such as tapping blocks.
-</code></p>
-<p><code>
+</p>
+<p>
 The accumulative download has been reached 3000+ and the average rating scores 3.9. To see details, please refer to the paper in 'Related Articles' below.
- </code></p>
+ </p>
 
 <br/>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Java</div>
     <div class="chip db">MongoDB</div>
@@ -47,48 +47,48 @@ The accumulative download has been reached 3000+ and the average rating scores 3
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>1+ years</code>
+<h4>Period</h4>
+1+ years
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jan</div>
-                <code class="font-size-16">2020</code>
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><a href="https://youtu.be/ewOimXMYnrs"><code>[Video] Demo</code></a></li>
+   <li><a href="https://youtu.be/ewOimXMYnrs">[Video] Demo</a></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code> <a name="2">2. Bisecu, smart bike lock app</a></code></h3>
+<h3> <a name="2">2. Bisecu, smart bike lock app</a></h3>
 <br/>
-<h4><code> Description </code></h4>
- <p><code>
+<h4> Description </h4>
+ <p>
 This project has been motivated <b>to develop a smart bike lock application for Android</b>. To acheive the goal, Bluetooth Low Energy (BLE) has been used to receive signal from IoT device, smart bike lock. The applcation is able to not only control IoT devices but also keep track of activity tracking.
-</code></p>
-<p><code>
+</p>
+<p>
 The application was introduced in MWC 2017 and presented in big media, including NBC News, AP news and Reuter. To see details, please refer to the paper in 'Related Articles' below.
- </code></p>
+ </p>
 
 <br/>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Java</div>
     <div class="chip tools">Android</div>
@@ -97,46 +97,46 @@ The application was introduced in MWC 2017 and presented in big media, including
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>5 months</code>
+<h4>Period</h4>
+5 months
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">31 Jul</div>
-                <code class="font-size-16">2016</code>
+                <h5 class="font-size-16">2016</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">1 Mar</div>
-                <code class="font-size-16">2017</code>
+                <h5 class="font-size-16">2017</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><a href=""><code>[Video] NBC News (2017 MWC)</code></a></li>
-   <li><a href=""><code>[Video] AP News (2017 MWC)</code></a></li>
-   <li><a href=""><code>[Video] Reuter (2017 MWC)</code></a></li>
+   <li><a href="">[Video] NBC News (2017 MWC)</a></li>
+   <li><a href="">[Video] AP News (2017 MWC)</a></li>
+   <li><a href="">[Video] Reuter (2017 MWC)</a></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code> <a name="3">3. Automatic Table Tennis Scoring App</a></code></h3>
+<h3> <a name="3">3. Automatic Table Tennis Scoring App</a></h3>
 <br/>
-<h4><code> Description </code></h4>
- <p><code>
+<h4> Description </h4>
+ <p>
 This project has been motivated <b>to develop an automatic table tennis application for Android phone and Android wearable devices</b>. To acheive the goal, Android phone processed sensor data from Android wearable and FFT algorithm to extract ball sound.
-</code></p>
-<p><code>
+</p>
+<p>
 The architecture of automatic table tennis system has been applied for the patent.
-</code></p>
+</p>
 
 <div class="video-container">
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ToNUpohRiK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -146,7 +146,7 @@ The architecture of automatic table tennis system has been applied for the paten
 
 <br/>
 <br/>
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Java</div>
     <div class="chip theory">FFT</div>
@@ -157,45 +157,45 @@ The architecture of automatic table tennis system has been applied for the paten
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>5 months</code>
+<h4>Period</h4>
+5 months
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Mar</div>
-                <code class="font-size-16">2017</code>
+                <h5 class="font-size-16">2017</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">1 June</div>
-                <code class="font-size-16">2018</code>
+                <h5 class="font-size-16">2018</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><code>[Patent] Korea Patent 10-2019-0033604, Nov 11, 2020</code></li>
+   <li>[Patent] Korea Patent 10-2019-0033604, Nov 11, 2020</li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h2><code>Other Projects</code></h2>
-<p><code>You can go back or move to the other projects directly by pressing one of below items:</code></p>
+<h2>Other Projects</h2>
+<p>You can go back or move to the other projects directly by pressing one of below items:</p>
 
 <ul>
-  <li><code><a href="https://garygitgit.github.io/projects">Overview</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></code></li>
+  <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
+  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
+  <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
+  <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>
 </ul>
 
 
@@ -205,14 +205,14 @@ The architecture of automatic table tennis system has been applied for the paten
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <style>
-code{
-    color: #000000;
+body{
+  font-family: 'Roboto', sans-serif;
 }
 .chip{
     display: inline-block;
     padding: 0 15px;
     height: 30px;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 30px;
     border-radius: 25px;

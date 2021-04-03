@@ -5,76 +5,45 @@ title: Others
 weight: 4
 ---
 
-<h2><code>Others</code></h2>
+<h2>Others</h2>
 <br/>
-<h3><code>Honors & Awards</code></h3>
+<h3>Honors & Awards</h3>
 <ul>
-    <li><code>Best Paper Awards (2019) <i>S.LSI Division, Samsung Electronics</i></code></li>
-    <li><code>4-years scholarship (2012-2018) <i>Gachone Univ.</i></code></li>
+    <li>Best Paper Awards (2019) <i>S.LSI Division, Samsung Electronics</i></li>
+    <li>4-years scholarship (2012-2018) <i>Gachon Univ.</i></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code>Presentations</code> </h3>
+<h3>Presentations </h3>
+<h5><b>DVCon</b></h5>
+<ul>
+  <li>Munich, Germany</li>
+  <li>Oct, 2019</li>
+  <li>Related articles: <a href="https://garygitgit.github.io/projects/13-ml-data#1">Project</a></li>
+</ul>
+
+<h5><b>ISUVR</b></h5>
+<ul>
+  <li>Nara, Japan</li>
+  <li>July, 2017</li>
+  <li>Related articles: <a href="https://garygitgit.github.io/projects/12-human-activity-hci#4">Project</a></li>
+</ul>
+
+<h5><b>Mobile World Congress</b></h5>
+<ul>
+  <li>Barcelona, Spain</li>
+  <li>Feb, 2017</li>
+  <li>Related articles: <a href="https://garygitgit.github.io/projects/12-human-activity-hci#3">Project</a></li>
+</ul>
 <br/>
-<h5><code><b>Internet-based Unobtrusive Tele-Monitoring System for Sleep and Respiration</b></code></h5>
-<ul>
-  <li><code>Authors : A.Choi, <b>S.Noh</b> and H.Shin, 2020. IEEE Access</code></li>
-  <li><code>Keywords: Biomedical monitoring, Biomedical telemetry, Health information management, Remote monitoring</code></li>
-  <li><code>Articles: <a href="https://ieeexplore.ieee.org/document/9075220?denied=">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#1">Project</a></code></li>
-</ul>
 
-<h5><code><b>Swing gesture recognition with wearable sensors for playing a table tennis game</b></code></h5>
-<ul>
-  <li><code>Authors : <b>S.Noh</b> and A.Choi, 2019. JIITA</code></li>
-  <li><code>Keywords: Activity recognition, accelerometer, gyroscope, wearable sensors</code></li>
-  <li><code>Articles: <a href="http://jiita.org/v3n103/">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
-</ul>
-<br/>
 
-<h3><code>Conferences</code> </h3>
-<br/>
-
-<h5><code><b>Developing Dynamic Resource Management System in SoC Emulation</b></code></h5>
-<ul>
-  <li><code>Authors : S.Choi*, <b>S.Noh*</b> , S.Yim and S.B.Choi, 2019 . Design Verification Conference (DVCON)</code></li>
-  <i><code>*Equal Contribution</code></i>
-  <li><code>Keywords: SoC verification automation, resource management system, reinforcement learning, Deep Q Network</code></li>
-  <li><code>Articles: <a href="http://events.dvcon.org/events/proceedings.aspx?id=278--10">Paper</a>, <a href="https://garygitgit.github.io/projects/11-system-on-chip#2">Project</a></code></li>
-</ul>
-
-<h5><code><b>Automatic table tennis scoring system based on smart wearable devices</b></code></h5>
-<ul>
-  <li><code>Authors : <b>S.Noh</b>, Y.Lee, Y.Kim, J.Cho and A.Choi, 2018. International Association for the Development of the Information Society (IADIS)</code></li>
-  <li><code>Keywords: Table Tennis, Activity Recognition, Wearable Device, Fast Fourier Transform</code></li>
-  <li><code>Articles: <a href="http://www.iadisportal.org/digital-library/automatic-table-tennis-scoring-system-based-on-smart-wearable-devices">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
-</ul>
-
-<h5><code><b>Virtual Companion Based Mobile User Interface: An Intelligent and Simplified Mobile User Interface for the Elderly Users</b></code></h5>
-<ul>
-  <li><code>Authors : <b>S.Noh</b> , J.Han., J.Jo and A.Choi, 2017, June. In 2017 International Symposium on Ubiquitous Virtual Reality (ISUVR) (pp. 8-9). IEEE.</code></li>
-  <li><code>Keywords: User Interface, Mobile Communication, Meteorology, Speech Recognition, Senior Citizens</code></li>
-  <li><code>Articles: <a href="https://ieeexplore.ieee.org/document/7988642">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#4">Project</a></code></li>
-</ul>
-
-<h5><code><b>Gesture recognition with wearable sensors for playing a table tennis game</b></code></h5>
-<ul>
-  <li><code>Authors : <b>S.Noh</b> and A.Choi, 2018. Korea Computer Congress (KCC) (pp.1797-1798)</code></li>
-  <li><code>Keywords: Activity Recognition, Wearable Device, Table Tennis</code></li>
-  <li><code>Articles: <a href="http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07503500">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
-</ul>
-
-<h5><code><b>Automatic table tennis scoring system based on smart wearable devices and smartphone</b></code></h5>
-<ul>
-  <li><code>Authors : <b>S.Noh</b>, Y.Lee, Y.Kim, J.Cho and A.Choi, 2018. Korea Computer Congress (KCC) (pp.1799-1801)</code></li>
-  <li><code>Keywords: Activity Recognition, Wearable Device, FFT, Table Tennis</code></li>
-  <li><code>Articles: <a href="http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07503501">Paper</a>, <a href="https://garygitgit.github.io/projects/12-human-activity-hci#2">Project</a></code></li>
-</ul>
 
 <style>
-code{
-    color: #000000;
+body{
+  font-family: 'Roboto', sans-serif;
 }
 .chip{
     display: inline-block;

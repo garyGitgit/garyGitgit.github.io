@@ -5,7 +5,7 @@ title: CV
 weight: 4
 ---
 
-<h2><code>CV</code></h2>
+<h2>CV</h2>
 <br/>
 <br/>
 
@@ -14,8 +14,8 @@ weight: 4
 </div>
 
 <style>
-code{
-    color: #000000;
+body{
+  font-family: 'Roboto', sans-serif;
 }
 .chip{
     display: inline-block;

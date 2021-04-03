@@ -4,7 +4,7 @@ image: https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-se
 tools: [Samsung Electronics, 2018-Present]
 ---
 
-<h2 style="text-align:center;"><code>Software Infrastructure (DevOps)</code> </h2>
+<h2 style="text-align:center;">Software Infrastructure (DevOps) </h2>
 <br/>
 
 <figure class="image">
@@ -12,27 +12,29 @@ tools: [Samsung Electronics, 2018-Present]
 </figure>
 
 <br/>
-<code>
+
+<p>
 The projects are related to software management, <b>CI/CD and configuration management automation</b> in S.LSI Division, Samsung Electronics. To acheive the goal, I set up <b>Github and Jenkins</b> for team members and Python virtual environment with <b>Anaconda</b>.
-</code>
-<br/><br/>
-<h4> <code> Table of Contents </code> </h4>
-- <code><a href="#1">1. CI/CD Automation</a></code><br/>
-- <code><a href="#2">2. Python Virtual Environment</a><code><br/>
-- <code><a href="#3">3. DB & Server Monitoring</a><code><br/>
+</p>
+
+<br/>
+<h4>  Table of Contents  </h4>
+- <a href="#1">1. CI/CD Automation</a><br/>
+- <a href="#2">2. Python Virtual Environment</a><br/>
+- <a href="#3">3. DB & Server Monitoring</a><br/>
 <br/>
 <hr>
 <br/>
 
-<h3><code> <a name="1">1. CI/CD Automation</a></code></h3>
+<h3> <a name="1">1. CI/CD Automation</a></h3>
 <br/>
-<h4><code> Description </code></h4>
-<p><code>
+<h4> Description </h4>
+<p>
 This project has been motivated <b>to manage and automate CI/CD with Github and Jenkins</b>. Github is used for configuration management based on <b>Gitflow</b>, and <b>Github webhook</b> has been used to launch build and deploy when pull request. <b>Blue Ocean</b> has been used for creating pipelines.
-</code></p>
+</p>
 <br/>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">C shell</div>
     <div class="chip devops">Jenkins</div>
@@ -42,43 +44,43 @@ This project has been motivated <b>to manage and automate CI/CD with Github and 
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>1+ years</code>
+<h4>Period</h4>
+1+ years
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jan</div>
-                <code class="font-size-16">2020</code>
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><code></code></li>
+   <li></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code> <a name="2">2. Python Virtual Environment</a></code></h3>
+<h3> <a name="2">2. Python Virtual Environment</a></h3>
 <br/>
-<h4><code> Description </code></h4>
- <p><code>
+<h4> Description </h4>
+ <p>
 This project has been motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
-</code></p>
+</p>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">C shell</div>
     <div class="chip devops">Anaconda</div>
@@ -86,43 +88,43 @@ This project has been motivated <b>to develop a documetation and test web page f
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>1+ years</code>
+<h4>Period</h4>
+1+ years
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jan</div>
-                <code class="font-size-16">2020</code>
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><a href="https://youtu.be/uW4g6c7vMa0"><code>[Video] Demo</code></a></li>
+   <li><a href="https://youtu.be/uW4g6c7vMa0">[Video] Demo</a></li>
 </ul>
 <br/>
 <hr/>
 <br/>
 
-<h3><code> <a name="3">3. DB & Server Monitoring</a></code></h3>
+<h3> <a name="3">3. DB & Server Monitoring</a></h3>
 <br/>
-<h4><code> Description </code></h4>
- <p><code>
+<h4> Description </h4>
+ <p>
 This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>. Metrics has been collected with metrics collecter, and Prometheus and Grafana have been used to monitor and visualize data. 
-</code></p>
+</p>
 
-<h4><code>Skills</code></h4>
+<h4>Skills</h4>
 <div>
     <div class="chip lang">Python</div>
     <div class="chip tools">Prometheus</div>
@@ -131,44 +133,44 @@ This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>
 
 <br/>
 
-<h4><code>Period</code></h4>
-<code>1+ months</code>
+<h4>Period</h4>
+1+ months
 <div class="hori-timeline" dir="ltr">
     <ul class="list-inline events">
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Mar</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021</code>
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
     </ul>
 </div>
 
-<h4><code>Related Articles</code></h4>
+<h4>Related Articles</h4>
 <ul>
-   <li><a href="https://youtu.be/uW4g6c7vMa0"><code>[Video] Demo</code></a></li>
+   <li><a href="https://youtu.be/uW4g6c7vMa0">[Video] Demo</a></li>
 </ul>
 <br/>
 <hr/>
 <br/>
-<h2><code>Other Projects</code></h2>
-<p><code>You can go back or move to the other projects directly by pressing one of below items:</code></p>
+<h2>Other Projects</h2>
+<p>You can go back or move to the other projects directly by pressing one of below items:</p>
 
 <ul>
-  <li><code><a href="https://garygitgit.github.io/projects">Overview</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></code></li>
-  <li><code><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></code></li>
+  <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
+  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
+  <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
+  <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
 </ul>
 
 
@@ -177,14 +179,14 @@ This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <style>
-code{
-    color: #000000;
+body{
+  font-family: 'Roboto', sans-serif;
 }
 .chip{
     display: inline-block;
     padding: 0 15px;
     height: 30px;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 30px;
     border-radius: 25px;
