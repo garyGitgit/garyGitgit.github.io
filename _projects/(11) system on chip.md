@@ -68,14 +68,14 @@ To see details, please refer to the paper in 'Related Articles' below.
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jan</div>
-                <code class="font-size-16">2020
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">Present</div>
-                <code class="font-size-16">2021
+                <h5 class="font-size-16">2021</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
@@ -129,21 +129,21 @@ To see details, please refer to the paper in 'Related Articles' below, and the t
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 Jan</div>
-                <code class="font-size-16">2019
+                <h5 class="font-size-16">2019</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-warning">31 Oct</div>
-                <code class="font-size-16">DVCon
+                <h5 class="font-size-16">DVCon</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">31 Dec</div>
-                <code class="font-size-16">2019
+                <h5 class="font-size-16">2019</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
@@ -164,13 +164,13 @@ To see details, please refer to the paper in 'Related Articles' below, and the t
 <br/>
 
 <h4>Description</h4>
-
+<p>
 The goal of this project was for AMBA Bus verification for Exynos design.<br/>
 <br/>
 My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I generated multiple testcases, including SFR test and burst tests with <b>System Verilog and IWB</b> and found out RTL bugs. <br/>
 <br/>
 I also automated bus verification workflow in <b>Python</b>.
-</code
+</p>
 
 <figure class="image">
     <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;"/>
@@ -194,14 +194,14 @@ I also automated bus verification workflow in <b>Python</b>.
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-primary">1 June</div>
-                <code class="font-size-16">2020
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
         <li class="list-inline-item event-list">
             <div class="px-4">
                 <div class="event-date soft-success">31 Nov</div>
-                <code class="font-size-16">2020
+                <h5 class="font-size-16">2020</h5>
                 <p class="text-muted"></p>
             </div>
         </li>
