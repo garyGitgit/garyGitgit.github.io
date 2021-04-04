@@ -154,13 +154,11 @@ As a result, meaningful similarity was found in each log, which was not demonstr
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
   <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
-  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
   <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
   <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>
 </ul>
-
-
 
 <!-- my style -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
