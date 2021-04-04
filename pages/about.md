@@ -15,7 +15,7 @@ weight: 1
 <p>
 Hi I'm <b>Sangwoo (Gary) Noh</b>
 .<br><br>
-I'm currently working as a <b>software engineer</b> in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation system/infrastructure</b> for SoC <a href ="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> <a href="https://garygitgit.github.io/blog/soc-verification">design verification</a> in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I also worked in <b>startup companies</b>. <br/> <br/>
+I'm currently working as a <b>software engineer</b> in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation system and infrastructure</b> for SoC <a href ="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> <a href="https://garygitgit.github.io/blog/soc-verification">design verification</a> in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I also worked in <b>startup companies</b>. <br/> <br/>
 I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning.<br><br>
 My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verification and reinforcement learning</b>.
 </p>
