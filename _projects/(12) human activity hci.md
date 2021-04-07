@@ -17,8 +17,8 @@ tools: [HCI / Mobile Healthcare Lab, 2017-2018]
 <br/>
 <h4>Table of Contents</h4>
 - <a href="#1">1. Activity Recognition with Wearable Devices</a><br/>
-- <a href="#2">2. Sleep Respiration Monitoring</a><br/>
-- <a href="#3">3. Human Proximity Recognition</a><br/>
+- <a href="#2">2. Human Proximity Recognition</a><br/>
+- <a href="#3">3. Sleep Respiration Monitoring</a><br/>
 - <a href="#4">4. 3D Virtual Mobile Interface</a><br/>
 
 <br/>
@@ -31,12 +31,12 @@ tools: [HCI / Mobile Healthcare Lab, 2017-2018]
 <h4>Description</h4>
 <p>
 
-The goal of this project was <b>to develop fully automated table tennis scoring system based on smartwatches and mobile phones</b>. Smartwatches were used to recognize swing gestures and classify their swing types. Mobile phones were used to recognize which place a ball is dropped.
+The goal of this project was <b>to develop fully automated table tennis scoring system based on smartwatches and mobile phones</b>. Smartwatches were used to recognize swing gestures and classify their swing types. Mobile phones were used to recognize which side a ball is dropped.
 
 </p>
 
 <p>
-My role was to <b>develop human activity recognition and design the software arcthitecture of the project</b>. Swing data were collected from Android smartwatch and swing gestures were classified into 3 type: forehand, backhand and no swing. <b>Accelerometer and gravity sensors</b> were used to classify swing types, and the noise data were filtered with filtering algorithms. The software architecture was designed to integrate gesture recognition, <b>sound detection with FFT and Wifi-Direct</b> technology. 
+My role was to <b>develop human activity recognition and design the software architecture of the project</b>. Swing data were collected from Android smartwatch, and swing gestures were classified into 3 type: forehand, backhand and no swing, based on various sensors. The software architecture consisted of gesture recognition, <b>sound detection with FFT and Wifi-Direct</b> technology. 
 </p>
 
 <p>
@@ -91,68 +91,7 @@ To see details, please refer to the paper in 'Related Articles' below.
 <hr />
 <br/>
 
-
-<h3><a name="2">2. Sleep Respiration Monitoring</a></h3>
-<br/>
-
-<h4>Description</h4>
-<p>
-
-The goal of this project was <b>to track human respiration rate on sleeping</b>.
-<br/>
-<br/>
-My role was to <b>develop a server to collect respiration data on sleep and visualize the status in real time</b>. The stress test was performed to measure how much one server could sustain a bunch of data sent every 500ms. 
-</p>
-<p>
-To see details, please refer to the paper in 'Related Articles' below.
- </p>
-<br/>
-<figure class="image">
-    <img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/9075220/shin1-2989336-small.gif" alt="drawing" style="width:500px;"/>
-    <figcaption class="image-caption"><i>Architecture of tele-monitoring system for sleep and respiration</i></figcaption>
-</figure>
-
-<br/>
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">Python</div>
-    <div class="chip lang">HTML, CSS, Javascript</div>
-    <div class="chip tools">Chart.js</div>
-    <div class="chip tools">Django</div>
-</div>
-
-<br/>
-
-<h4>Period</h4>
-4 months
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 Mar</div>
-                <h5 class="font-size-16">2020</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">1 July</div>
-                <h5 class="font-size-16">2020</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<h4>Related Articles</h4>
-<ul>
-   <li><a href="https://ieeexplore.ieee.org/document/9075220?denied=">[Paper] IEEE Open Access (2020)</a></li>
-</ul>
-<br/>
-<hr />
-<br/>
-
-<h3><a name="3">3. Human Proximity Recognition</a></h3>
+<h3><a name="2">2. Human Proximity Recognition</a></h3>
 <br/>
 
 <h4>Description</h4>
@@ -161,7 +100,7 @@ To see details, please refer to the paper in 'Related Articles' below.
 The goal of this project was <b>to develop human proximity algorithm to lock and unlock a smart bike lock</b>. 
 <br/>
 <br/>
-My role was to <b>analyze RSSI, Received Signal Strength Indication, from Bluetooth Low Energy (BLE) in the Android phone and develop the proximity algorithm to detect owners' approach</b>. The sensor data was generated from a nRF chip, noise mixed with RSSI was filtered with Kalman filter.
+My role was to <b>analyze Received Signal Strength Indication (RSSI), from Bluetooth Low Energy (BLE) from IoT devices and develop the proximity algorithm to detect owners' approach</b>. The sensor data was generated from a nRF chip, noise mixed with RSSI was filtered with Kalman filter.
 </p>
 <p>
 To see details, please refer to the paper in 'Related Articles' below.
@@ -261,6 +200,68 @@ My role was to <b>design software architecture and develop application logic lay
         </li>
     </ul>
 </div>
+
+
+<h3><a name="3">3. Sleep Respiration Monitoring</a></h3>
+<br/>
+
+<h4>Description</h4>
+<p>
+
+The goal of this project was <b>to track human respiration rate on sleeping</b>.
+<br/>
+<br/>
+My role was to <b>develop a server to collect respiration data on sleep and visualize status in real time</b>. The stress test was performed to measure how much data one server could handle in a second. 
+</p>
+<p>
+To see details, please refer to the paper in 'Related Articles' below.
+ </p>
+<br/>
+<figure class="image">
+    <img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/9075220/shin1-2989336-small.gif" alt="drawing" style="width:500px;"/>
+    <figcaption class="image-caption"><i>Architecture of tele-monitoring system for sleep and respiration</i></figcaption>
+</figure>
+
+<br/>
+<h4>Skills</h4>
+<div>
+    <div class="chip lang">Python</div>
+    <div class="chip lang">HTML, CSS, Javascript</div>
+    <div class="chip tools">Chart.js</div>
+    <div class="chip tools">Django</div>
+</div>
+
+<br/>
+
+<h4>Period</h4>
+4 months
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 Mar</div>
+                <h5 class="font-size-16">2020</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">1 July</div>
+                <h5 class="font-size-16">2020</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4>Related Articles</h4>
+<ul>
+   <li><a href="https://ieeexplore.ieee.org/document/9075220?denied=">[Paper] IEEE Open Access (2020)</a></li>
+</ul>
+<br/>
+<hr />
+<br/>
+
 
 <h4>Related Articles</h4>
 <ul>

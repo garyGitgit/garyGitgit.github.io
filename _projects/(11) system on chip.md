@@ -36,7 +36,7 @@ The projects were related to design verification for Exynos series in <b>S.LSI d
 <p>
 The goal of this project was <b>to automate SoC/IP regression workflow</b>. It standardized and improved individual verification engineers' workflow and finally reduced TAT time before tape-out. <br/>
 <br/>
-My role was <b>to develop user interface and a server</b> for SoC/IP regression automation. User interface includes Command Line Interface (CLI) and Graphical User Interface (GUI) with <b>Perl/Python</b> and <b>Vue.js/Electron</b> respectively. <b>Django and Django REST Framework</b> were used to develop a backend server. <b>Gunicorn + Nginx</b> were used to run a server as a service.
+My role was <b>to develop user interface and a server</b> for SoC/IP regression automation. User interface includes Command Line Interface (CLI) and Graphical User Interface (GUI) with <b>Perl/Python</b> and <b>Vue.js/Electron</b> respectively. <b>Django and Django REST Framework</b> were used to develop a backend server. <b>Gunicorn + Nginx</b> were used to deploy a server as a service.
 </p>
 <p>
 To see details, please refer to the paper in 'Related Articles' below.
@@ -95,10 +95,16 @@ To see details, please refer to the paper in 'Related Articles' below.
 <br/>
 
 <h4>Description</h4>
+<figure class="image">
+    <img src="https://www.synopsys.com/content/dam/synopsys/verification/images/zebu-server-4-mosaic-b.jpg.imgw.850.x.jpg
+" alt="drawing" style="width:500px;"/>
+    <figcaption class="image-caption"><i>Synopsys emulators - Synopsys official web</i></figcaption>
+</figure>
+<br/>
 <p>
 The goal of this project was <b>to schedule SoC/IP emulation resource efficiently and maximize emulation utilization.</b> <br/>
 <br/>
-My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different environment. I analyzed time series data and developed a dynamic resource scheduling algorithm based on data. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
+My role was to develop <b>resource scheduling algorithm</b> to maximize resource utilization in different environment. I analyzed time series data and developed a dynamic resource scheduling algorithm based on data. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
 </p>
 <p> 
 Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment and applied <b>Double Deep Q Network (DDQN) algorithm</b>. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
@@ -167,14 +173,14 @@ To see details, please refer to the paper in 'Related Articles' below, and the t
 <p>
 The goal of this project was for AMBA Bus verification for Exynos design.<br/>
 <br/>
-My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART, etc with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I generated multiple testcases, including SFR test and burst tests with <b>System Verilog and IWB</b> and found out RTL bugs. <br/>
+My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral Bus, is widely used to communicate between CPU and peripherals such as UART with low cost and low performance. AHB ,Advanced High Performance Bus, is mostly used for a high throughput and high performance such as data bus. I generated multiple testcases, including SFR test and burst tests with <b>System Verilog and IWB</b>.<br/>
 <br/>
 I also automated bus verification workflow in <b>Python</b>.
 </p>
 
 <figure class="image">
     <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;"/>
-    <figcaption class="image-caption">[AMBA Bus Protocol (ARM official guide)]</figcaption>
+    <figcaption class="image-caption"><i>AMBA Bus Protocol - ARM official web</i></figcaption>
 </figure>
 
 <h4>Skills</h4>
