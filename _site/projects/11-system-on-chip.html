@@ -86,7 +86,7 @@
 
 <p>The projects were related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.</p>
 
-<p><br /><br /></p>
+<p><br /></p>
 <h4>  Table of Contents  </h4>
 <ul>
   <li><a href="#1">1. Regression Automation</a><br /></li>
@@ -102,22 +102,21 @@
 <h3> <a name="1">1. Regression Automation </a></h3>
 <p><br /></p>
 <h4> Description </h4>
+
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1O-GUda1Ba-79zo1hTAi8XeXzIAO8FRFZ" alt="drawing" style="width:800px;" />
+</figure>
+
 <p>
-The goal of this project was <b>to automate SoC/IP regression workflow</b>. It standardized and improved individual verification engineers' workflow and finally reduced TAT time and bug reports after tape-out. <br />
+The goal of this project was <b>to automate SoC/IP regression workflow</b>. It standardized and improved individual verification engineers' workflow and finally reduced TAT time before tape-out. <br />
 <br />
-My role was <b>to develop a user interface</b> for SoC/IP regression automation, including <b>Command Line Interface (CLI) and Graphical User Interface (GUI)</b>. CLI and GUI were developed in <b>Perl/Python</b> and <b>Vue.js/Electron</b> respectively. Django was used to develop a backend server, and Django REST Framework was used for REST API. <br />
-<br />
-Both <b>Oracle PL/SQL and MongoDB</b> was used to handle normalized data and denormalized data repsectively. I especially worked as a MongoDB administrator for distributed databases.
+My role was <b>to develop user interface and a server</b> for SoC/IP regression automation. User interface includes Command Line Interface (CLI) and Graphical User Interface (GUI) with <b>Perl/Python</b> and <b>Vue.js/Electron</b> respectively. <b>Django and Django REST Framework</b> were used to develop a backend server. <b>Gunicorn + Nginx</b> were used to run a server as a service.
 </p>
 <p>
 To see details, please refer to the paper in 'Related Articles' below.
  </p>
 
-<p><br />
-<!-- <figure class="image">
-    <img src="https://static.javatpoint.com/tutorial/software-testing/images/regression-testing-intro.png" alt="drawing" style="width:500px;"/>
-    <figcaption class="image-caption">Figure 1. Regression test</figcaption>
-</figure> --></p>
+<p><br /></p>
 
 <h4>Skills</h4>
 <div>
@@ -173,10 +172,10 @@ To see details, please refer to the paper in 'Related Articles' below.
 <p>
 The goal of this project was <b>to schedule SoC/IP emulation resource efficiently and maximize emulation utilization.</b> <br />
 <br />
-My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different situations. To acheive the goal, I collected time series data into <b>Oracle DB</b> and analyzed data with <b>Jupyter, Seaborn and Pandas</b>. I also developed a dynamic resource scheduling algorithm in a data-driven way. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
+My role was to devleop <b>resource scheduling algorithm</b> to maximize resource utilization in different environment. I analyzed time series data and developed a dynamic resource scheduling algorithm based on data. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
 </p>
 <p> 
-Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment with <b>PyQT</b> in a event-driven way, and I applied <b>Double Deep Q Network (DDQN) algorithm</b>, an algorithm developed by DeepMind team. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
+Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment and applied <b>Double Deep Q Network (DDQN) algorithm</b>. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
 </p>
 <p>
 To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://garyGitgit.github.io/projects/12-ml-data">machine learning/data analytics</a>.

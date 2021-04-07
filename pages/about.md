@@ -98,12 +98,17 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 <br/>
 
 <h5><b>Internship</b></h5>
-<h6 style="display:inline-block">Intern</h6>
+<h6 style="display:inline-block">Summer Internship</h6>
 <div class="chip">2017 - 2017</div>
 <ul>
-    <li>Cloudike, Cloud Company (Seoul)</li>
+    <li>Cloudike, Cloud Company (Seoul, South Korea)</li>
+</ul>
+<h6 style="display:inline-block">Winter Internship</h6>
+<div class="chip">2017 - 2018</div>
+<ul>
     <li>PeopleSpace, Startup Incubator (Irvine, California, US)</li>
 </ul>
+
 <br/>
 
 <h5><b>Bisecu, IoT Startup</b></h5>
