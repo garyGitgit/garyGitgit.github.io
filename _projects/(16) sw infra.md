@@ -14,7 +14,7 @@ tools: [Samsung Electronics, 2018-Present]
 <br/>
 
 <p>
-The projects are related to software management, <b>CI/CD and configuration management automation</b> in S.LSI Division, Samsung Electronics. To acheive the goal, I set up <b>Github and Jenkins</b> for team members and Python virtual environment with <b>Anaconda</b>.
+The projects were related to software management, <b>CI/CD and configuration management automation</b> in S.LSI Division, Samsung Electronics. To acheive the goal, I set up <b>Github and Jenkins</b> for team members and Python virtual environment with <b>Anaconda</b>.
 </p>
 
 <br/>
@@ -30,7 +30,7 @@ The projects are related to software management, <b>CI/CD and configuration mana
 <br/>
 <h4> Description </h4>
 <p>
-This project has been motivated <b>to manage and automate CI/CD with Github and Jenkins</b>. Github is used for configuration management based on <b>Gitflow</b>, and <b>Github webhook</b> has been used to launch build and deploy when pull request. <b>Blue Ocean</b> has been used for creating pipelines.
+The goal of this project was <b>to manage and automate CI/CD with Github and Jenkins</b>. Github was used for configuration management based on <b>Gitflow</b>, and <b>Github webhook</b> was used to launch build and deploy. The series of pipelines were created with <b>Blue Ocean</b>.
 </p>
 <br/>
 
@@ -77,7 +77,7 @@ This project has been motivated <b>to manage and automate CI/CD with Github and 
 <br/>
 <h4> Description </h4>
  <p>
-This project has been motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
+The goal of this project was to manage Python virtual environment in a team. As team members shared Python environment, they struggled with conflict issues in package versions. To solve this problem, I set up Python virtual environment with <b>Anaconda</b> in offline. 
 </p>
 
 <h4>Skills</h4>
@@ -111,7 +111,7 @@ This project has been motivated <b>to develop a documetation and test web page f
 
 <h4>Related Articles</h4>
 <ul>
-   <li><a href="https://youtu.be/uW4g6c7vMa0">[Video] Demo</a></li>
+   <li></li>
 </ul>
 <br/>
 <hr/>
@@ -121,12 +121,13 @@ This project has been motivated <b>to develop a documetation and test web page f
 <br/>
 <h4> Description </h4>
  <p>
-This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>. Metrics has been collected with metrics collecter, and Prometheus and Grafana have been used to monitor and visualize data. 
+The goal of this project was <b>to monitor Oracle DB, MongoDB and server </b>. Metrics were collected with metrics collecter, and Prometheus and Grafana were used to monitor and visualize data. 
 </p>
 
 <h4>Skills</h4>
 <div>
     <div class="chip lang">Python</div>
+    <div class="chip lang">Go</div>
     <div class="chip tools">Prometheus</div>
     <div class="chip tools">Grafana</div>
 </div>
@@ -156,7 +157,7 @@ This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>
 
 <h4>Related Articles</h4>
 <ul>
-   <li><a href="https://youtu.be/uW4g6c7vMa0">[Video] Demo</a></li>
+   <li></li>
 </ul>
 <br/>
 <hr/>
@@ -167,7 +168,7 @@ This project has been motivated <b>to monitor Oracle DB, MongoDB and server </b>
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
   <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
-  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
   <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
   <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>

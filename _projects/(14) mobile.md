@@ -17,70 +17,24 @@ The projects are related to Android applications. My major skills include <b>Jav
 </p>
 <br/>
 <h4>  Table of Contents  </h4>
-- <a href="#1">1. Coding Starter, coding education app</a><br/>
-- <a href="#2">2. Bisecu, smart bike lock app</a><br/>
+- <a href="#1">1. Bisecu, smart bike lock app</a><br/>
+- <a href="#2">2. Coding Starter, coding education app</a><br/>
 - <a href="#3">3. Automatic Table Tennis Scoring app</a><br/>
 
 <br/>
 <hr>
 <br/>
 
-<h3> <a name="1">1. Coding Starter, coding education app</a></h3>
-<br/>
-<h4> Description </h4>
-<p>
-This project has been motivated <b>to provide free coding education contents</b>. To acheive the goal, the user interface was designed to be easy to study on the mobile environment with one finger such as tapping blocks.
-</p>
-<p>
-The accumulative download has been reached 3000+ and the average rating scores 3.9. To see details, please refer to the paper in 'Related Articles' below.
- </p>
-
+<h3> <a name="1">1. Bisecu, smart bike lock app</a></h3>
 <br/>
 
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">Java</div>
-    <div class="chip db">MongoDB</div>
-    <div class="chip devops">Heroku</div>
-    <div class="chip tools">Android</div>
-</div>
+<div class="video-container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/B7vy9EhMCiw?list=PLkmcMuht3RyrRxZnZpVF40lVFTW0eRL-F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<br/>
-
-<h4>Period</h4>
-1+ years
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 Jan</div>
-                <h5 class="font-size-16">2020</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">Present</div>
-                <h5 class="font-size-16">2021</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<h4>Related Articles</h4>
-<ul>
-   <li><a href="https://youtu.be/ewOimXMYnrs">[Video] Demo</a></li>
-</ul>
-<br/>
-<hr/>
-<br/>
-
-<h3> <a name="2">2. Bisecu, smart bike lock app</a></h3>
 <br/>
 <h4> Description </h4>
  <p>
-This project has been motivated <b>to develop a smart bike lock application for Android</b>. To acheive the goal, Bluetooth Low Energy (BLE) has been used to receive signal from IoT device, smart bike lock. The applcation is able to not only control IoT devices but also keep track of activity tracking.
+This project was motivated <b>to develop a smart bike lock application for Android</b>. To acheive this goal, Bluetooth Low Energy (BLE) was used to receive signal from IoT device, smart bike lock. The applcation was able to not only control IoT devices but also keep track of activity tracking.
 </p>
 <p>
 The application was introduced in MWC 2017 and presented in big media, including NBC News, AP news and Reuter. To see details, please refer to the paper in 'Related Articles' below.
@@ -128,16 +82,65 @@ The application was introduced in MWC 2017 and presented in big media, including
 <hr/>
 <br/>
 
+
+<h3> <a name="2">2. Coding Starter, coding education app</a></h3>
+<br/>
+<h4> Description </h4>
+<p>
+The goal of this project was <b>to provide free coding education contents</b>. To acheive this goal, the user interface was designed to be easy to study on the mobile environment with one finger such as tapping blocks.
+</p>
+<p>
+The accumulative download has been reached 3000+ and the average rating scores 3.9. To see details, please refer to the paper in 'Related Articles' below. The applciation is not supported by Google Play Store (2021).
+ </p>
+
+<br/>
+
+<h4>Skills</h4>
+<div>
+    <div class="chip lang">Java</div>
+    <div class="chip db">MongoDB</div>
+    <div class="chip devops">Heroku</div>
+    <div class="chip tools">Android</div>
+</div>
+
+<br/>
+
+<h4>Period</h4>
+1+ years
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 Jan</div>
+                <h5 class="font-size-16">2017</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">Present</div>
+                <h5 class="font-size-16">2017</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4>Related Articles</h4>
+<ul>
+   <li><a href="https://youtu.be/ewOimXMYnrs">[Video] Demo</a></li>
+</ul>
+<br/>
+<hr/>
+<br/>
+
+
 <h3> <a name="3">3. Automatic Table Tennis Scoring App</a></h3>
 <br/>
 <h4> Description </h4>
  <p>
-This project has been motivated <b>to develop an automatic table tennis application for Android phone and Android wearable devices</b>. To acheive the goal, Android phone processed sensor data from Android wearable and FFT algorithm to extract ball sound.
+The goal of this project was motivated <b>to develop an automatic table tennis application for Android phone and Android wearable devices</b>. To acheive this goal, Android phone processed sensor data from Android wearable and FFT algorithm to extract ball sound.
 </p>
-<p>
-The architecture of automatic table tennis system has been applied for the patent.
-</p>
-
 <div class="video-container">
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ToNUpohRiK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -192,7 +195,7 @@ The architecture of automatic table tennis system has been applied for the paten
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
   <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
-  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
   <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
   <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>

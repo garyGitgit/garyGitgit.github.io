@@ -150,57 +150,6 @@ To see details, please refer to the paper in 'Related Articles' below.
 <br/>
 <hr />
 <br/>
-<h3><a name="4">4. 3D Virtual Mobile Interface</a></h3>
-<br/>
-
-<h4>Description</h4>
-<p>
-
-The goal of this project was <b>to improve a smartphone usability for the elderly with conversational 3D virtual assistant</b>. To acheive the goal, 3D virtual companion has replaced the original interface with speech-recognition and 3D interface. </p>
-
-<p>
-
-My role was to <b>design software architecture and develop application logic layer between 3D interface and NLP engine</b>. The application logic layer received user's speech, converted it into text, and transfer speech data to NLP engine. And next, 3D virtual companion was rendered according to anlayzed intention based on users' speech. The implemented functions included making calls, sending text messages, checking weather condition and executing some applications.
-</p>
-<br/>
-<figure class="image">
-    <img src="https://drive.google.com/uc?id=1fTrkUyzRfRYR02-Xd5BU-7wnu9P9QWCj"/>
-    <figcaption class="image-caption"><i>3D virtual companion acts depending on the weather</i></figcaption>
-</figure>
-
-<br/>
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">Java</div>
-    <div class="chip lang">C#</div>
-    <div class="chip tools">Android</div>
-    <div class="chip tools">Unity</div>
-    <div class="chip tools">api.ai</div>
-</div>
-
-<br/>
-
-<h4>Period</h4>
-4 months
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 April</div>
-                <h5 class="font-size-16">2017</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">31 July</div>
-                <h5 class="font-size-16">2017</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
 
 <h3><a name="3">3. Sleep Respiration Monitoring</a></h3>
 <br/>
@@ -261,6 +210,58 @@ To see details, please refer to the paper in 'Related Articles' below.
 <br/>
 <hr />
 <br/>
+
+<h3><a name="4">4. 3D Virtual Mobile Interface</a></h3>
+<br/>
+
+<h4>Description</h4>
+<p>
+
+The goal of this project was <b>to improve a smartphone usability for the elderly with conversational 3D virtual assistant</b>. To acheive the goal, 3D virtual companion has replaced the original interface with speech-recognition and 3D interface. </p>
+
+<p>
+
+My role was to <b>design software architecture and develop application logic layer between 3D interface and NLP engine</b>. The application logic layer received user's speech, converted it into text, and transfer speech data to NLP engine. And next, 3D virtual companion was rendered according to anlayzed intention based on users' speech. The implemented functions included making calls, sending text messages, checking weather condition and executing some applications.
+</p>
+<br/>
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1fTrkUyzRfRYR02-Xd5BU-7wnu9P9QWCj"/>
+    <figcaption class="image-caption"><i>3D virtual companion acts depending on the weather</i></figcaption>
+</figure>
+
+<br/>
+<h4>Skills</h4>
+<div>
+    <div class="chip lang">Java</div>
+    <div class="chip lang">C#</div>
+    <div class="chip tools">Android</div>
+    <div class="chip tools">Unity</div>
+    <div class="chip tools">api.ai</div>
+</div>
+
+<br/>
+
+<h4>Period</h4>
+4 months
+<div class="hori-timeline" dir="ltr">
+    <ul class="list-inline events">
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-primary">1 April</div>
+                <h5 class="font-size-16">2017</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+        <li class="list-inline-item event-list">
+            <div class="px-4">
+                <div class="event-date soft-success">31 July</div>
+                <h5 class="font-size-16">2017</h5>
+                <p class="text-muted"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+
 
 
 <h4>Related Articles</h4>
