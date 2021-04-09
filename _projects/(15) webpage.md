@@ -183,8 +183,8 @@ This project has been motivated <b>to automate workflow in costemtic startup, TI
 
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
-  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
-  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/11-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-system-on-chip">SoC Verification</a></li>
   <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
   <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
   <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>
