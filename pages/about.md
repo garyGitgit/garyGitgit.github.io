@@ -37,7 +37,6 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 <div class="chip lang">Python</div>
 <div class="chip lang">Perl</div>
 <div class="chip lang">Java</div>
-<div class="chip lang">C++</div>
 <br>
 
 <h5>Database</h5>
@@ -52,17 +51,17 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 <div class="chip tools">Spacy</div>
 <div class="chip theory">Word2Vec</div>
 <div class="chip theory">Reinforcement Learning</div>
+<div class="chip theory">DDQN</div>
 
 <br>
 
-<h5>Frontend Programming</h5>
+<h5>GUI Programming</h5>
 <div class="chip frontend">Android (Mobile)</div>
 <div class="chip frontend">Vue (Web)</div>
-<div class="chip frontend">Electron (Web)</div>
-<div class="chip frontend">PyQT (App)</div>
+<div class="chip frontend">Electron (Desktop)</div>
 <br>
 
-<h5>Backend Programming</h5>
+<h5>Server Programming</h5>
 <div class="chip backend">Django</div>
 <div class="chip backend">Gunicorn</div>
 <div class="chip backend">Nginx</div>
