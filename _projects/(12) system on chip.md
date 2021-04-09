@@ -220,7 +220,7 @@ My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral 
 
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
-  <li><a href="https://garygitgit.github.io/projects/12-human-activity-hci)">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/11-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
   <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
   <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
