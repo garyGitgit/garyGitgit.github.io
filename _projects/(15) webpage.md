@@ -5,7 +5,7 @@ tools: [HTML, CSS, Javascript, Vue.js, Electron, Django, REST API]
 tools: [Samsung Electronics, HCI / Mobile Healthcare Lab, Cosmetic Startup, 2017-2018]
 ---
 
-<h2 style="text-align:center;">Web / Web Application </h2>
+<h2 style="text-align:center;">Web / Desktop Application</h2>
 <br/>
 
 <figure class="image">
