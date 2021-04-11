@@ -123,6 +123,7 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 <div class="chip">2012 - 2018</div>
 <ul>
     <li>Department of Software (Seongnam, South Korea)</li>
+    <li>4-years scholarship</li>
 </ul>
 <br/>
 
