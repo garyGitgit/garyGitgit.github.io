@@ -21,10 +21,10 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="What is Anaconda?">
-  <meta property="og:description" content="SoC (System On Chip) design verification is a process that the product works correctly in a variety of scenarios. It is also a process of finding out bugs an...">
+  <meta property="og:description" content="Anaconda is Python virtual environment, meaning it enables developers to work on a separate Python environment without struggling with package conflict.">
 
   <title>What is Anaconda?</title>
-  <meta name="description" content="SoC (System On Chip) design verification is a process that the product works correctly in a variety of scenarios. It is also a process of finding out bugs an...">
+  <meta name="description" content="Anaconda is Python virtual environment, meaning it enables developers to work on a separate Python environment without struggling with package conflict.">
 
   
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -78,8 +78,8 @@
   <h1><b>What is Anaconda?</b></h1>
 
 <p class="post-metadata text-muted">
-  29 September 2020 -  
-  <b>less than 1 min read time</b>
+  11 April 2021 -  
+  <b>2 mins read time</b>
 
   <br>Tags: 
     
@@ -92,23 +92,46 @@
     </a>
     </p>
 
-<p>SoC (System On Chip) design verification is a process that a hardware (physical) design works correctly in a variety of scenarios. It is also a process of finding out a bug hiding in the hardware design. <br /></p>
+<h2 id="overview">Overview</h2>
+<p>Anaconda is Python virtual environment, meaning it enables developers to work on a separate Python environment without struggling with package conflicts. <br /></p>
 
-<h2 id="overall-flow">Overall Flow</h2>
-<p><img src="https://drive.google.com/uc?id=19uEBxrxZEhszDdGEZ_lvyWdA-YFsaQnR" alt="overall flow" /> <br /></p>
-<ol>
-  <li>Design: SoC design flow is a process of creating a physical design and architecture. This stage includes C modeling and hardware design with HDL (Hardware Description Language).  <br /></li>
-  <li>Verification: <br />
-  (1) IP / Block: IP (Intellectual Property) and block is a basic component in SoC. Tests for each IP and block are performed in this stage.<br />
-  (2) SoC: SoC is integrated IPs and blocks. Full tests are performed in this stage.<br /></li>
-  <li>Tape out: This stage is a process of producing the chip from the factory. <br /></li>
-  <li>Software development <br />
-  (1) Software development and validation: Software that enables the chip is developed in this stage. It includes setting tuning parameters for the chip, developing software working on the chip, etc.<br />
-  (2) System integration: Both hardware chip and software are integrated in this stage.<br /></li>
-</ol>
+<h2 id="downloads">Downloads</h2>
+<p>To install Ananconda (or Miniconda) for your platform (windows, macos or linux) and python version (3.7, 3.8 …), click <a href="https://repo.anaconda.com/archive/">repository</a> and download appropriate Ananconda version.
+<br /></p>
 
-<h2 id="cost">Cost</h2>
-<p><img src="https://community.cadence.com/resized-image/__size/500x0/__key/communityserver-blogs-components-weblogfiles/00-00-00-01-06/michal2.png" alt="verification cost" /> <br /></p>
+<h2 id="advantages">Advantages</h2>
+<h4 id="1-all-in-one-python-packages">1. All-in-one Python packages</h4>
+<p>Developers don’t have to install useful (or sometimes essential) packages while typing ‘pip install …’. Anaconda includes some top ranked python packages, such as pandas and numpy, in itself. All you need is just install Anaconda and run python. The depednecies between packages in Anaconda are consistent, and it makes developers focus on development without struggling with package conflicts.</p>
+
+<h4 id="2-individual-workspaces">2. Individual workspaces</h4>
+<p>Developers don’t have to complain Python package conflicts. For example, when ALPHA developer wants to upgrade the version of a package, it may break consistency with other packages. BETA developer may complain that after ALPHA developer upgraded the version, BETA developer is not able to run one’s python application because of conflicts. Anaconda enables each developer to have one’s own individual workspace: in other words, virtual environment.</p>
+
+<pre><code class="language-csh">$ conda create --name myenv                    // create my Python virtual environment
+$ conda create --name myenv --clone other_env  // create my env based on other_env
+$ conda env list                               // See lists of Python virtual environment
+$ conda activate myenv                         // Activate a virtual environment
+$ conda deactivate                             // Deactivate a virtual environment
+</code></pre>
+
+<p>When a developer creates conda environment, it creates a new directory under {conda base directory}/env/your_env. Below here, there exists ‘python’ and ‘pip’, meaning when a user installs some packages with pip after activating conda env, the packages will be installed under {your_env}/… directory, not base directory.</p>
+
+<h2 id="use-case">Use case</h2>
+<h4 id="offline-envrionment">Offline envrionment</h4>
+<p>When I was working in a company, developement servers were not able to connect the external Internet because of high level security. To solve this problem, I had to download each package in a desktop where Internet was accessible and send the files with FTP. In the offline servers, I had to ‘pip install xxx.whl’ or ‘python setup.py install xxx.tar.gz’.</p>
+
+<h4 id="conflict-issues">Conflict issues</h4>
+<p>When I used Python environment alone, there was no package conflict isseus. However, when team members developed on the Python environment I set up, they were struggling with package conflicts. To solve this issue, each member had to set up their own Python environment and install packages by themselves. This process prevented each member from focusing on developement.</p>
+
+<h4 id="anaconda-was-a-good-solution">Anaconda was a good solution</h4>
+<p>Anaconda was a good solution for the problems above. First, when I installed Anaconda, I didn’t have to install individual packages by myself. Many packages were already included in Anaconda, and dependencies between packages were consistent. Second, I could create conda environment for each memeber to avoid package conflict. Each member worked on one’s own Python environment and install packages when one needed. This process improved Python development environment in our team.
+<!-- my style --></p>
+<style>
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+</style>
 
 
 

@@ -158,7 +158,6 @@ My role was <b>to set up distributed databases</b> and <b>store simulation log d
 </ul>
 
 <!-- my style -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <style>
 body{
   font-family: 'Roboto', sans-serif;

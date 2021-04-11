@@ -210,8 +210,6 @@ The goal of this project was motivated <b>to develop an automatic table tennis a
 
 
 <!-- my style -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
 <style>
 body{
   font-family: 'Roboto', sans-serif;

@@ -174,11 +174,7 @@ The goal of this project was <b>to monitor Oracle DB, MongoDB and server </b>. M
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
 </ul>
 
-
-
 <!-- my style -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
 <style>
 body{
   font-family: 'Roboto', sans-serif;

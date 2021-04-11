@@ -228,8 +228,6 @@ My role was <b>to find out RTL bugs in APB and AHB</b>. APB, an AMBA Peripheral 
 </ul>
 
 <!-- my style -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
 <style>
 body{
   font-family: 'Roboto', sans-serif;

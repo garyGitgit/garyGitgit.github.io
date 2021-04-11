@@ -285,7 +285,6 @@ My role was to <b>design software architecture and develop application logic lay
 </ul>
 
 <!-- my style -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <style>
 body{
   font-family: 'Roboto', sans-serif;

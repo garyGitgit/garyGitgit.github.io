@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deep into Python">
+  <meta property="og:description" content="Why is Python slow? / Python Memory Management">
+
+  <title>Deep into Python</title>
+  <meta name="description" content="Why is Python slow? / Python Memory Management">
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/"><h5><b>Sangwoo's  blog</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About me</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/research/publications">Publications</a>
+
+      <a class="nav-item nav-link " href="/cv/cv">CV</a>
+
+      <a class="nav-item nav-link " href="/others/others">Others</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      
+
+    </div>
+  </div>
+
+</nav>
+  <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>Deep into Python</b></h1>
+
+<p class="post-metadata text-muted">
+  11 April 2021 -  
+  <b>3 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#python">
+      <span class="tag badge badge-pill text-primary border border-primary">Python</span>
+    </a>
+    </p>
+
+<h2 id="overview">Overview</h2>
+<h4 id="why-is-python-slow"><a href="http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/">Why is Python slow?</a></h4>
+<ol>
+  <li>Dynamically Typed (interpreted lang) vs Statically Typed (compiled lang)
+    <ul>
+      <li>All Python data are PyObject.</li>
+      <li>To interpret data type, Python should check PyObject_HEAD and set its type by its method.</li>
+    </ul>
+  </li>
+  <li>Compiled language has a powerful compile optimization
+    <ul>
+      <li>PyOject may lead to inefficient memory access</li>
+      <li>List type of Python doesn’t use contiguous memory, but each object may scatter across the memory.</li>
+      <li>NumPy, however, uses a continguous allocation of memory for efficient memory use, smiliar to C.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="how-does-python-manage-memory"><a href="https://dc7303.github.io/python/2019/08/06/python-memory/">How does Python manage memory?</a></h4>
+<ol>
+  <li>
+    <p>Python uses <strong>‘reference counting’</strong> to manage memeory. When Python Object is refered by others, refcount get increased. When refcount = 0, Python deallocates memory for that object.</p>
+  </li>
+  <li>
+    <p>This mechanism has a problem of <strong>‘Self reference (reference cycle)’</strong>, meaning refcount never reaches 0 when a PyObject refers to itself (self.me = self). To avoid this problem, Python uses <strong>Garbage Collector (GC)</strong>. Python uses <strong>‘generational garabage collection’</strong> which means it manages Python objects in 3 generations: 0, 1 and 2. 0 is the youngest generation and 2 is the oldest generation. Each generation has threshold and count. When a new PyObject is created, the count of generation 0 is increased. When the count exceeds the threshold of the generation, GC works. The alive objects goes to the next generation, and the count of the next generation is incremented by one. For each generation, GC works whenever the count exceeds the threshold. This mechanism is based on <strong>‘generational hypothesis’</strong>: young objects are much more likely to die than old objects.</p>
+  </li>
+  <li>
+    <p>In Python official document it says, if developers are sure that their source code has no reference cycle issues, GC may be disabled.</p>
+  </li>
+</ol>
+
+<h4 id="dismissing-python-garbage-collection-at-instagram"><a href="https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172#.koitdzt7n">Dismissing Python Garbage Collection at Instagram</a></h4>
+<p>The problem was that as Django application was running with multiple child processes, the size of shared memory decreased to 2/3, meaning each child process doesn’t use memory efficiently with shared memory mechanism. It finally resulted in inefficient memory use. <br /></p>
+<ol>
+  <li>
+    <p>The team investigated to find out the reason. First, they suspected refcount in Python object and <strong>Copy-on-Write</strong> mechanism in Linux. As Copy-on-Write is a process of copying pages of child processes only when it’s modified. This mechanism enables memory to be used efficiently with shared memory. Python, however, uses refcount in each PyObject, so it’s always Copy-on-Read, not Copy-on-Write. The team disabled refcount mechanism in CPython, but this approach was totally wrong. There was no way to find out the update working properly.</p>
+  </li>
+  <li>
+    <p>The team searched more about Copy-on-Write (CoW) and found out CoW triggers <strong>page-fault</strong> in processes. To find out what makes CoW, they monitored page-fault event, and they found that <strong>gc.collect() method was the main reason for page fault</strong>. They thought GC threshold was too low, and it resulted in frequent object shuffling. (Here, shuffling is considered as moving alive objects to the next generation. This action results in updating next, prev pointer in linked list.) So, GC was disabled, but third party libfrary still called gc.collect(). To avoid this issue, they just set GC threshold to 0 (gc.set_threshold(0))</p>
+  </li>
+  <li>
+    <p>However, this method made server restart slower: from less than 10 sec to larger than 60 sec. Even if this event was hard to be reproduced, they found out this event happened with no free memory and 100% disk usage. This case seemed to happen when Python ran final GC when destroying. The team commented out Py_Finalize in uWSGI, but this could not be the solution as clean-up was necessary for their application (atexit). <strong>They finally gave up running Python cleanup by adding atexit.register (os._exit(0))</strong>. This skipped the process of Python final cleanup when process was killed. This worked because an old process will be killed and new process will run, so cleaning up the old process was not necessary. <br /></p>
+  </li>
+</ol>
+
+<p>Finally, by removing GC, they could reduce page fault, which triggers cache miss, and this mechanism improved their memory usage by 10% by maximizing shared memory. <br />
+<br /></p>
+<hr />
+
+<p><br /></p>
+
+<h5 id="references">References</h5>
+<ol>
+  <li><em>https://medium.com/dmsfordsm/garbage-collection-in-python-777916fd3189</em></li>
+  <li><em>http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/</em></li>
+  <li><em>https://dc7303.github.io/python/2019/08/06/python-memory/</em></li>
+  <li><em>https://www.memorymanagement.org/glossary/g.html#term-generational-hypothesis</em></li>
+  <li><em>https://blog.winterjung.dev/2018/02/18/python-gc</em></li>
+  <li><em>https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172#.koitdzt7n</em></li>
+</ol>
+
+<style>
+body{
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+
+
+
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Sangwoo Noh</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:sw79899@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/garyGitgit"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/garynoh"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>

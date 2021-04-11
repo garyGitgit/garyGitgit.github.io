@@ -20,11 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tags">
-  <meta property="og:description" content="Sangwoo Noh">
+  <meta property="og:title" content="What is Gunicorn and Nginx?">
+  <meta property="og:description" content="Gunicorn is a WSGI implementation in Python, and Nginx is a web server, such as Apache.">
 
-  <title>Tags</title>
-  <meta name="description" content="Sangwoo Noh">
+  <title>What is Gunicorn and Nginx?</title>
+  <meta name="description" content="Gunicorn is a WSGI implementation in Python, and Nginx is a web server, such as Apache.">
 
   
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -75,131 +75,47 @@
 
 </nav>
   <div class="col-lg-10 mx-auto mt-5 post">
-  <!-- Collect tags from all posts --><!-- List tags & related posts -->
+  <h1><b>What is Gunicorn and Nginx?</b></h1>
 
-<div class="py-3">
-  <h4 id="anaconda">Anaconda</h4>
-  <ol>
-  <a href="/blog/anaconda"><li>What is Anaconda?</li></a>
-    <small class="text-muted"> - 11 April 2021</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<p class="post-metadata text-muted">
+  11 April 2021 -  
+  <b>less than 1 min read time</b>
 
-<div class="py-3">
-  <h4 id="blue-ocean">Blue Ocean</h4>
-  <ol>
-  <a href="/blog/post5"><li>What is CI/CD Automation?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#gunicorn">
+      <span class="tag badge badge-pill text-primary border border-primary">Gunicorn</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#nginx">
+      <span class="tag badge badge-pill text-primary border border-primary">Nginx</span>
+    </a>
+    </p>
 
-<div class="py-3">
-  <h4 id="django">Django</h4>
-  <ol>
-  <a href="/blog/post4"><li>What is Django and Django REST Framework?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<p>Still writing…<br /></p>
+<h2 id="overview">Overview</h2>
+<p>Gunicorn is a WSGI implementation in Python, and Nginx is a web server, such as Apache. Both are essential components when developing web server applications. When developing server applications in various languages and frameworks, such as (Python-Django,Flask), (Javascript-Node.js), (Java-Spring), we should deploy server application as a service. Gunicorn and Nginx is one of tech stacks to deploy server applications. 
+<br /><br />
+To understand each component, first, we should understand WSGI and web server.</p>
 
-<div class="py-3">
-  <h4 id="django-rest-framework">Django REST Framework</h4>
-  <ol>
-  <a href="/blog/post4"><li>What is Django and Django REST Framework?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<h2 id="what-is-wsgi">What is WSGI?</h2>
 
-<div class="py-3">
-  <h4 id="github">Github</h4>
-  <ol>
-  <a href="/blog/post5"><li>What is CI/CD Automation?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<p>vs Fast CGI 
+vs Tomcat</p>
 
-<div class="py-3">
-  <h4 id="golang">Golang</h4>
-  <ol>
-  <a href="/blog/golang"><li>What is Go Lang?</li></a>
-    <small class="text-muted"> - 03 April 2021</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<h2 id="what-is-web-server">What is Web server?</h2>
+<p>vs Apache</p>
 
-<div class="py-3">
-  <h4 id="gunicorn">Gunicorn</h4>
-  <ol>
-  <a href="/blog/gunicorn-nginx"><li>What is Gunicorn and Nginx?</li></a>
-    <small class="text-muted"> - 11 April 2021</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<h1 id="why-do-i-need-wsgi-and-web-server">Why do I need WSGI and Web server?</h1>
 
-<div class="py-3">
-  <h4 id="jenkins">Jenkins</h4>
-  <ol>
-  <a href="/blog/post5"><li>What is CI/CD Automation?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<h1 id="gunicorn">Gunicorn</h1>
+<ul>
+  <li>running on Unix</li>
+  <li>WSGI implementation in Python</li>
+  <li>details: https://docs.gunicorn.org/en/stable/design.html</li>
+</ul>
 
-<div class="py-3">
-  <h4 id="nginx">Nginx</h4>
-  <ol>
-  <a href="/blog/gunicorn-nginx"><li>What is Gunicorn and Nginx?</li></a>
-    <small class="text-muted"> - 11 April 2021</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
 
-<div class="py-3">
-  <h4 id="python">Python</h4>
-  <ol>
-  <a href="/blog/sql"><li>Deep into SQL</li></a>
-    <small class="text-muted"> - 11 April 2021</small>
-    <br/><a href="/blog/python"><li>Deep into Python</li></a>
-    <small class="text-muted"> - 11 April 2021</small>
-    <br/><a href="/blog/anaconda"><li>What is Anaconda?</li></a>
-    <small class="text-muted"> - 11 April 2021</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
-
-<div class="py-3">
-  <h4 id="soc">SoC</h4>
-  <ol>
-  <a href="/blog/soc-verification"><li>What is SoC design verification?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
-
-<div class="py-3">
-  <h4 id="verification">Verification</h4>
-  <ol>
-  <a href="/blog/soc-verification"><li>What is SoC design verification?</li></a>
-    <small class="text-muted"> - 29 September 2020</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
 
 </div>
   </main>

@@ -194,8 +194,6 @@ This project was motivated <b>to automate workflow in costemtic startup, TIA'M</
 
 
 <!-- my style -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
 <style>
 body{
   font-family: 'Roboto', sans-serif;
