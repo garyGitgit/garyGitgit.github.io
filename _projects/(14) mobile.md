@@ -28,11 +28,12 @@ The projects are related to Android applications. My major skills include <b>Jav
 <h3> <a name="1">1. Bisecu, smart bike lock app</a></h3>
 <br/>
 
+<h4> Description </h4>
+<br/>
+
 <div class="video-container">
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/B7vy9EhMCiw?list=PLkmcMuht3RyrRxZnZpVF40lVFTW0eRL-F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<br/>
-<h4> Description </h4>
  <p>
 This project was motivated <b>to develop a smart bike lock application for Android</b>. To acheive this goal, Bluetooth Low Energy (BLE) was used to receive signal from IoT device, smart bike lock. The applcation was able to not only control IoT devices but also keep track of activity tracking.
 </p>
@@ -84,11 +85,12 @@ The application was introduced in MWC 2017 and presented in big media, including
 
 <h3> <a name="2">2. Coding Starter, coding education app</a></h3>
 <br/>
+
+<h4> Description </h4>
+<br/>
 <div class="video-container">
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y31pTa5jY4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<br/>
-<h4> Description </h4>
 <p>
 The goal of this project was <b>to provide free coding education contents</b>. To acheive this goal, the user interface was designed to be easy to study on the mobile environment with one finger such as tapping blocks.
 </p>

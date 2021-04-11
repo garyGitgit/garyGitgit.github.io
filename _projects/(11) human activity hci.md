@@ -97,7 +97,7 @@ To see details, please refer to the paper in 'Related Articles' below.
 <h4>Description</h4>
 <p>
 
-The goal of this project was <b>to develop human proximity algorithm</b>to lock and unlock a smart bike lock automatically. 
+The goal of this project was <b>to develop human proximity algorithm</b> to lock and unlock a smart bike lock automatically.
 <br/>
 <br/>
 My role was to <b>analyze Received Signal Strength Indication (RSSI), from Bluetooth Low Energy (BLE) from IoT devices and develop the proximity algorithm to detect owners' approach</b>. As the nRF chip generated raw RSSI data, noise in the raw data were filtered with Kalman filter.
@@ -143,9 +143,9 @@ To see details, please refer to the paper in 'Related Articles' below.
 
 <h4>Related Articles</h4>
 <ul>
-   <li><a href="">[Video] NBC News (2017 MWC)</a></li>
-   <li><a href="">[Video] AP News (2017 MWC)</a></li>
-   <li><a href="">[Video] Reuter (2017 MWC)</a></li>
+   <li><a href="https://www.youtube.com/watch?v=E7TS0-HIPew&ab_channel=NBCNews">[Video] NBC News (Mobile World Congress 2017)</a></li>
+   <li><a href="https://www.youtube.com/watch?v=6SHUM0ZguBo&t=30s&ab_channel=APArchive">[Video] AP News (Mobile World Congress 2017)</a></li>
+   <li><a href="https://www.youtube.com/watch?v=B7vy9EhMCiw&ab_channel=Reuters">[Video] Reuter (Mobile World Congress 2017)</a></li>
 </ul>
 <br/>
 <hr />

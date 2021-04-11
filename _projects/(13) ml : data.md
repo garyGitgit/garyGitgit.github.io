@@ -32,7 +32,7 @@ tools: [Samsung Electronics, 2019-Present]
 <h4>Description</h4>
 <p>
 
-The goal of this project was <b>to maximize SoC/IP emulation resource utilization with reinforcement learning</b>. The heuristic based approach (<a href='https://garygitgit.github.io/projects/12-system-on-chip'>SoC Verfication</a>)improved resource utilization , however, environments were too diverse to define a fixed algorithm. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by DeepMind, was applied to solve this problem.
+The goal of this project was <b>to maximize SoC/IP emulation resource utilization with reinforcement learning</b>. The heuristic based approach (<a href='https://garygitgit.github.io/projects/12-system-on-chip'> SoC Verfication</a>)improved resource utilization , however, environments were too diverse to define a fixed algorithm. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by DeepMind, was applied to solve this problem.
 </p>
 <p>
 My role was to <b>develop a training environment</b> and <b>find an appropriate DDQN model on training</b>. The test result showed that DDQN algorithm had better performance than random policy and no policy.

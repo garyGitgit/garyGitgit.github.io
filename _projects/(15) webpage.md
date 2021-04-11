@@ -19,19 +19,19 @@ The projects are related to web frontend, backend and web application. My major 
 </p>
 <br/>
 <h4>  Table of Contents  </h4>
-- <a href="#1">1. Samsung, SoC/IP regression automation GUI</a><br/>
-- <a href="#2">2. Cloudike, cloud company API web page</a><br/>
-- <a href="#3">3. TIA'M, cosmetic startup automation web page</a><br/>
+- <a href="#1">1. Samsung, SoC/IP regression automation application</a><br/>
+- <a href="#2">2. Cloudike, cloud company API web</a><br/>
+- <a href="#3">3. TIA'M, cosmetic startup automation web</a><br/>
 
 <br/>
 <hr>
 <br/>
 
-<h3> <a name="1">1. Samsung, SoC/IP regression automation GUI</a></h3>
+<h3> <a name="1">1. Samsung, SoC/IP regression automation application</a></h3>
 <br/>
 <h4> Description </h4>
 <p>
-This project has been motivated <b>to develop web application for SoC/IP regression automation</b>. To acheive the goal, the user interface has been developed with <b>Vue.js and Electron</b>, and backend server has been developed with <b>Django REST Framework</b>. I also designed REST API structure and developed both frontend and backend.
+This project was motivated <b>to develop web application for SoC/IP regression automation</b>. To acheive the goal, the user interface was developed with <b>Vue.js and Electron</b>, and backend server was developed with <b>Django REST Framework</b>. I also designed REST API structure and developed both frontend and backend.
 </p>
 <br/>
 
@@ -83,7 +83,7 @@ This project has been motivated <b>to develop web application for SoC/IP regress
 <br/>
 <h4> Description </h4>
  <p>
-This project has been motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
+This project was motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
 </p>
 
 <div class="video-container">
@@ -135,7 +135,7 @@ This project has been motivated <b>to develop a documetation and test web page f
 <br/>
 <h4> Description </h4>
  <p>
-This project has been motivated <b>to automate workflow in costemtic startup, TIA'M</b>.
+This project was motivated <b>to automate workflow in costemtic startup, TIA'M</b>.
 </p>
 <br/>
 <br/>
