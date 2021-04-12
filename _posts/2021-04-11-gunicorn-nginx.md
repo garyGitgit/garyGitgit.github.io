@@ -19,17 +19,27 @@ To understand each component, first, we should understand WSGI and web server.
 3. WSGI trasnfers HTTP request to web application via **Callable object**. This object includes HTTP request components and callback function. The callback function is used for returning result to the web server.
 
 # What is Nginx?
-Nginx is one of the most popular web server. Apache was the top web server, but as of 2019, Nginx has become the top web server.
+1. Nginx is one of the most popular web server. Apache was the top web server, but as of 2019, Nginx has become the top web server. Both Apache and Nginx are commonly used to handle static files, such as html, css, js, images and videos. However both web servers have different mechanisms: Apache creates thread for each connection, on the other hand, Nginx doesn't. **As Nginx is event-driven way, it doesn't require thread creation for each connection, meaning it uses lower resource than Apache**. This can solve **C10K problem** that Apache has. C10K problem is a problem that when Apache web server cannot handle over 10,000 connections concurrently.
 
-# Gunicorn
-- running on Unix
-- WSGI implementation in Python
-- details: https://docs.gunicorn.org/en/stable/design.html 
+2. Nginx also has another feature: **reverse proxy**. To understand reverse proxy, we should understand proxy server first. Proxy server is mostly used to communicate users: for example, my company doesn't allow direct Internet access for security reason, and only via proxy server, internal employees could access to Internet. On the ohter hand, reverse proxy is located on a server side, not a user side. This means that a server returns requests via reverse proxy server. In sum, the main difference of (forward) proxy server and reverse proxy server is where the proxy server is located: forward proxy is located in front of uesrs and reverse proxy is located in front of servers. This kind of mechaism is good for protecting WAS (Web Application Server), which directly connects to internal databases, from external attacks. 
+
+3. Another advantage of reverse proxy is that **load balancing** is available. As Nginx is a reverse proxy, it can do load balancing as well.
+
+# What is Gunicorn?
+Gunicorn is **Python implementation of WSGI for Unix system**. Gunicorn consists of master thread and worker thread. Worker threads handles each request, and the recommended number of workers, according to the official guide, is 2x(num of cores) + 1.
+
+# How does Nginx, Gunicorn and Django work?
+As mentioned above, Nginx is a web server which is located at the very front of servers. It receives HTTP requests from outside. And Gunicorn is used as CGI to transfer HTTP requests to WAS. Django, used as WAS, is a framework that enables server programing easier with MVC (Model, View, Design) Pattern. In developers' view, they don't have to worry web server side or WSGI implementation because both Nginx and Gunicorn work instead.
+<br/>
+<br/>
+<hr>
+<br/>
 
 ##### References
 1. *https://sgc109.github.io/2020/08/15/python-wsgi/*
 2. *https://www.ibm.com/cloud/learn/web-server-vs-application-server*
 3. *https://sieunlim.tistory.com/17*
+4. *https://m.blog.naver.com/jhc9639/220967352282*
 
 <style>
 body{
