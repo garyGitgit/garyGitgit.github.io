@@ -79,7 +79,7 @@
 
 <p class="post-metadata text-muted">
   11 April 2021 -  
-  <b>less than 1 min read time</b>
+  <b>2 mins read time</b>
 
   <br>Tags: 
     
@@ -98,15 +98,21 @@
 <br /><br />
 To understand each component, first, we should understand WSGI and web server.</p>
 
-<h2 id="what-is-wsgi">What is WSGI?</h2>
+<h2 id="what-is-web-server-and-wsgi">What is Web server and WSGI?</h2>
+<ol>
+  <li>
+    <p>Web server is a server providing static files, such as html, css, js and image files, on clients’ requests. Apache and Nginx is the most widely used web servers. To understand web server, we should understand web application as well. As the early stage web servers only served static files and complex logics were needed, web application, which processes business logic, was required. For each progmaming languages, Spring for Java, Flask and Django for Python have been developed to support such needs. As those diffrent kinds of web application had to be compatible with different kinds of web servers, a standard interface was required. <strong>CGI (Common Gateway Interface)</strong> was it.</p>
+  </li>
+  <li>
+    <p>Simply, CGI received HTTP request from web server, transferred request components, such as URL, method and parameters, in environment variables and executed business logic script. The stdout result was transferred back to the web server. The problem of CGI was each execution of script required memory loading, and it was too slow. Even if CGI had the problem, it was widely used for its compatibility for various languages. To solve this problem, <strong>WSGI (Web Server Gateway Interface)</strong>  has been released.</p>
+  </li>
+  <li>
+    <p>WSGI trasnfers HTTP request to web application via <strong>Callable object</strong>. This object includes HTTP request components and callback function. The callback function is used for returning result to the web server.</p>
+  </li>
+</ol>
 
-<p>vs Fast CGI 
-vs Tomcat</p>
-
-<h2 id="what-is-web-server">What is Web server?</h2>
-<p>vs Apache</p>
-
-<h1 id="why-do-i-need-wsgi-and-web-server">Why do I need WSGI and Web server?</h1>
+<h1 id="what-is-nginx">What is Nginx?</h1>
+<p>Nginx is one of the most popular web server. Apache was the top web server, but as of 2019, Nginx has become the top web server.</p>
 
 <h1 id="gunicorn">Gunicorn</h1>
 <ul>
@@ -114,6 +120,20 @@ vs Tomcat</p>
   <li>WSGI implementation in Python</li>
   <li>details: https://docs.gunicorn.org/en/stable/design.html</li>
 </ul>
+
+<h5 id="references">References</h5>
+<ol>
+  <li><em>https://sgc109.github.io/2020/08/15/python-wsgi/</em></li>
+  <li><em>https://www.ibm.com/cloud/learn/web-server-vs-application-server</em></li>
+  <li><em>https://sieunlim.tistory.com/17</em></li>
+</ol>
+
+<style>
+body{
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+
 
 
 
