@@ -78,8 +78,8 @@
   <h1><b>What is Go Lang?</b></h1>
 
 <p class="post-metadata text-muted">
-  03 April 2021 -  
-  <b>less than 1 min read time</b>
+  13 April 2021 -  
+  <b>5 mins read time</b>
 
   <br>Tags: 
     
@@ -108,6 +108,7 @@
 </ul>
 
 <h4 id="simplicity">Simplicity</h4>
+<p>Go doesn’t have various kind of code styles. For example, in Java, it has various kinds of iteration: for loop, while loop, do while … On contrary, Go has only one iteration: for statement.</p>
 
 <h4 id="fast-compile-time">Fast compile time</h4>
 <p>Traditional languages, such as C and C++, are compiled by GCC compiler, which have relatively low compile time. However, Go doesn’t. It has faster compile time.</p>
@@ -116,13 +117,154 @@
 <p>Traditional languages, such as Java, have Garbage Collection (GC) function to manage memory resources. This function sometimes make the program slow. However, Go has fast GC function, and it makes users unaware of GC while running programs.</p>
 
 <h4 id="built-in-concurrency">Built-in concurrency</h4>
-<p>One of the powerful function of Go is concurrency. As a number of programs require concurrency functions, Go supports built-in concurrency function, enabling developers to easily work on concurrency programming.</p>
+<p>One of the powerful function of Go is concurrency. As a number of programs require concurrency functions, Go supports built-in concurrency function (go routine), enabling developers to easily work on concurrency programming.</p>
 
 <h4 id="compile-to-standalone-binaries">Compile to standalone binaries</h4>
 
 <h2 id="applications">Applications</h2>
 
+<ul>
+  <li>Web framework (backend): echo, gin …</li>
+  <li>Blockchain: Ethereum</li>
+  <li>Prometheus exporter: mongodb exporter, oracle exporter, node exporter …</li>
+</ul>
+
 <h2 id="basics">Basics</h2>
+<p><em>Reference: <a href="https://golang.org/doc/code">How to write go code</a>, <a href="https://www.tutorialspoint.com/go">Tutorial Point / Go</a></em></p>
+
+<h5 id="data-types">Data types</h5>
+<p>Go is a statically-typed (strict type) language.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+
+<h5 id="variables">Variables</h5>
+<h6 id="declaration">Declaration</h6>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// types: int, float32, string ...</span>
+<span class="k">var</span> <span class="n">variable_name</span> <span class="n">variable_type</span><span class="p">;</span> <span class="err">#</span> <span class="n">semicolon</span> <span class="p">(;)</span> <span class="n">is</span> <span class="n">optional</span>
+<span class="k">var</span> <span class="n">v1</span><span class="p">,</span> <span class="n">v2</span><span class="p">,</span> <span class="n">v3</span> <span class="n">variable_type</span><span class="p">;</span>
+</code></pre></div></div>
+<h6 id="assignment">Assignment</h6>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">v1</span><span class="p">,</span> <span class="n">v2</span><span class="p">,</span> <span class="n">v3</span> <span class="kt">int</span>
+<span class="n">v1</span> <span class="o">=</span> <span class="m">1</span>
+<span class="n">v2</span> <span class="o">=</span> <span class="m">2</span>
+<span class="n">v3</span> <span class="o">=</span> <span class="m">3</span>
+
+<span class="c">// dynamic type declaration / type inference in Go</span>
+<span class="n">v4</span> <span class="o">:=</span> <span class="m">4</span> 
+</code></pre></div></div>
+
+<h5 id="control-flow">Control Flow</h5>
+
+<h6 id="if-statement">if statement</h6>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">condition</span><span class="p">)</span> <span class="p">{</span> <span class="o">...</span><span class="p">}</span>
+</code></pre></div></div>
+
+<h6 id="for-statement">for statement</h6>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// no parentheses () is allowed</span>
+<span class="k">for</span> <span class="n">condition</span> <span class="p">{</span><span class="o">...</span><span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="p">(</span>
+	<span class="s">"fmt"</span>
+<span class="p">)</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">(){</span>
+	<span class="c">//fmt.Printf("hello world\n")</span>
+	<span class="k">var</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="kt">int</span>
+	<span class="k">var</span> <span class="n">fa</span><span class="p">,</span> <span class="n">fb</span> <span class="kt">float32</span>
+	<span class="k">var</span> <span class="n">str</span> <span class="kt">string</span> <span class="o">=</span> <span class="s">"hello world"</span>
+
+	<span class="n">a</span> <span class="o">=</span> <span class="m">1</span>
+	<span class="n">b</span> <span class="o">=</span> <span class="m">2</span>
+	<span class="n">fa</span> <span class="o">=</span> <span class="m">1.0</span>
+	<span class="n">fb</span> <span class="o">=</span> <span class="m">2.0</span>
+	<span class="n">c</span> <span class="o">:=</span> <span class="m">0.99</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"20210414"</span><span class="p">,</span> <span class="n">str</span><span class="p">)</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span> <span class="p">(</span><span class="s">"%d is larger than %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="k">if</span> <span class="p">(</span><span class="n">fa</span> <span class="o">&gt;</span> <span class="n">fb</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span> <span class="p">(</span><span class="s">"%d is smaller than %.2f</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span> <span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="m">5</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%d th print</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%d + %d = %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">)</span>
+		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%.2f - %.2f = %.2f</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">fa</span><span class="p">,</span> <span class="n">fb</span><span class="p">,</span> <span class="n">fa</span><span class="o">-</span><span class="n">fb</span><span class="p">)</span>
+	<span class="p">}</span>
+	<span class="c">// %d covers all variable types</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%d is a value of c variable.</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<h5 id="development-environment">Development Environment</h5>
+
+<h6 id="some-useful-commands">Some useful commands</h6>
+<pre><code class="language-csh">$ go mod init
+$ go mod tidy
+$ go get github_url(/...)
+$ go run your_file.go
+$ go build your_file.go
+$ go test (require testing package and testing file)
+</code></pre>
+<h6 id="how-to-install-external-packages">How to install external packages?</h6>
+<p>If the current go doesn’t include external packages required by your go file, it will generate errors like this:</p>
+<pre><code class="language-csh">$ go run main.go
+main.go:5:2: no required module provides package github.com/labstack/echo/v4; to add it:
+	go get github.com/labstack/echo/v4
+
+$ go get github.com/labstack/echo/v4
+</code></pre>
+
+<h6 id="how-to-manage-package-dependencies-to-avoid-conflicts">How to manage package dependencies to avoid conflicts?</h6>
+<p>go.mod file is a file that manages package dependencies in your go code. The file includes go version and version for each package. go.sum file is a file that</p>
+<pre><code class="language-csh">$ go mod init main # find imported packages in package (main is an example. you should input your go file)
+$ go mod tidy      # install missing packages and remove unnecessary packages
+</code></pre>
+
+<h6 id="how-to-make-testing-file">How to make testing file?</h6>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">//main.go</span>
+<span class="k">package</span> <span class="n">hello</span>
+
+<span class="k">func</span> <span class="n">Hello</span><span class="p">()</span> <span class="kt">string</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s">"Hello, world"</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// test.go</span>
+<span class="k">package</span> <span class="n">hello</span>
+
+<span class="k">import</span> <span class="p">(</span>
+	<span class="s">"fmt"</span>
+	<span class="s">"testing"</span>
+<span class="p">)</span>
+
+<span class="k">func</span> <span class="n">TestHello</span><span class="p">(</span><span class="n">t</span> <span class="o">*</span><span class="n">testing</span><span class="o">.</span><span class="n">T</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">want</span> <span class="o">:=</span> <span class="s">"Hello, world"</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">want</span><span class="p">)</span>
+	<span class="k">if</span> <span class="n">got</span> <span class="o">:=</span> <span class="n">Hello</span><span class="p">();</span> <span class="n">got</span> <span class="o">!=</span> <span class="n">want</span> <span class="p">{</span>
+		<span class="n">t</span><span class="o">.</span><span class="n">Errorf</span><span class="p">(</span><span class="s">"Hello() = %q, want %q"</span><span class="p">,</span> <span class="n">got</span><span class="p">,</span> <span class="n">want</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h6 id="some-tips">Some tips</h6>
+<ul>
+  <li>main package (package main) must exist to run <code class="language-plaintext highlighter-rouge">go run your_file.go</code></li>
+</ul>
+
+<p><br /><br /></p>
+<hr />
+
+<p><br /></p>
+
+<h5 id="references">References</h5>
+<ol>
+  <li><em>https://soyoung-new-challenge.tistory.com/130</em></li>
+</ol>
 
 <style>
 body{
