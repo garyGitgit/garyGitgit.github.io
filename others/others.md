@@ -79,7 +79,8 @@ weight: 4
 <h5><b>Smartphone education for the elderly</b></h5>
 
 <div class="video-container">
-<iframe class="responsive-iframe" src="http://113.199.31.53/data/news/2016/08/mp4/NEWS_20160805_79317_W.MP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/kN9KQjSqZms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 <br/>
 
 <ul>
