@@ -32,6 +32,7 @@ weight: 4
 </figure>
 <ul>
   <li>Munich, Germany (Oct, 2019)</li>
+  <li>I visited DVCon (Design Verification Conference) 2019 held in Munich, Germany, to make an oral presentation related to dynamic resource management in SoC emulation with reinforcement learning.</li>
   <li>Related articles: <a href="https://garygitgit.github.io/projects/13-ml-data#1">Project</a></li>
 </ul>
 <br/>
@@ -42,7 +43,8 @@ weight: 4
 </figure>
 <ul>
   <li>Nara, Japan (July, 2017)</li>
-  <li>Related articles: <a href="https://garygitgit.github.io/projects/12-human-activity-hci#4">Project</a></li>
+  <li>I visited ISUVR (International Symposium on Ubiquitous Virtual Reality) 2019 held in Nara, Japan, to make an oral presentation related to a 3D virtual companion on a smartphone for the elderly.</li>
+  <li>Related articles: <a href="https://garygitgit.github.io/projects/11-human-activity-hci#4">Project</a></li>
 </ul>
 <br/>
 <h5><b>Mobile World Congress 2017</b></h5>
@@ -51,6 +53,7 @@ weight: 4
 </figure>
 <ul>
   <li>Barcelona, Spain (Feb, 2017)</li>
+  <li>I visited MWC (Mobile World Congress) 2017 held in Barcelona, Spain, to exhibit a smart bicycle lock, BISECU. Our product was also introduced in a lot of major media.</li>
   <li>Related articles: <a href="https://garygitgit.github.io/projects/12-human-activity-hci#3">Project</a></li>
 </ul>
 <br/>
@@ -63,7 +66,7 @@ weight: 4
     <img src="https://drive.google.com/uc?id=1qjEGlN_F2lsZT4ledOKmkU-RS0UJxbVF" alt="drawing" style="width:500px;"/>
 </figure>
 <ul>
-  <li>Torch relay runner</li>
+  <li>Torch relay runner in Winter Olympic</li>
   <li>Pyeongchang, South Korea (Nov, 2017)</li>
 </ul>
 <br/>
@@ -75,7 +78,7 @@ weight: 4
   <li>English tutor for middle school students</li>
   <li>Seongnam, South Korea (Jan, 2017 - Dec, 2017)</li>
 </ul>
-
+<br/>
 <h5><b>Smartphone education for the elderly</b></h5>
 
 <div class="video-container">
@@ -84,7 +87,7 @@ weight: 4
 <br/>
 
 <ul>
-  <li>English tutor for middle school students</li>
+  <li>Smartphone education volunteer for the elderly</li>
   <li>Seongnam, South Korea (July, 2016)</li>
   <li> Related Articles: <a href="https://twitter.com/seongnamcity/status/766192717269381120">Seongnam City Hall Official Twitter</a></li>
 </ul>
@@ -99,7 +102,7 @@ weight: 4
     <img src="https://drive.google.com/uc?id=16O6Lm5M2oGJMwK-PvZGBfg1meioAlFlU" alt="drawing" style="width:500px;"/>
 </figure>
 <ul>
-  <li>Volunteered for Open Stack Korea</li>
+  <li>Volunteer for Open Stack Korea</li>
   <li>Seoul, South Korea (2017 - 2019)</li>
 </ul>
 <br/>
@@ -111,7 +114,7 @@ weight: 4
 
 
 <ul>
-  <li>Participated in ACM ICPC, Vietnam</li>
+  <li>Participator in ACM ICPC, Vietnam</li>
   <li>Ho Chi Minh, Vietnam (Jul, 2017)</li>
 </ul>
 <br/>

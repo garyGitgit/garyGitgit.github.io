@@ -21,10 +21,10 @@ My main interests are <b>behavioral A.I, HCI, mobile healthcare, SoC verificatio
 </p>
 
 <ul>
-    <li>Go to <a href="https://garygitgit.github.io/projects/">Projects</a> to read what I 've worked on.</li>
-    <li>Go to <a href="https://garygitgit.github.io/research/publications/">Publications</a> to read my papers.</li>
-    <li>Go to <a href="https://garygitgit.github.io/activities/">Activities</a> to read my social activities.</li>
+    <li>Go to <a href="https://garygitgit.github.io/projects">Projects</a> to read what I 've worked on.</li>
+    <li>Go to <a href="https://garygitgit.github.io/research/publications">Publications</a> to read my papers.</li>
     <li>Go to <a href="https://garygitgit.github.io/cv/cv">CV</a> to read my CV.</li>
+    <li>Go to <a href="https://garygitgit.github.io/others">Activities</a> to read my other activities: awards, presentations.</li>
 </ul>
 
 <br>

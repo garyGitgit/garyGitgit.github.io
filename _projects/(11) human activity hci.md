@@ -277,7 +277,7 @@ My role was to <b>design software architecture and develop application logic lay
 
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
-  <li><a href="https://garygitgit.github.io/projects/11-system-on-chip">SoC Verification</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-system-on-chip">SoC Verification</a></li>
   <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
   <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
