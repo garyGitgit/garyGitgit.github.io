@@ -20,166 +20,23 @@ Blockchain is one of the most interesting technologies in these days. Bitcoin an
 - Byzantine problems
 - Consensus algorithm
 
-#### 1
+#### Part 1. Cryptocurrency
+### 1. What is Mining?
+Mining is a behaivor to gain cryptocurrency as a reward of participating in blockchain network. The kind of participation can be different depending on blockchain: some blockchains, such as Bitcoin, require participators to create blocks of transactions and verify newly created blocks; some blockchain, such as Theta, require participators to share their own memory and bandwidth. In Bitcoin, mining is a behavior to solve hash problems, create blocks of transactions and verify newly created nodes. After solving hash problems and creating a new block, miners gain Bitcoin + commission as a reward. In Theta, mining is a behavior to share memory and bandwidth and verify network. Miners gain TFUEL, gas in Theta network, as a reward. <br/>
+The process of mining is as below: <br>
+1. Miner installs a mining program listening any requests from blockchain network. 
+2. Miner collects transactions in a memory pool until the memory pool is full.
+3. When the pool is full, a miner hashes transactions until it reaches to the root of Hash Tree (Merkle Tree). 
+4. Root hash, previous block and nounce value is placed on the block header.
+5. The block header is hashed with block id, and this hash value must meet the condition (difficulty) defined in the network to meet the balance of number of blocks created and hash rate. In Bitcoin, the difficulty is defined as the hash value starting with N number of 0s. 
+6. Miner changes nounce value and find a hash value that meets the current hashcondition.
+7. When it finds the solution, miner propagtes the block, and the block is accepted after verifying in other nodes. 
+* Here, we can wonder what happened when 2+ valid blocks are propagated to the network. In this case, the first arrived block is accepted in each node, but it can be changed when the next valid block arrives. For example, A node can get A-b and B node can get A-B: both block can be valid. The next block is created with A-B-C, then A node will update its blockchain to A-B-C, and b block is discarded. We call this block as orphan block, stable block.
+   
+### 1. What is Staking?
+Staking is locking cryptocurrency without trading. Cryptocurrency is used not only as a reward but also as a method to maintain security and network in blockchains. Especially, the number of cryptocurrecny is important in blockchains based on PoS (Proof of Stake). In PoS based blockchain, stakeholders who have a large portion of cryptocurrency have a power and responsibility to keep the network secure. For example, in Ethereum 2.0, they have adapted PoS in its blockchain network. (The detailed reasons will be described later.) PoS doesn't require any Proof of Work, such as solving hash problems or others: in other words, rather than finding participants to create blocks in the network by how fast any node solve hash problem, the network finds stakeholders who have a large number of cryptocurreny. Stakeholders with larger portion of cyrptocurrency have a high probability to create blocks.
 
-#### 2
-
-#### 3
-
-#### 4
-
-#### 5
-
-
-## Applications
-
-- Web framework (backend): echo, gin ...
-- Blockchain: Ethereum
-- Prometheus exporter: mongodb exporter, oracle exporter, node exporter ...
-
-## Basics
-*Reference: [How to write go code](https://golang.org/doc/code), [Tutorial Point / Go](https://www.tutorialspoint.com/go)*
-
-##### Data types
-Go is a statically-typed (strict type) language.
-```
-```
-
-##### Variables
-###### Declaration
-```go
-// types: int, float32, string ...
-var variable_name variable_type; # semicolon (;) is optional
-var v1, v2, v3 variable_type;
-```
-###### Assignment
-```go
-var v1, v2, v3 int
-v1 = 1
-v2 = 2
-v3 = 3
-
-// dynamic type declaration / type inference in Go
-v4 := 4 
-```
-
-##### Control Flow
-
-###### if statement
-```go
-if (condition) { ...}
-```
-
-###### for statement
-```go
-// no parentheses () is allowed
-for condition {...}
-```
-
-```go
-package main
-
-import (
-	"fmt"
-)
-
-func main(){
-	//fmt.Printf("hello world\n")
-	var a, b int
-	var fa, fb float32
-	var str string = "hello world"
-
-	a = 1
-	b = 2
-	fa = 1.0
-	fb = 2.0
-	c := 0.99
-	fmt.Printf("20210414", str)
-	if (a < b) {
-		fmt.Printf ("%d is larger than %d\n", b, a)
-	}
-
-	if (fa > fb) {
-		fmt.Printf ("%d is smaller than %.2f\n", b, a)
-	}
-
-	for i := 1 ; i < 5; i++ {
-		fmt.Printf("%d th print\n")
-		fmt.Printf("%d + %d = %d\n", a,b,a+b)
-		fmt.Printf("%.2f - %.2f = %.2f\n", fa, fb, fa-fb)
-	}
-	// %d covers all variable types
-	fmt.Printf("%d is a value of c variable.\n", c)
-}
-
-```
-
-##### Development Environment
-
-###### Some useful commands
-```csh
-$ go mod init
-$ go mod tidy
-$ go get github_url(/...)
-$ go run your_file.go
-$ go build your_file.go
-$ go test (require testing package and testing file)
-```
-###### How to install external packages?
-If the current go doesn't include external packages required by your go file, it will generate errors like this:
-```csh
-$ go run main.go
-main.go:5:2: no required module provides package github.com/labstack/echo/v4; to add it:
-	go get github.com/labstack/echo/v4
-
-$ go get github.com/labstack/echo/v4
-```
-
-###### How to manage package dependencies to avoid conflicts?
-go.mod file is a file that manages package dependencies in your go code. The file includes go version and version for each package. go.sum file is a file that 
-```csh
-$ go mod init main # find imported packages in package (main is an example. you should input your go file)
-$ go mod tidy      # install missing packages and remove unnecessary packages
-```
-
-###### How to make testing file?
-
-```go
-//main.go
-package hello
-
-func Hello() string {
-    return "Hello, world"
-}
-```
-```go
-// test.go
-package hello
-
-import (
-	"fmt"
-	"testing"
-)
-
-func TestHello(t *testing.T) {
-	want := "Hello, world"
-	fmt.Println(want)
-	if got := Hello(); got != want {
-		t.Errorf("Hello() = %q, want %q", got, want)
-	}
-}
-```
-
-###### Some tips
-- main package (package main) must exist to run ```go run your_file.go ```
-
-
-<br/><br/>
-<hr>
-<br/>
-
-##### References
-1. *https://soyoung-new-challenge.tistory.com/130*
+#### 2. What is Liquid Swap?
 
 <style>
 body{
