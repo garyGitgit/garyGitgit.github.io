@@ -7,7 +7,6 @@ description: Learn about blockchain.
 ---
 Still writing...<br/>
 
-
 ## Overview
 Blockchain is one of the most interesting technologies in these days. Bitcoin and Ethereum are the most successful blockchain use case, and other Altcoins (minor coins) are following the major coins. The market size of coins, also known as virtual assets, cryptocurrency, virtual currency, has already excceeded ones of the legacy stock market. There are also fake coins, called SCAM, in the market. To understand why blockchain technology is hot and to avoid SCAM, we should understand the background and go deep into the technology.
 
