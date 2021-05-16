@@ -26,33 +26,34 @@
   <title>Blog</title>
   <meta name="description" content="Sangwoo Noh">
 
-  
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 
   <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
   <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
-
-<body class="d-flex flex-column h-100">
+<body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>Sangwoo's  blog</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -70,11 +71,12 @@
 
       
 
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
-  <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+    <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
 
 <div class="input-group mt-5 px-3">
   <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
@@ -95,7 +97,7 @@
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
-        noResultsText: '<li class="list-group-item">No results found</li>',
+        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
         json: '/search.json'
       })
 </script>
@@ -103,7 +105,24 @@
 
   
     <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/blog/golang" class="post card bg-warning">
+  <a href="/blog/blockchain" class="post card bg-primary">
+    <div class="card-body text-white">
+      <h3 class="card-title">What is Blockchain?</h3>
+      <p class="card-text">
+        
+        <span class="badge badge-light text-primary">Blockchain</span>
+        
+      </p>
+      <p class="card-text">Learn about blockchain.</p>
+    </div>
+    <div class="card-footer text-white">
+      12 May 2021
+    </div>
+  </a>
+</div>
+  
+    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/blog/golang-copy" class="post card bg-warning">
     <div class="card-body text-white">
       <h3 class="card-title">What is Go Lang?</h3>
       <p class="card-text">
@@ -283,6 +302,7 @@
   </small>
   
 </footer>
+
   
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -306,6 +326,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 
