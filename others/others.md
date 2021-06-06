@@ -102,10 +102,20 @@ weight: 4
     <img src="https://drive.google.com/uc?id=16O6Lm5M2oGJMwK-PvZGBfg1meioAlFlU" alt="drawing" style="width:500px;"/>
 </figure>
 <ul>
-  <li>Volunteer for Open Stack Korea</li>
+  <li>Volunteer for OpenStack Korea</li>
   <li>Seoul, South Korea (2017 - 2019)</li>
 </ul>
 <br/>
+<h5><b>Internship in Irvine, CA, United States</b></h5>
+<figure class="image">
+    <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.18169-9/26168639_551205198579029_5078693854684681150_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=USOxfXjgOKIAX_HfVlK&_nc_ht=scontent-ssn1-1.xx&oh=0a9304f3a22338bae809a5132c76610d&oe=60E3779E" alt="drawing" style="width:500px;"/>
+</figure>
+<ul>
+  <li>Irvine, CA, United States (2018)</li>
+  <li>I visited PeopleSpace, a startup incubator in Irvine, CA, United States. I met professionals such as a data scientist from Amazon, researchers from UCI and software engineer from Western Digital, etc.</li>
+</ul>
+<br/>
+
 <h5><b>ACM ICPC, Vietnam</b></h5>
 
 <figure class="image">
@@ -114,7 +124,7 @@ weight: 4
 
 
 <ul>
-  <li>Participator in ACM ICPC, Vietnam</li>
+  <li>Honorable Mention in ACM ICPC (algorithm contest), Vietnam</li>
   <li>Ho Chi Minh, Vietnam (Jul, 2017)</li>
 </ul>
 <br/>
