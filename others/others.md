@@ -54,7 +54,7 @@ weight: 4
 <ul>
   <li>Barcelona, Spain (Feb, 2017)</li>
   <li>I visited MWC (Mobile World Congress) 2017 held in Barcelona, Spain, to exhibit a smart bicycle lock, BISECU. Our product was also introduced in a lot of major media.</li>
-  <li>Related articles: <a href="https://garygitgit.github.io/projects/11-human-activity-hci#3">Project</a></li>
+  <li>Related articles: <a href="https://garygitgit.github.io/projects/11-human-activity-hci#2">Project</a></li>
 </ul>
 <br/>
 <hr>
