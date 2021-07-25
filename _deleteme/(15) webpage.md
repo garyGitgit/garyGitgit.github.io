@@ -79,57 +79,6 @@ This project was motivated <b>to develop web application for SoC/IP regression a
 <hr/>
 <br/>
 
-<h3> <a name="2">2. Cloudike, cloud company API web page</a></h3>
-<br/>
-<h4> Description </h4>
- <p>
-This project was motivated <b>to develop a documetation and test web page for REST API</b> in a cloud company. To acheive the goal, <b>Sphinx</b> was used to generate Python documentation pages, and statistics and test sections were also added for API monitoring and verfication.
-</p>
-
-<div class="video-container">
-<iframe class="responsive-iframe" src="https://www.youtube.com/embed/uW4g6c7vMa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></div>
-<br/>
-
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">Python</div>
-    <div class="chip lang">HTML</div>
-    <div class="chip lang">CSS</div>
-    <div class="chip lang">Javascript</div>
-    <div class="chip tools">Sphinx</div>
-    <div class="chip tools">Django</div>
-</div>
-
-<br/>
-
-<h4>Period</h4>
-5 months
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 Jul</div>
-                <h5 class="font-size-16">2017></h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">31 Aug</div>
-                <h5 class="font-size-16">2017</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<h4>Related Articles</h4>
-<ul>
-   <li><a href="https://youtu.be/uW4g6c7vMa0">[Video] Demo</a></li>
-</ul>
-<br/>
-<hr/>
-<br/>
 
 <h3> <a name="3">3. TIA'M, cosmetic startup automation web page</a></h3>
 <br/>

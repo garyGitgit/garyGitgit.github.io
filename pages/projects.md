@@ -1,119 +1,40 @@
-<!DOCTYPE html>
+---
+layout: page
+title: Projects 
+permalink: /projects/
+weight: 1
+---
 
-<!--
-  portfolYOU Jekyll theme by Youssef Raafat
-  Free for personal and commercial use under the MIT license
-  https://github.com/YoussefRaafatNasry/portfolYOU
--->
-
-<html lang="en" class="h-100">
-
-<head>
-
-  
-  
-
-  
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Projects">
-  <meta property="og:description" content="Sangwoo Noh">
-
-  <title>Projects</title>
-  <meta name="description" content="Sangwoo Noh">
-
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
-
-  <!-- Theme style -->
-  <script src="/assets/js/theme.js"></script>
-
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
-
-  <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-
-  <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-
-</head>
-
-<body class="h-100 d-flex flex-column">
-
-  <main class="flex-shrink-0 container mt-5">
-    <nav class="navbar navbar-expand-lg navbar-themed">
-
-  <a class="navbar-brand" href="/"><h5><b>Sangwoo's  blog</b></h5></a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-1x fa-bars text-themed"></i>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link " href="/publications/">Publications</a>
-
-      <a class="nav-item nav-link " href="/cv/">CV</a>
-
-      <a class="nav-item nav-link " href="/others/">Others</a>
-
-      
-
-      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
-    </div>
-  </div>
-
-</nav>
-    <div class="col-lg-10 mx-auto mt-5 post">
-  <h1>Projects</h1>
-<p><br /></p>
+<h1>Projects</h1>
+<br/>
 
 <h5>2021</h5>
-<ul>
-  <li><a href="#2021_3">SoC / IP testcase classification based on simulation logs (in-progress)</a><br /></li>
-  <li><a href="#2021_2">Multiple SNS posting and crawling automation (in-progress)</a><br /></li>
-  <li><a href="#2021_1">DevOps / MLOps (in-progress)</a><br /></li>
-</ul>
+- <a href="#2021_3">SoC / IP testcase classification based on simulation logs (in-progress)</a><br/>
+- <a href="#2021_2">Multiple SNS posting and crawling automation (in-progress)</a><br/>
+- <a href="#2021_1">DevOps / MLOps (in-progress)</a><br/>
 <h5>2020</h5>
-<ul>
-  <li><a href="#2020_2">SoC / IP verification platform (in-progress)</a><br /></li>
-  <li><a href="#2020_1">Sleep respiration monitoring system</a><br /></li>
-</ul>
+- <a href="#2020_2">SoC / IP verification platform (in-progress)</a><br/>
+- <a href="#2020_1">Sleep respiration monitoring system</a><br/>
 <h5>2019</h5>
-<ul>
-  <li><a href="#2019_2">Resource management in SoC emulator clusters with reinforcement learning</a><br /></li>
-  <li><a href="#2019_1">AMBA Bus verification</a><br /></li>
-</ul>
+- <a href="#2019_2">Resource management in SoC emulator clusters with reinforcement learning</a><br/>
+- <a href="#2019_1">AMBA Bus verification</a><br/>
 <h5>2018</h5>
-<ul>
-  <li><a href="#2018_1">Automatic table tennis system with wearable devices and smartphones</a><br /></li>
-</ul>
+- <a href="#2018_1">Automatic table tennis system with wearable devices and smartphones</a><br/>
 <h5>2017</h5>
-<ul>
-  <li><a href="#2017_4">Web page for Cloudike REST API</a><br /></li>
-  <li><a href="#2017_3">3D virtual companion for the elderly on smartphones</a><br /></li>
-  <li><a href="#2017_2">Mobile application for coding education</a><br /></li>
-  <li><a href="#2017_1">Smart bicycle lock, BISECU</a><br />
-<br /></li>
-</ul>
-<hr />
-
-<p><br /></p>
+- <a href="#2017_4">Web page for Cloudike REST API</a><br/>
+- <a href="#2017_3">3D virtual companion for the elderly on smartphones</a><br/>
+- <a href="#2017_2">Mobile application for coding education</a><br/>
+- <a href="#2017_1">Smart bicycle lock, BISECU</a><br/>
+<br/>
+<hr>
+<br/>
 
 <h2>2021</h2>
-<p><br /></p>
+<br/>
 
 <h3><a name="2021_3">SoC / IP testcase classification based on simulation logs</a></h3>
 
-<p><br /></p>
+<br/>
 
 <h4>Purpose</h4>
 <p>
@@ -138,11 +59,11 @@
     <div class="chip tools">Juypter Notebook</div>
 </div>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2021_2">Multiple SNS posting and crawling automation</a></h3>
-<br />
+<br/>
 <h4>Purpose</h4>
 <p>
 <ul>
@@ -165,13 +86,13 @@
     <div class="chip tools">Selenium</div>
 </div>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2021_1">DevOps / MLOps</a></h3>
-<br />
+<br/>
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1ggA6qYGJl1N7QP-K_jvkiL0J4t2BbXMa" alt="drawing" style="width:800px;" />
+    <img src="https://drive.google.com/uc?id=1ggA6qYGJl1N7QP-K_jvkiL0J4t2BbXMa" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of DevOps</i></figcaption>
 </figure>
 <h4>Purpose</h4>
@@ -202,18 +123,18 @@
     <div class="chip devops">Grafana</div>
     <div class="chip devops">Prometheus</div>
 </div>
-<br />
+<br/>
 
-<br />
-<hr />
-<br />
+<br/>
+<hr/>
+<br/>
 
 <h2>2020</h2>
-<br />
+<br/>
 
 <h3><a name="2020_2">SoC / IP verification platform</a></h3>
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1hemvJB5v70yKinpwS3j_UTbqj-zh89Dz" alt="drawing" style="width:800px;" />
+    <img src="https://drive.google.com/uc?id=1hemvJB5v70yKinpwS3j_UTbqj-zh89Dz" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of Backend System</i></figcaption>
 </figure>
 
@@ -221,7 +142,7 @@
 <p>
 <ul>
     <li>To automate SoC (System on Chip) verification</li>
-    <li>To automate IP &amp; block verification</li>
+    <li>To automate IP & block verification</li>
     <li>To automate performance verification</li>
 </ul>
 </p>
@@ -249,15 +170,15 @@
     <div class="chip frontend">Electron</div>
     <div class="chip backend">Django REST Framework</div>
 </div>
-<br />
+<br/>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2020_1">Sleep respiration monitoring system</a></h3>
-<br />
+<br/>
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1uY5LdUZZ4ulvZQKKJgoSjHfuUG5qWIMO" alt="drawing" style="width:800px;" />
+    <img src="https://drive.google.com/uc?id=1uY5LdUZZ4ulvZQKKJgoSjHfuUG5qWIMO" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of tele-monitoring system for sleep and respiration (left), real time graph (right)</i></figcaption>
 </figure>
 <h4>Purpose</h4>
@@ -284,20 +205,20 @@
     <div class="chip tools">Chart.js</div>
     <div class="chip tools">Django</div>
 </div>
-<br />
+<br/>
 
-<br />
-<hr />
-<br />
+<br/>
+<hr/>
+<br/>
 
 <h2>2019</h2>
-<br />
+<br/>
 
 <h3><a name="2019_2">Resource management in SoC emulator clusters with reinforcement learning</a></h3>
-<br />
+<br/>
 
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;" />
+    <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Reward in each episode on training (left), comparision between trained model and no policy (right)</i></figcaption>
 </figure>
 
@@ -331,15 +252,15 @@
     <div class="chip tools">Numpy</div>
     <div class="chip tools">Seaborn</div>
 </div>
-<br />
+<br/>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2019_1">AMBA Bus verification</a></h3>
 
 <figure class="image">
-    <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&amp;fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;" />
+    <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F143F30124B233B1C6D395D" alt="drawing" style="width:500px;"/>
     <figcaption class="image-caption"><i>AMBA Bus Protocol - ARM official web</i></figcaption>
 </figure>
 
@@ -363,20 +284,20 @@
     <div class="chip tools">IWB</div>
     <div class="chip tools">Verdi</div>
 </div>
-<br />
+<br/>
 
-<br />
-<hr />
-<br />
+<br/>
+<hr/>
+<br/>
 
 <h2>2018</h2>
-<br />
+<br/>
 
 <h3><a name="2018_1">Automatic table tennis system with wearable devices and smartphones</a></h3>
-<br />
+<br/>
 
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;" />
+    <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Swing detection algorithm (top) and implementation of the architecture (bottom)</i></figcaption>
 </figure>
 <h4>Purpose</h4>
@@ -406,17 +327,17 @@
     <div class="chip tools">Android</div>
     <div class="chip tools">Android Wearable</div>
 </div>
-<br />
+<br/>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2017_4">Web page for Cloudike REST API</a></h3>
 
-<br />
+<br/>
 <div class="video-container">
-<iframe class="responsive-iframe" src="https://www.youtube.com/embed/uW4g6c7vMa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<br />
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/uW4g6c7vMa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></div>
+<br/>
 <h4>Purpose</h4>
 <p>
 <ul>
@@ -443,19 +364,19 @@
     <div class="chip tools">Sphinx</div>
     <div class="chip tools">Django</div>
 </div>
-<br />
+<br/>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2017_3">3D virtual companion for the elderly on smartphones</a></h3>
-<br />
+<br/>
 
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1fTrkUyzRfRYR02-Xd5BU-7wnu9P9QWCj" />
+    <img src="https://drive.google.com/uc?id=1fTrkUyzRfRYR02-Xd5BU-7wnu9P9QWCj"/>
     <figcaption class="image-caption"><i>3D virtual companion acts depending on weather conditions</i></figcaption>
 </figure>
-<br />
+<br/>
 
 <h4>Purpose</h4>
 <p>
@@ -483,17 +404,17 @@
     <div class="chip tools">Unity</div>
     <div class="chip tools">api.ai</div>
 </div>
-<br />
+<br/>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3><a name="2017_2">Mobile application for coding education</a></h3>
-<br />
+<br/>
 <div class="video-container">
-<iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y31pTa5jY4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y31pTa5jY4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<br />
+<br/>
 <h4>Purpose</h4>
 <p>
 <ul>
@@ -518,17 +439,17 @@
     <div class="chip tools">Parse</div>
     <div class="chip tools">Android</div>
 </div>
-<br />
+<br/>
 
-<br />
-<br />
+<br/>
+<br/>
 
 <h3> <a name="2017_1">Smart bicycle lock, BISECU</a></h3>
-<br />
+<br/>
 
-<div class="video-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<br />
+<br/>
 <h4>Purpose</h4>
 <p>
 <ul>
@@ -557,11 +478,11 @@
     <div class="chip tools">Android</div>
     <div class="chip tools">Google Material Design</div>
 </div>
-<br />
+<br/>
 
-<br />
-<hr />
-<br />
+<br/>
+<hr/>
+<br/>
 
 <style>
 body{
@@ -686,66 +607,3 @@ body{
 }
 
 </style>
-</p>
-
-</div>
-  </main>
-
-  <footer class="mt-auto py-3 text-center">
-
-  <small class="text-muted mb-2">
-    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>Sangwoo Noh</strong>
-  </small>
-
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:sw79899@gmail.com"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/garyGitgit"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/garynoh"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#007bb5'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-linkedin-in fa-1x"></i>
-    </a>
-
-</div><small id="attribution">
-    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
-  </small>
-  
-</footer>
-
-  
-  <!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Popper.js CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-
-<!-- Bootstrap JS CDN -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-<!-- wow.js CDN & Activation -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-<script> new WOW().init(); </script>
-
-<!-- Initialize all tooltips -->
-<script>
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
-
-
-</body>
-
-</html>

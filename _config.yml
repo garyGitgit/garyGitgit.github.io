@@ -49,16 +49,16 @@ permalink: /blog/:title
 
 
 ### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
+#collections:
+#  projects:
+#    output: true
+#    permalink: /projects/:name
   #activities:
   #  output: true
   #  permalink: /activities/:name  
 
 ### Disqus ###
-disqus: your-short-name-disqus                          # Your website Shortname on disqus
+#disqus: your-short-name-disqus                          # Your website Shortname on disqus
 
 
 ### Analytics ###
@@ -70,21 +70,21 @@ analytics:
 
 ### Defaults for collections ###
 defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
+#  - scope:
+#      path: ""
+#      type: "projects"
+#    values:
+#      layout: "page"
 #  - scope:
 #      path: ""
 #      type: "activities"
 #    values:
 #      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+#  - scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:

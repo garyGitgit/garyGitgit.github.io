@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Publications
-<!-- permalink: /docs/ -->
-weight: 3
+permalink: /publications/
+weight: 2
 ---
 
 <h2>Publications</h2>

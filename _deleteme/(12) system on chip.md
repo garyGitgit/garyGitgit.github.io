@@ -1,59 +1,67 @@
 ---
-name: Machine Learning / Data Analytics
-image: https://cdn3.iconfinder.com/data/icons/research-element/1000/graph-512.png
-tools: [Samsung Electronics, 2019-Present]
-<!-- external_url: https://www.google.com -->
+name: SoC Verification 
+image: https://cdn2.iconfinder.com/data/icons/vivid/48/processor-512.png
+tools: [Samsung Electronics, 2018-Present]
 ---
 
-<h2 style="text-align:center;">Machine Learning / Data Analytics</h2>
-
+<h2 style="text-align:center;"> SoC Verification </h2>
 <br/>
 
 <figure class="image">
-    <img src="https://www.smartdatacollective.com/wp-content/uploads/2018/11/top-7-data-analytics-tools-2019.jpg" alt="drawing" style="width:500px;"/>
+    <img src="https://images.samsung.com/is/image/samsung/p5/semiconductor/minisite/exynos/newsroom/blog-detail/detail-new-exynos-symbol-presents-exciting-possibilities-for-the-future.jpg" alt="drawing" style="width:500px;"/>
 </figure>
-<br/>
-<p>
-    The projects were related to machine learning and data analytics to solve problems in <b>S.LSI division, Samsung Electronics</b>.
-</p>
 
 <br/>
-<h4>Table of Contents</h4>
-- <a href="#1">1. Reinforcement Learning for Resource Management</a><br/>
-- <a href="#2">2. Simulation Log Analytics for Testcase Similarity</a><br/>
+
+The projects were related to design verification for Exynos series in <b>S.LSI division, Samsung Electronics</b>.
+
+<br/>
+<h4>  Table of Contents  </h4>
+- <a href="#1">1. Regression Automation</a><br/>
+- <a href="#2">2. Resource Management</a><br/>
+- <a href="#3">3. AMBA Bus Verification</a><br/>
 
 <br/>
 <hr>
 <br/>
 
-<h3><a name="1"> 1. Reinforcement Learning for Resource Management</a></h3>
+
+
+
+<h3><a name="2">2. Resource Management</a></h3>
+
 <br/>
 
 <h4>Description</h4>
-<p>
-
-The goal of this project was <b>to maximize SoC/IP emulation resource utilization with reinforcement learning</b>. The heuristic based approach (<a href='https://garygitgit.github.io/projects/12-system-on-chip'> SoC Verfication</a>)improved resource utilization , however, environments were too diverse to define a fixed algorithm. <b>Double Deep Q Network (DDQN)</b>, which is one of the basic algorithm by DeepMind, was applied to solve this problem.
-</p>
-<p>
-My role was to <b>develop a training environment</b> and <b>find an appropriate DDQN model on training</b>. The test result showed that DDQN algorithm had better performance than random policy and no policy.
-</p>
-
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
-    <figcaption class="image-caption"><i>Reward in each episode on training (left), comparision between trained model and no policy (right)</i></figcaption>
+    <img src="https://www.synopsys.com/content/dam/synopsys/verification/images/zebu-server-4-mosaic-b.jpg.imgw.850.x.jpg
+" alt="drawing" style="width:500px;"/>
+    <figcaption class="image-caption"><i>Synopsys emulators - Synopsys official web</i></figcaption>
 </figure>
 <br/>
+<p>
+The goal of this project was <b>to schedule SoC/IP emulation resource efficiently and maximize emulation utilization.</b> <br/>
+<br/>
+My role was to develop <b>resource scheduling algorithm</b> to maximize resource utilization in different environment. I analyzed time series data and developed a dynamic resource scheduling algorithm based on data. <b>The algorithm increased resource utilization by 20% and reduced total pending time by 70%. </b>
+</p>
+<p> 
+Furthermore, to find out a better optimal solution, I researched <b>Reinforcement Learning</b> for resource management. First, I developed training environment and applied <b>Double Deep Q Network (DDQN) algorithm</b>. The research proved that DDQN algorithm had better performance than random algorithm or no algorithm in SoC/IP emulation resource management problem. 
+</p>
+<p>
+To see details, please refer to the paper in 'Related Articles' below, and the techinical details are described in <a href="http://garyGitgit.github.io/projects/13-ml-data">machine learning/data analytics</a>.
+ </p>
+
+<br/>
+
 <h4>Skills</h4>
 <div>
     <div class="chip lang">Python</div>
     <div class="chip db">Oracle PL/SQL</div>
     <div class="chip theory">Reinforcement Learning</div>
-    <div class="chip theory">DDQN</div>
-    <div class="chip tools">Keras</div>
     <div class="chip tools">PyQT</div>
-    <div class="chip tools">Pandas</div>
-    <div class="chip tools">Numpy</div>
-    <div class="chip tools">Seaborn</div>
+    <div class="chip tools">Keras</div>
+    <div class="chip tools">Jupyter</div>
+    <div class="chip tools">Pycharm</div>
 </div>
 
 <br/>
@@ -95,63 +103,17 @@ My role was to <b>develop a training environment</b> and <b>find an appropriate 
 <hr />
 <br/>
 
-<h3>2. NLP for Testcase Similarity</h3>
-
-<br/>
-
-<h4>Description</h4>
-<p>
-The goal of this project was <b>to find out meaningful information from hundreds TBs of simulation log data</b>, which were mostly discarded after simulation. <br/>
-
-<br/>
-My role was <b>to set up distributed databases</b> and <b>store simulation log data</b>. I also analyzed log data with Natural Language Processing (NLP) technique, such as <b>Word2Vec and Spacy</b>. <b>T-SNE</b> was used to visualize vector distance and <b>find out similarilty between each simulation log</b>.<br/>
-</p>
-
-<br/>
-
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">Python</div>
-    <div class="chip theory">Word2Vec</div>
-    <div class="chip tools">Spacy</div>
-    <div class="chip tools">T-SNE</div>
-    <div class="chip tools">Juypter Notebook</div>
-</div>
-
-<br/>
-
-<h4>Period</h4>
-2 months
-<br/>
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">24 Aug</div>
-                <h5 class="font-size-16">2020</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">31 Oct</div>
-                <h5 class="font-size-16">2020</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<br/>
+<
 <hr />
 <br/>
 
 <h2>Other Projects</h2>
 <p>You can go back or move to the other projects directly by pressing one of below items:</p>
+
 <ul>
   <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
   <li><a href="https://garygitgit.github.io/projects/11-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
-  <li><a href="https://garygitgit.github.io/projects/12-system-on-chip">SoC Verification</a></li>
+  <li><a href="https://garygitgit.github.io/projects/13-ml-data">Machine Learning/Data Analytics</a></li>
   <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
   <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
   <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>
@@ -202,6 +164,8 @@ body{
 }
 .hori-timeline .events {
     border-top: 3px solid #e9ecef;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    
 }
 .hori-timeline .events .event-list {
     display: block;

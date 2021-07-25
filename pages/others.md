@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Others
-<!-- permalink: /docs/ -->
+permalink: /others/
 weight: 4
 ---
 
@@ -108,7 +108,7 @@ weight: 4
 <br/>
 <h5><b>Internship in Irvine, CA, United States</b></h5>
 <figure class="image">
-    <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.18169-9/26168639_551205198579029_5078693854684681150_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=USOxfXjgOKIAX_HfVlK&_nc_ht=scontent-ssn1-1.xx&oh=0a9304f3a22338bae809a5132c76610d&oe=60E3779E" alt="drawing" style="width:500px;"/>
+    <img src="https://drive.google.com/uc?id=1sfL04W0xMY_mLm0hPpp-bSBbZv0zZPo_" alt="drawing" style="width:500px;"/>
 </figure>
 <ul>
   <li>Irvine, CA, United States (2018)</li>

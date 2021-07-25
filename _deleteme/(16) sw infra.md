@@ -18,60 +18,9 @@ The projects were related to software management, <b>CI/CD and configuration man
 </p>
 
 <br/>
-<h4>  Table of Contents  </h4>
-- <a href="#1">1. CI/CD Automation</a><br/>
-- <a href="#2">2. Python Virtual Environment</a><br/>
-- <a href="#3">3. DB & Server Monitoring</a><br/>
-<br/>
-<hr>
-<br/>
 
-<h3> <a name="1">1. CI/CD Automation</a></h3>
-<br/>
-<h4> Description </h4>
-<p>
-The goal of this project was <b>to manage and automate CI/CD with Github and Jenkins</b>. Github was used for configuration management based on <b>Gitflow</b>, and <b>Github webhook</b> was used to launch build and deploy. The series of pipelines were created with <b>Blue Ocean</b>.
-</p>
-<br/>
 
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">C shell</div>
-    <div class="chip devops">Jenkins</div>
-    <div class="chip devops">Blue Ocean</div>
-    <div class="chip devops">Github</div>
-</div>
 
-<br/>
-
-<h4>Period</h4>
-1+ years
-<div class="hori-timeline" dir="ltr">
-    <ul class="list-inline events">
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-primary">1 Jan</div>
-                <h5 class="font-size-16">2020</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-        <li class="list-inline-item event-list">
-            <div class="px-4">
-                <div class="event-date soft-success">Present</div>
-                <h5 class="font-size-16">2021</h5>
-                <p class="text-muted"></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<h4>Related Articles</h4>
-<ul>
-   <li></li>
-</ul>
-<br/>
-<hr/>
-<br/>
 
 <h3> <a name="2">2. Python Virtual Environment</a></h3>
 <br/>

@@ -1,18 +1,52 @@
 ---
-layout: page
-title: CV
-<!-- permalink: /docs/ -->
-weight: 4
+name: Machine Learning / Data Analytics
+image: https://cdn3.iconfinder.com/data/icons/research-element/1000/graph-512.png
+tools: [Samsung Electronics, 2019-Present]
+<!-- external_url: https://www.google.com -->
 ---
 
-<h2>CV</h2>
-<br/>
+<h2 style="text-align:center;">Machine Learning / Data Analytics</h2>
+
 <br/>
 
-<div style="text-align: center">
-    <iframe src="https://drive.google.com/file/d/1ddWjHmvfBqY0pcPMCBeEK_06rjamBJHr/preview" width="800" height="1500"></iframe>
-</div>
+<figure class="image">
+    <img src="https://www.smartdatacollective.com/wp-content/uploads/2018/11/top-7-data-analytics-tools-2019.jpg" alt="drawing" style="width:500px;"/>
+</figure>
+<br/>
+<p>
+    The projects were related to machine learning and data analytics to solve problems in <b>S.LSI division, Samsung Electronics</b>.
+</p>
 
+<br/>
+<h4>Table of Contents</h4>
+- <a href="#1">1. Reinforcement Learning for Resource Management</a><br/>
+- <a href="#2">2. Simulation Log Analytics for Testcase Similarity</a><br/>
+
+<br/>
+<hr>
+<br/>
+
+
+<hr />
+<br/>
+
+
+<br/>
+<hr />
+<br/>
+
+<h2>Other Projects</h2>
+<p>You can go back or move to the other projects directly by pressing one of below items:</p>
+<ul>
+  <li><a href="https://garygitgit.github.io/projects">Overview</a></li>
+  <li><a href="https://garygitgit.github.io/projects/11-human-activity-hci">Human Acitvity Recognition/HCI</a></li>
+  <li><a href="https://garygitgit.github.io/projects/12-system-on-chip">SoC Verification</a></li>
+  <li><a href="https://garygitgit.github.io/projects/14-mobile">Mobile</a></li>
+  <li><a href="https://garygitgit.github.io/projects/15-webpage">Web/Web Application</a></li>
+  <li><a href="https://garygitgit.github.io/projects/16-sw-infra">Software Infrastructure (DevOps)</a></li>
+</ul>
+
+<!-- my style -->
 <style>
 body{
   font-family: 'Roboto', sans-serif;
@@ -21,7 +55,7 @@ body{
     display: inline-block;
     padding: 0 15px;
     height: 30px;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 30px;
     border-radius: 25px;
@@ -57,8 +91,6 @@ body{
 }
 .hori-timeline .events {
     border-top: 3px solid #e9ecef;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-    
 }
 .hori-timeline .events .event-list {
     display: block;
