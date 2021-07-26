@@ -9,8 +9,7 @@ weight: 1
 <br/>
 
 <h5>2021</h5>
-- <a href="#2021_3">SoC / IP testcase classification based on simulation logs (in-progress)</a><br/>
-- <a href="#2021_2">Multiple SNS posting and crawling automation (in-progress)</a><br/>
+- <a href="#2021_2">SoC / IP testcase classification based on simulation logs (in-progress)</a><br/>
 - <a href="#2021_1">DevOps / MLOps (in-progress)</a><br/>
 <h5>2020</h5>
 - <a href="#2020_2">SoC / IP verification platform (in-progress)</a><br/>
@@ -32,7 +31,7 @@ weight: 1
 <h2>2021</h2>
 <br/>
 
-<h3><a name="2021_3">SoC / IP testcase classification based on simulation logs</a></h3>
+<h3><a name="2021_2">SoC / IP testcase classification based on simulation logs</a></h3>
 
 <br/>
 
@@ -62,33 +61,6 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2021_2">Multiple SNS posting and crawling automation</a></h3>
-<br/>
-<h4>Purpose</h4>
-<p>
-<ul>
-    <li>To automate multiple SNS posting processes</li>
-    <li>To collect posts and tags from Instagram</li>
-</ul>
-</p>
-<h4>Contribution</h4>
-<p>
-<ul>
-    <li>Develop a frontend and backend for a web page</li>
-    <li>Develop automated SNS post processing and crawling processing</li>
-</ul>
-</p>
-<h4>Skills</h4>
-<div>
-    <div class="chip lang">Python</div>
-    <div class="chip frontend">Vue.js</div>
-    <div class="chip backend">Django REST Framework</div>
-    <div class="chip tools">Selenium</div>
-</div>
-
-<br/>
-<br/>
-
 <h3><a name="2021_1">DevOps / MLOps</a></h3>
 <br/>
 <figure class="image">
@@ -98,18 +70,17 @@ weight: 1
 <h4>Purpose</h4>
 <p>
 <ul>
-    <li>To automate data analysis and machine learning workflow for a team</li>
-    <li>To automate version control and CI/CD workflow for development and deployment for a team</li>
-    <li>To manage and monitor resources for servers for a team</li>
+    <li>To automate MLOps pipeline for a team</li>
+    <li>To automate DevOps pipeline for a team</li>
 </ul>
 </p>
 <h4>Contribution</h4>
 <p>
 <ul>
     <li>Set up and manage Python development environment in offline servers</li>
-    <li>Set up and manage configuration for Nginx for a web server</li>
+    <li>Set up and manage Nginx configuration for a web server management</li>
     <li>Set up and manage Github and Jenkins for software development and deployment</li>
-    <li>Set up and manage Grafana and Prometheus monitoring servers</li>
+    <li>Set up and manage Grafana and Prometheus to monitor servers</li>
 </ul>
 </p>
 <h4>Skills</h4>
@@ -134,16 +105,14 @@ weight: 1
 
 <h3><a name="2020_2">SoC / IP verification platform</a></h3>
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1hemvJB5v70yKinpwS3j_UTbqj-zh89Dz" alt="drawing" style="width:800px;"/>
+    <img src="https://drive.google.com/uc?id=1BJaBKN78o4cAsZ6X43GAd3MtugaVJhuS" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of Backend System</i></figcaption>
 </figure>
 
 <h4> Purpose</h4>
 <p>
 <ul>
-    <li>To automate SoC (System on Chip) verification</li>
-    <li>To automate IP & block verification</li>
-    <li>To automate performance verification</li>
+    <li>To automate SoC (System on Chip), IP & block and performance verification</li>
 </ul>
 </p>
 <h4>Contribution</h4>
@@ -151,7 +120,6 @@ weight: 1
 <ul>
     <li>Develop a REST API server</li>
     <li>Develop a CLI (Command Line Interface)</li>
-    <li>Develop queries for both Oracle and MongoDB</li>
 </ul>
 </p>
 <h4>Related Article</h4>
@@ -190,7 +158,7 @@ weight: 1
 <h4>Contribution</h4>
 <p>
 <ul>
-    <li>Develop a frontend and backend to store and retrieve sleep and respiration data</li>
+    <li>Develop a frontend and backend of a web page to store and monitor sleep and respiration data</li>
     <li>Run stress tests for servers</li>
 </ul>
 </p>
@@ -219,7 +187,7 @@ weight: 1
 
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
-    <figcaption class="image-caption"><i>Reward in each episode on training (left), comparision between trained model and no policy (right)</i></figcaption>
+    <figcaption class="image-caption"><i>Rewards in each episode on training (left), comparision between a trained model and no policy model (right)</i></figcaption>
 </figure>
 
 <h4>Purpose</h4>
@@ -231,9 +199,9 @@ weight: 1
 <h4>Contribution</h4>
 <p>
 <ul>
-    <li>Research application of reinforcement learning to find an optimal soltuion</li>
-    <li>Develop a hueristic algorithm based on data analysis</li>
     <li>Collect and analyze data for resource management</li>
+    <li>Develop a hueristic algorithm based on data analysis</li>
+    <li>Research and use Reinforcement Learning on resource management</li>
 </ul>
 </p>
 <h4>Related Article</h4>
@@ -310,7 +278,7 @@ weight: 1
 <p>
 <ul>
     <li>Develop an algorithm to detect and classify swing gestures</li>
-    <li>Design an overall architecture of automatic table tennis system</li>
+    <li>Design an overall architecture of an automatic table tennis system</li>
 </ul>
 </p>
 <h4>Related Article</h4>
@@ -348,7 +316,7 @@ weight: 1
 <p>
 <ul>
     <li>Develop a backend server</li>
-    <li>Design an overall architecture of system</li>
+    <li>Design an overall architecture of a system</li>
 </ul>
 </p>
 <h4>Related Article</h4>
@@ -388,7 +356,7 @@ weight: 1
 <h4>Contribution</h4>
 <p>
 <ul>
-    <li>Design an overall architecture of system</li>
+    <li>Design an overall architecture of a system</li>
     <li>Develop a business logic for requests and responses between NLP engine and 3D interface</li>
 </ul>
 </p>
@@ -424,7 +392,7 @@ weight: 1
 <h4>Contribution</h4>
 <p>
 <ul>
-    <li>Develop an Android application and deploy the system with Heroku</li>
+    <li>Develop an Android application</li>
 </ul>
  </p>
 <h4>Related Article</h4>
@@ -460,7 +428,7 @@ weight: 1
 <h4>Contribution</h4>
 <ul>
     <li>Develop a proximity algorithm to detect proximity of owners</li>
-    <li>Develop an Android application to control a smart bicycle lock and monitor riding history</li>
+    <li>Develop an Android application to control a smart bicycle lock and monitor a riding history</li>
 </ul>
 </p>
 <h4>Related Articles</h4>

@@ -13,7 +13,7 @@ permalink: /
 <p>
 Hi I'm <b>Sangwoo (Gary) Noh</b>
 .<br><br>
-I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation system and infrastructure</b> for Exynos design and verification in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I also worked in startup companies. I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, multimodal machine learning, reinforcement learning and distributed system</b>.
+I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation system and infrastructure</b> for Exynos design and verification in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, multimodal machine learning, reinforcement learning and distributed systems</b>.
 </p>
 
 <br>
@@ -70,7 +70,7 @@ I'm currently working as a software engineer in <b>Samsung Electronics</b>, Sout
 <br/>
 
 <h5><b>Samsung Electronics</b></h5>
-<h6 style="display:inline-block">Software Enigneer</h6>
+<h6 style="display:inline-block">Software Engineer</h6>
 <ul>
     <li>2018.08 - Present</li>
     <li>S.LSI Division (Hwasung, South Korea)</li>
