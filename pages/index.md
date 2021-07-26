@@ -16,53 +16,6 @@ Hi I'm <b>Sangwoo (Gary) Noh</b>
 I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation system and infrastructure</b> for Exynos design and verification in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, multimodal machine learning, reinforcement learning and distributed systems</b>.
 </p>
 
-<br>
-<h1>Skills</h1>
-<br>
-
-<h5>Programming Languages</h5>
-<div class="chip lang">Python</div>
-<div class="chip lang">Perl</div>
-<div class="chip lang">Java</div>
-<br>
-
-<h5>Database</h5>
-<div class="chip db">Oracle PL/SQL</div>
-<div class="chip db">MongoDB</div>
-<br>
-
-<h5>Data Analytics & Machine Learning</h5>
-<div class="chip tools">Pandas</div>
-<div class="chip tools">Numpy</div>
-<div class="chip tools">Keras</div>
-<div class="chip tools">T-SNE</div>
-<div class="chip tools">Spacy</div>
-<div class="chip theory">Word2Vec</div>
-<div class="chip theory">Reinforcement Learning</div>
-<div class="chip theory">DDQN</div>
-
-<br>
-
-<h5>GUI Programming</h5>
-<div class="chip frontend">Android (Mobile)</div>
-<div class="chip frontend">Vue (Web)</div>
-<div class="chip frontend">Electron (Desktop)</div>
-<br>
-
-<h5>Server Programming</h5>
-<div class="chip backend">Django</div>
-<div class="chip backend">Gunicorn</div>
-<div class="chip backend">Nginx</div>
-<br>
-
-<h5>DevOps</h5>
-<div class="chip devops">Git</div>
-<div class="chip devops">Github</div>
-<div class="chip devops">Jenkins</div>
-<div class="chip devops">Blue Ocean</div>
-<div class="chip devops">Grafana</div>
-<div class="chip devops">Prometheus</div>
-<br>
 
 <br>
 
@@ -116,6 +69,53 @@ I'm currently working as a software engineer in <b>Samsung Electronics</b>, Sout
     <li>4-years scholarship</li>
 </ul>
 <br/>
+
+<h1>Skills</h1>
+<br>
+
+<h5>Programming Languages</h5>
+<div class="chip lang">Python</div>
+<div class="chip lang">Perl</div>
+<div class="chip lang">Java</div>
+<br>
+
+<h5>Database</h5>
+<div class="chip db">Oracle PL/SQL</div>
+<div class="chip db">MongoDB</div>
+<br>
+
+<h5>Data Analytics & Machine Learning</h5>
+<div class="chip tools">Pandas</div>
+<div class="chip tools">Numpy</div>
+<div class="chip tools">Keras</div>
+<div class="chip tools">T-SNE</div>
+<div class="chip tools">Spacy</div>
+<div class="chip theory">Word2Vec</div>
+<div class="chip theory">Reinforcement Learning</div>
+<div class="chip theory">DDQN</div>
+
+<br>
+
+<h5>GUI Programming</h5>
+<div class="chip frontend">Android (Mobile)</div>
+<div class="chip frontend">Vue (Web)</div>
+<div class="chip frontend">Electron (Desktop)</div>
+<br>
+
+<h5>Server Programming</h5>
+<div class="chip backend">Django</div>
+<div class="chip backend">Gunicorn</div>
+<div class="chip backend">Nginx</div>
+<br>
+
+<h5>DevOps</h5>
+<div class="chip devops">Git</div>
+<div class="chip devops">Github</div>
+<div class="chip devops">Jenkins</div>
+<div class="chip devops">Blue Ocean</div>
+<div class="chip devops">Grafana</div>
+<div class="chip devops">Prometheus</div>
+<br>
 
 <style>
 body{
