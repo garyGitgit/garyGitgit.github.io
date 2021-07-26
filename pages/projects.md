@@ -312,38 +312,6 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2017_2">Mobile application for coding education (2017)</a></h3>
-<div class="video-container">
-<iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y31pTa5jY4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<h5>Purpose</h5>
-<p>
-<ul>
-    <li>To provide coding education through Android mobile application</li>
-</ul>
-</p>
-<h5>Contribution</h5>
-<p>
-<ul>
-    <li>Develop an Android application</li>
-</ul>
- </p>
-<h5>Related Article</h5>
-<ul>
-   <li><a href="https://youtu.be/ewOimXMYnrs">[Video] Demo</a></li>
-</ul>
-<h5>Skills</h5>
-<div>
-    <div class="chip lang">Java</div>
-    <div class="chip db">MongoDB</div>
-    <div class="chip devops">Heroku</div>
-    <div class="chip tools">Parse</div>
-    <div class="chip tools">Android</div>
-</div>
-<br/>
-
-<br/>
-<br/>
-
 <h3> <a name="2017_1">Smart bicycle lock, BISECU (2016-2017)</a></h3>
 <div class="video-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h5>Purpose</h5>
