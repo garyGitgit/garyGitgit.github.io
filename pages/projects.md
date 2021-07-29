@@ -9,16 +9,16 @@ weight: 1
 <br/>
 
 <h5>Current Projects</h5>
-- <a href="#2021_2">SoC / IP testcase classification based on simulation logs</a><br/>
-- <a href="#2021_1">DevOps / MLOps</a><br/>
-- <a href="#2020_2">SoC / IP verification platform</a><br/>
+- SoC / IP testcase classification with component analysis based on simulation logs<br/>
+- DevOps / MLOps<br/>
+- SoC / IP verification platform<br/>
 <h5>Past Projects</h5>
-- <a href="#2020_1">Sleep respiration monitoring system (2020)</a><br/>
-- <a href="#2019_2">Resource management in SoC emulator clusters with reinforcement learning (2019)</a><br/>
-- <a href="#2018_1">Automatic table tennis system with wearable devices and smartphones (2017-2018)</a><br/>
-- <a href="#2017_4">Web page for Cloudike REST API (2017)</a><br/>
-- <a href="#2017_3">3D virtual companion for the elderly on smartphones (2017)</a><br/>
-- <a href="#2017_1">Smart bicycle lock, BISECU (2016-2017)</a><br/>
+- Sleep respiration monitoring system (2020)<br/>
+- Resource management in SoC emulator clusters with reinforcement learning (2019)<br/>
+- Automatic table tennis system with wearable devices and smartphones (2017-2018)<br/>
+- Web page for Cloudike REST API (2017)<br/>
+- 3D virtual companion for the elderly on smartphones (2017)<br/>
+- Smart bicycle lock, BISECU (2016-2017)<br/>
 <br/>
 
 <br/>
@@ -26,7 +26,7 @@ weight: 1
 <hr>
 <br/>
 
-<h3><a name="2021_2">SoC / IP testcase classification based on simulation logs</a></h3>
+<h3>SoC / IP testcase classification with component analysis based on simulation logs</h3>
 <h5>Purpose</h5>
 <p>
 <ul>
@@ -48,7 +48,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2021_1">DevOps / MLOps</a></h3>
+<h3>DevOps / MLOps</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1ggA6qYGJl1N7QP-K_jvkiL0J4t2BbXMa" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of DevOps</i></figcaption>
@@ -85,7 +85,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2020_2">SoC / IP verification platform</a></h3>
+<h3>SoC / IP verification platform</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1BJaBKN78o4cAsZ6X43GAd3MtugaVJhuS" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of Backend System</i></figcaption>
@@ -128,7 +128,7 @@ weight: 1
 <hr>
 <br/>
 
-<h3><a name="2020_1">Sleep respiration monitoring system (2020)</a></h3>
+<h3>Sleep respiration monitoring system (2020)</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1uY5LdUZZ4ulvZQKKJgoSjHfuUG5qWIMO" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of tele-monitoring system for sleep and respiration (left), real time graph (right)</i></figcaption>
@@ -162,7 +162,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2019_2">Resource management in SoC emulator clusters with reinforcement learning (2019)</a></h3>
+<h3>Resource management in SoC emulator clusters with reinforcement learning (2019)</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Rewards in each episode on training (left), comparision between a trained model and no policy model (right)</i></figcaption>
@@ -203,7 +203,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2018_1">Automatic table tennis system with wearable devices and smartphones (2017-2018)</a></h3>
+<h3>Automatic table tennis system with wearable devices and smartphones (2017-2018)</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Swing detection algorithm (top) and implementation of the architecture (bottom)</i></figcaption>
@@ -240,7 +240,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2017_4">Web page for Cloudike REST API (2017)</a></h3>
+<h3>Web page for Cloudike REST API (2017)</h3>
 
 <br/>
 <div class="video-container">
@@ -276,7 +276,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3><a name="2017_3">3D virtual companion for the elderly on smartphones (2017)</a></h3>
+<h3>3D virtual companion for the elderly on smartphones (2017)</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1fTrkUyzRfRYR02-Xd5BU-7wnu9P9QWCj"/>
     <figcaption class="image-caption"><i>3D virtual companion acts depending on weather conditions</i></figcaption>
@@ -312,7 +312,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3> <a name="2017_1">Smart bicycle lock, BISECU (2016-2017)</a></h3>
+<h3>Smart bicycle lock, BISECU (2016-2017)</h3>
 <div class="video-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h5>Purpose</h5>
 <p>

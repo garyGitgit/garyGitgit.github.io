@@ -81,7 +81,7 @@ weight: 4
     <figcaption class="image-caption"><i>Damyang, South Korea (2017)</i></figcaption>
 </figure>
 <br/>
-<h5 class="center"><b>Winter intership in Peoplespace</b></h5>
+<h5 class="center"><b>Winter internship in Peoplespace</b></h5>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1sfL04W0xMY_mLm0hPpp-bSBbZv0zZPo_" alt="drawing" style="width:500px;"/>
     <figcaption class="image-caption"><i>Irvine, CA, United States (2018)</i></figcaption>
