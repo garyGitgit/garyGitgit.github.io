@@ -11,9 +11,9 @@ permalink: /
 <br>
 
 <p>
-Hi I'm <b>Sangwoo (Gary) Noh</b>
-.<br><br>
-I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation system and infrastructure</b> for Exynos design and verification in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, multimodal machine learning, reinforcement learning and distributed systems</b>.
+Hi I'm <b>Sangwoo (Gary) Noh.</b>
+<br><br>
+I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>automation platform and infrastructure</b> for Exynos design and verification in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, multimodal machine learning, reinforcement learning and distributed systems</b>.<br/><br/>Please see <a href="https://garygitgit.github.io/projects">projects</a>, <a href="https://garygitgit.github.io/cv">CV</a> and <a href="https://garygitgit.github.io/publications">publications</a> for details.
 </p>
 
 
@@ -67,6 +67,13 @@ I'm currently working as a software engineer in <b>Samsung Electronics</b>, Sout
     <li>Department of Software (Seongnam, South Korea)</li>
     <li>GPA (Major): 4.04 / 4.5</li>
     <li>4-years scholarship</li>
+</ul>
+<br/>
+
+<h1>Honors & Awards</h1>
+<ul>
+    <li>Best Paper Awards (2019) <i>S.LSI Division, Samsung Electronics</i></li>
+    <li>4-years scholarship (2012-2018) <i>Gachon Univ.</i></li>
 </ul>
 <br/>
 

@@ -5,25 +5,15 @@ permalink: /others/
 weight: 4
 ---
 
-<h2>Others</h2>
-- <a href="#1">1. Honors & Awards</a><br/>
-- <a href="#2">2. Presentations</a><br/>
-- <a href="#3">3. Volunteer</a><br/>
-- <a href="#4">4. Fun Activities</a><br/>
-
-<br/>
-<hr/>
-<br/>
-<h3><a name="1">1. Honors & Awards</a></h3>
-<ul>
-    <li>Best Paper Awards (2019) <i>S.LSI Division, Samsung Electronics</i></li>
-    <li>4-years scholarship (2012-2018) <i>Gachon Univ.</i></li>
-</ul>
-<br/>
-<hr/>
+<h1>Others</h1>
+- Presentations<br/>
+- Volunteers<br/>
+- Fun Activities<br/>
 <br/>
 
-<h3><a name="2">2. Presentations</a></h3>
+<h2 class="center">Presentations</h2>
+<hr/>
+<br/>
 <h5 class="center"><b>DVCon 2019</b></h5>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1YrbTIG6A31wGPM20SsEIa37xiAI4_mXK" alt="drawing" style="width:500px;"/>
@@ -44,10 +34,9 @@ weight: 4
 </figure>
 
 <br/>
-<hr>
-<br/>
-<h3><a name="3">3. Volunteer</a></h3>
 
+<h2 class="center">Volunteers</h2>
+<hr/>
 <br/>
 <h5 class="center"><b>English tutor, Samsung Dream Class</b></h5>
 <figure class="image">
@@ -59,15 +48,13 @@ weight: 4
 
 <div class="video-container">
     <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kN9KQjSqZms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<br/>
 <ul>
   <li> Related Articles: <a href="https://twitter.com/seongnamcity/status/766192717269381120">Seongnam City Hall Official Twitter</a></li>
 </ul>
 
 <br/>
-<hr>
-<br/>
-<h3><a name="4">4. Fun Activities</a></h3>
+<h2 class="center">Fun Activities</h2>
+<hr/>
 <br/>
 <h5 class="center"><b>OpenStack Korea</b></h5>
 <figure class="image">
@@ -75,16 +62,16 @@ weight: 4
     <figcaption class="image-caption"><i>Seoul, South Korea (2017 - 2019)</i></figcaption>
 </figure>
 <br/>
-<h5 class="center"><b>Torch relay, Pyeongchang Winter Olympic</b></h5>
-<figure class="image">
-    <img src="https://drive.google.com/uc?id=1qjEGlN_F2lsZT4ledOKmkU-RS0UJxbVF" alt="drawing" style="width:500px;"/>
-    <figcaption class="image-caption"><i>Damyang, South Korea (2017)</i></figcaption>
-</figure>
-<br/>
 <h5 class="center"><b>Winter internship in Peoplespace</b></h5>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1sfL04W0xMY_mLm0hPpp-bSBbZv0zZPo_" alt="drawing" style="width:500px;"/>
     <figcaption class="image-caption"><i>Irvine, CA, United States (2018)</i></figcaption>
+</figure>
+<br/>
+<h5 class="center"><b>Torch relay, Pyeongchang Winter Olympic</b></h5>
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1qjEGlN_F2lsZT4ledOKmkU-RS0UJxbVF" alt="drawing" style="width:500px;"/>
+    <figcaption class="image-caption"><i>Damyang, South Korea (2017)</i></figcaption>
 </figure>
 <br/>
 
