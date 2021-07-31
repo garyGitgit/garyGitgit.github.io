@@ -9,6 +9,10 @@ weight: 3
 <br/>
 <br/>
 
+<p>
+    <a href="https://drive.google.com/uc?export=download&id=1ddWjHmvfBqY0pcPMCBeEK_06rjamBJHr">Download PDF</a>
+</p>
+
 <div style="text-align: center">
     <iframe src="https://drive.google.com/file/d/1ddWjHmvfBqY0pcPMCBeEK_06rjamBJHr/preview" width="800" height="1500"></iframe>
 </div>

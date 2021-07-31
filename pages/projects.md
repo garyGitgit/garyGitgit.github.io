@@ -14,7 +14,7 @@ weight: 1
 - SoC / IP verification automation platform<br/>
 <h5>Past Projects</h5>
 - Multi-user monitoring system for sleep data and respiration data<br/>
-- Optimal SoC emulation resource management with Reinforcement Learning<br/>
+- Optimal SoC emulation resource management with reinforcement learning<br/>
 - Automatic table tennis system with wearable devices and smartphones<br/>
 - 3D virtual companion for the elderly on smartphones<br/>
 - Smart bicycle lock, BISECU<br/>
@@ -186,7 +186,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3>Optimal SoC emulation resource management with Reinforcement Learning</h3>
+<h3>Optimal SoC emulation resource management with reinforcement learning</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Rewards in each episode on training (left), comparision between a trained model and no policy model (right)</i></figcaption>
@@ -203,7 +203,7 @@ weight: 1
 <ul>
     <li>Collect and analyze data for resource management</li>
     <li>Develop a hueristic algorithm based on data analysis</li>
-    <li>Research and use Reinforcement Learning on resource management</li>
+    <li>Research and use reinforcement learning on resource management</li>
 </ul>
 </p>
 <h5>Related Article</h5>
@@ -220,8 +220,8 @@ weight: 1
 <div>
     <div class="chip lang">Python</div>
     <div class="chip db">Oracle PL/SQL</div>
-    <div class="chip theory">Reinforcement Learning</div>
-    <div class="chip theory">DDQN</div>
+    <div class="chip theory">Reinforcement learning</div>
+    <div class="chip theory">Double Deep Q Network</div>
     <div class="chip tools">Keras</div>
     <div class="chip tools">PyQT</div>
     <div class="chip tools">Pandas</div>
