@@ -116,9 +116,9 @@ weight: 1
     <li>Developing a CLI (Command Line Interface)</li>
 </ul>
 </p>
-<h5>Related Article</h5>
+<h5>Related Materials</h5>
 <ul>
-   <li><a href="http://events.dvcon.org/2020/proceedings/papers/03_3.pdf">DVCon Paper (2020)</a></li>
+   <li><a href="http://events.dvcon.org/2020/proceedings/papers/03_3.pdf">[Paper] DVCon Paper (2020)</a></li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -164,7 +164,7 @@ weight: 1
     <li>Ran stress tests for servers</li>
 </ul>
 </p>
-<h5>Related Article</h5>
+<h5>Related Materials</h5>
 <ul>
    <li><a href="https://ieeexplore.ieee.org/document/9075220?denied=">[Paper] IEEE Open Access (2020)</a></li>
 </ul>
@@ -206,9 +206,9 @@ weight: 1
     <li>Researched reinforcement learning on resource management</li>
 </ul>
 </p>
-<h5>Related Article</h5>
+<h5>Related Materials</h5>
 <ul>
-   <li><a href="http://events.dvcon.org/Europe/2019/proceedings/papers/10_2.pdf">DVCon Paper (2019)</a></li>
+   <li><a href="http://events.dvcon.org/Europe/2019/proceedings/papers/10_2.pdf">[Paper] DVCon Paper (2019)</a></li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -251,7 +251,7 @@ weight: 1
     <li>Designed an overall architecture of an automatic table tennis system</li>
 </ul>
 </p>
-<h5>Related Article</h5>
+<h5>Related Materials</h5>
 <ul>
    <li><a href="http://jiita.org/v3n103/">[Paper] JIITA (2019)</a></li>
    <li><a href="http://www.iadisportal.org/digital-library/automatic-table-tennis-scoring-system-based-on-smart-wearable-devices">[Paper] IADIS (2018)</a></li>
@@ -295,7 +295,7 @@ weight: 1
     <li>Developed a business logic for requests and responses between NLP engine and 3D interface</li>
 </ul>
 </p>
-<h5>Related Article</h5>
+<h5>Related Materials</h5>
 <ul>
    <li><a href="https://ieeexplore.ieee.org/document/7988642">[Paper] ISUVR (2017)</a></li>
 </ul>
@@ -336,7 +336,7 @@ weight: 1
     <li>Developed an Android application to control a smart bicycle lock and monitor a riding history</li>
 </ul>
 </p>
-<h5>Related Articles</h5>
+<h5>Related Materialss</h5>
 <ul>
    <li><a href="">[Video] NBC News (2017 MWC)</a></li>
    <li><a href="">[Video] AP News (2017 MWC)</a></li>
