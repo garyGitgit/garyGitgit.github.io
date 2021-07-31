@@ -38,8 +38,8 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Classify and analyze testcases based on simulation logs</li>
-    <li>Set up and manage MongoDB and Spark for distributed processing and databases</li>
+    <li>Classifying and analyze testcases based on simulation logs</li>
+    <li>Setting up and manage MongoDB and Spark for distributed processing and databases</li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -68,11 +68,11 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>CI/CD for ML model and deploy a pretrained ML model through REST API (MLOps)</li>
-    <li>Set up and manage Nginx configuration for a web server management (DevOps)</li>
-    <li>Set up and manage Github and Jenkins for software development and deployment (DevOps)</li>
-    <li>Set up and manage Grafana and Prometheus to monitor servers (DevOps)</li>
-    <li>Set up and manage Python virtual environment (Anaconda) in offline servers (DevOps)</li>
+    <li>Developing CI/CD for machine learning model and deploy a pretrained model through REST API (MLOps)</li>
+    <li>Setting up and manage Nginx configuration for a web server management (DevOps)</li>
+    <li>Setting up and manage Github and Jenkins for software development and deployment (DevOps)</li>
+    <li>Setting up and manage Grafana and Prometheus to monitor servers (DevOps)</li>
+    <li>Setting up and manage Python virtual environment (Anaconda) in offline servers (DevOps)</li>
 </ul>
 </p>
 <h5>Period</h5>
@@ -112,8 +112,8 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Develop a REST API server and manage Nginx</li>
-    <li>Develop a CLI (Command Line Interface)</li>
+    <li>Developing a REST API server and manage Nginx</li>
+    <li>Developing a CLI (Command Line Interface)</li>
 </ul>
 </p>
 <h5>Related Article</h5>
@@ -160,8 +160,8 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Develop a frontend and backend of a web page to store and monitor sleep and respiration data</li>
-    <li>Run stress tests for servers</li>
+    <li>Developed a frontend and backend of a web page to store and monitor sleep and respiration data</li>
+    <li>Ran stress tests for servers</li>
 </ul>
 </p>
 <h5>Related Article</h5>
@@ -201,9 +201,9 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Collect and analyze data for resource management</li>
-    <li>Develop a hueristic algorithm based on data analysis</li>
-    <li>Research and use reinforcement learning on resource management</li>
+    <li>Collected and analyze data for resource management</li>
+    <li>Developed a hueristic algorithm based on data analysis</li>
+    <li>Researched reinforcement learning on resource management</li>
 </ul>
 </p>
 <h5>Related Article</h5>
@@ -247,8 +247,8 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Develop an algorithm to detect and classify swing gestures</li>
-    <li>Design an overall architecture of an automatic table tennis system</li>
+    <li>Developed an algorithm to detect and classify swing gestures</li>
+    <li>Designed an overall architecture of an automatic table tennis system</li>
 </ul>
 </p>
 <h5>Related Article</h5>
@@ -291,8 +291,8 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Design an overall architecture of a system</li>
-    <li>Develop a business logic for requests and responses between NLP engine and 3D interface</li>
+    <li>Designed an overall architecture of a system</li>
+    <li>Developed a business logic for requests and responses between NLP engine and 3D interface</li>
 </ul>
 </p>
 <h5>Related Article</h5>
@@ -332,8 +332,8 @@ weight: 1
 <p>
 <h5>Contribution</h5>
 <ul>
-    <li>Develop a proximity algorithm to detect proximity of owners</li>
-    <li>Develop an Android application to control a smart bicycle lock and monitor a riding history</li>
+    <li>Developed a proximity algorithm to detect proximity of owners</li>
+    <li>Developed an Android application to control a smart bicycle lock and monitor a riding history</li>
 </ul>
 </p>
 <h5>Related Articles</h5>
