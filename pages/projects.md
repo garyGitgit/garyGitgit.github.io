@@ -68,10 +68,10 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Developing CI/CD for machine learning model and deploy a pretrained model through REST API (MLOps)</li>
-    <li>Setting up and manage Nginx configuration for a web server management (DevOps)</li>
-    <li>Setting up and manage Github and Jenkins for software development and deployment (DevOps)</li>
-    <li>Setting up and manage Grafana and Prometheus to monitor servers (DevOps)</li>
+    <li>Deploying a machine learning model through REST API(MLOps)</li>
+    <li>Developing CI/CD for a machine learning model development and deployment (MLOps)</li>
+    <li>Developing CI/CD for software development and deployment (MLOps)</li>
+    <li>Setting up and manage Grafana and Prometheus to monitor web servers and databases (DevOps)</li>
     <li>Setting up and manage Python virtual environment (Anaconda) in offline servers (DevOps)</li>
 </ul>
 </p>
