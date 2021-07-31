@@ -14,7 +14,7 @@ weight: 1
 - SoC / IP verification automation platform<br/>
 <h5>Past Projects</h5>
 - Multi-user monitoring system for sleep data and respiration data<br/>
-- Resource management in SoC emulator clusters with Reinforcement Learning<br/>
+- Optimal SoC emulation resource management with Reinforcement Learning<br/>
 - Automatic table tennis system with wearable devices and smartphones<br/>
 - 3D virtual companion for the elderly on smartphones<br/>
 - Smart bicycle lock, BISECU<br/>
@@ -186,7 +186,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3>Resource management in SoC emulator clusters with Reinforcement Learning</h3>
+<h3>Optimal SoC emulation resource management with Reinforcement Learning</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Rewards in each episode on training (left), comparision between a trained model and no policy model (right)</i></figcaption>
