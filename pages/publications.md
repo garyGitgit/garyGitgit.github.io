@@ -9,7 +9,7 @@ weight: 2
 <br/>
 <h3>Research Areas</h3>
 <p>
-Mobile wearable, Mobile healthcare, Human Computer Interaction, Resource management, Reinforcement Learning
+Mobile wearable, mobile healthcare, Human Computer Interaction, resource management, reinforcement learning
 </p>
 <br/>
 <br/>
