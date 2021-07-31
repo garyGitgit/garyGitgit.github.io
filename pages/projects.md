@@ -68,7 +68,7 @@ weight: 1
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Deploying a machine learning model through REST API(MLOps)</li>
+    <li>Deploying a machine learning model through REST API (MLOps)</li>
     <li>Developing CI/CD for a machine learning model development and deployment (MLOps)</li>
     <li>Developing CI/CD for software development and deployment (MLOps)</li>
     <li>Setting up and manage Grafana and Prometheus to monitor web servers and databases (DevOps)</li>
