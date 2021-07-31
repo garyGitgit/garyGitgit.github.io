@@ -292,7 +292,7 @@ weight: 1
 <p>
 <ul>
     <li>Designed an overall architecture of a system</li>
-    <li>Developed a business logic for requests and responses between NLP engine and 3D interface</li>
+    <li>Developed a business logic for controlling Speech-To-Text and Text-To-Speech data on Android smartphone and interacting between 3D rendering interface and NLP engine</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
