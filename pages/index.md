@@ -72,7 +72,7 @@ I'm currently working as a software engineer in <b>Samsung Electronics</b>, Sout
 
 <h1>Honors & Awards</h1>
 <ul>
-    <li>Best Paper Awards (2019) <i>S.LSI Division, Samsung Electronics</i></li>
+    <li>Best Paper Award (2019) <i>S.LSI Division, Samsung Electronics</i></li>
     <li>4-years scholarship (2012-2018) <i>Gachon Univ.</i></li>
 </ul>
 <br/>
