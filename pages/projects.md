@@ -9,7 +9,7 @@ weight: 1
 <br/>
 
 <h5>Current Projects</h5>
-- SoC / IP testcase classification with component analysis based on simulation logs<br/>
+- SoC testcase classification with component analysis based on simulation logs<br/>
 - DevOps / MLOps<br/>
 - SoC / IP verification automation platform<br/>
 <h5>Past Projects</h5>
@@ -26,7 +26,7 @@ weight: 1
 <br/>
 
 
-<h3>SoC / IP testcase classification with component analysis based on simulation logs</h3>
+<h3>SoC testcase classification with component analysis based on simulation logs</h3>
 <br/>
 <h5 class="text-center">TBD</h5>
 <br/>
