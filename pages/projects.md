@@ -28,7 +28,7 @@ weight: 1
 
 <h3>SoC testcase classification with component analysis based on simulation logs</h3>
 <br/>
-<h5 class="text-center">TBD</h5>
+<h5 class="text-center">To Be Updated</h5>
 <br/>
 <h5>Purpose</h5>
 <p>
