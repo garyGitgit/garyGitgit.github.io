@@ -332,11 +332,11 @@ weight: 1
 <p>
 <h5>Contribution</h5>
 <ul>
-    <li>Developed a proximity algorithm to detect proximity of owners</li>
+    <li>Developed a human proximity dectection algorithm to recognize presence of owners</li>
     <li>Developed an Android application to control a smart bicycle lock and monitor a riding history</li>
 </ul>
 </p>
-<h5>Related Materialss</h5>
+<h5>Related Materials</h5>
 <ul>
    <li><a href="">[Video] NBC News (2017 MWC)</a></li>
    <li><a href="">[Video] AP News (2017 MWC)</a></li>
