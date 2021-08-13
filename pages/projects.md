@@ -9,7 +9,8 @@ weight: 1
 <br/>
 
 <h5>Current Projects</h5>
-- SoC testcase classification with component analysis based on simulation logs<br/>
+- Find a needle in a haystack: a novel log analysis
+method with test clustering in distributed system <br/>
 - DevOps / MLOps<br/>
 - SoC / IP verification automation platform<br/>
 <h5>Past Projects</h5>
@@ -26,20 +27,21 @@ weight: 1
 <br/>
 
 
-<h3>SoC testcase classification with component analysis based on simulation logs</h3>
-<br/>
-<h5 class="text-center">To Be Updated</h5>
-<br/>
+<h3>Find a needle in a haystack: a novel log analysis method with test clustering in distributed system</h3>
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1y6322rk_9hadVYMHDMrBPYAiTuh_5pHs" alt="drawing" style="width:800px;"/>
+    <figcaption class="image-caption"><i>Clustering results of navie method and component-based method</i></figcaption>
+</figure>
 <h5>Purpose</h5>
 <p>
 <ul>
-    <li>To classify SoC / IP verification testcases by analyzing componennts from simulation logs</li>
+    <li>To classify SoC / IP verification testcases by analyzing components from simulation logs</li>
 </ul>
 <h5>Contribution</h5>
 <p>
 <ul>
+    <li>Developing automated machine learning pipelines in distributed systems</li>
     <li>Classifying and analyze testcases based on simulation logs</li>
-    <li>Setting up and manage MongoDB and Spark for distributed processing and databases</li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -49,7 +51,11 @@ weight: 1
 </p>
 <h5>Skills</h5>
 <div>
-    <div class="chip lang">TBD</div>
+    <div class="chip lang">Python</div>
+    <div class="chip db">MongoDB</div>
+    <div class="chip tool">Spark</div>
+    <div class="chip devops">Jenkins</div>
+
 </div>
 
 <br/>
