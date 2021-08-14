@@ -13,7 +13,7 @@ permalink: /
 <p>
 Hi I'm <b>Sangwoo (Gary) Noh.</b>
 <br><br>
-I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>SoC verification automation platform and infrastructure</b> for <a href="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> in Samsung Electronics. I researched <b>human activity recognition</b> as a research assistant in HCI/mobile healthcare lab under Prof. Ahyoung Choi, Gachon Univ. I have a wide range of <b>software engineering experiences</b>, including web, mobile, DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, ubiquitous computing, multimodal machine learning, reinforcement learning and distributed systems</b>.<br/><br/>Please see <a href="https://garygitgit.github.io/projects">projects</a>, <a href="https://garygitgit.github.io/cv">CV</a> and <a href="https://garygitgit.github.io/publications">publications</a> for details.
+I'm currently working as a software engineer in <b>Samsung Electronics</b>, South Korea. I've developed <b>verification automation platform </b> for <a href="https://www.samsung.com/semiconductor/minisite/exynos/" target="_blank">Exynos</a> in Samsung Electronics. I also researched <b>human activity recognition</b> as a research assistant in <a href="https://sites.google.com/view/hcilab/research-projects?authuser=0" target="_blank">HCI/mobile healthcare lab</a> under Prof. Ahyoung Choi, Gachon Univ. I have a wide range of software engineering experiences, including web, mobile, MLOps / DevOps and machine learning. My main interests are <b>human centered computing, mobile healthcare, ubiquitous computing, multimodal machine learning, reinforcement learning and distributed systems</b>.<br/><br/>Please see <a href="https://garygitgit.github.io/projects">projects</a>, <a href="https://garygitgit.github.io/cv">CV</a> and <a href="https://garygitgit.github.io/publications">publications</a> for details.
 </p>
 
 
@@ -98,8 +98,8 @@ I'm currently working as a software engineer in <b>Samsung Electronics</b>, Sout
 <div class="chip tools">T-SNE</div>
 <div class="chip tools">Spacy</div>
 <div class="chip theory">Word2Vec</div>
-<div class="chip theory">Reinforcement learning</div>
-<div class="chip theory">DDQN</div>
+<div class="chip theory">Reinforcement Learning</div>
+<div class="chip theory">Double Deep Q Network</div>
 
 <br>
 
@@ -115,7 +115,7 @@ I'm currently working as a software engineer in <b>Samsung Electronics</b>, Sout
 <div class="chip backend">Nginx</div>
 <br>
 
-<h5>DevOps</h5>
+<h5>MLOps / DevOps</h5>
 <div class="chip devops">Git</div>
 <div class="chip devops">Github</div>
 <div class="chip devops">Jenkins</div>

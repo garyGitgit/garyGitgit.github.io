@@ -9,16 +9,15 @@ weight: 1
 <br/>
 
 <h5>Current Projects</h5>
-- Find a needle in a haystack: a novel log analysis
-method with test clustering in distributed system <br/>
-- DevOps / MLOps<br/>
-- SoC / IP verification automation platform<br/>
+- Find a Needle in a Haystack: a Novel Log Analysis Method with Test Clustering in Distributed Systems<br/>
+- Exynos Design Verification Automation Platform<br/>
+- Automated Machine Learning and Software Development Pipelines: MLOps & DevOps<br/>
 <h5>Past Projects</h5>
-- Multi-user monitoring system for sleep data and respiration data<br/>
-- Optimal SoC emulation resource management with reinforcement learning<br/>
-- Automatic table tennis system with wearable devices and smartphones<br/>
-- 3D virtual companion for the elderly on smartphones<br/>
-- Smart bicycle lock, BISECU<br/>
+- Internet-based Unobtrusive Tele-monitoring System for Sleep and Respiration<br/>
+- Optimal SoC Emulation Resource Management with Reinforcement Learning<br/>
+- Automatic Table Tennis System with Wearable Devices and Smartphones<br/>
+- 3D Virtual Companion for the Elderly on Smartphones<br/>
+- Smart Bicycle Lock, BISECU<br/>
 <br/>
 
 <br/>
@@ -27,21 +26,25 @@ method with test clustering in distributed system <br/>
 <br/>
 
 
-<h3>Find a needle in a haystack: a novel log analysis method with test clustering in distributed system</h3>
+<h3>Find a Needle in a Haystack: a Novel Log Analysis Method with Test Clustering in Distributed Systems</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1y6322rk_9hadVYMHDMrBPYAiTuh_5pHs" alt="drawing" style="width:800px;"/>
-    <figcaption class="image-caption"><i>Clustering results of navie method and component-based method</i></figcaption>
+    <figcaption class="image-caption"><i>Clustering results of normal K-means method and component-based weighted K-means method</i></figcaption>
 </figure>
 <h5>Purpose</h5>
 <p>
 <ul>
-    <li>To classify SoC / IP verification testcases by analyzing components from simulation logs</li>
+    <li>To reduce repetitive works of debugging with the same errors in <a href="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> design verification</li>
 </ul>
 <h5>Contribution</h5>
 <p>
 <ul>
     <li>Developing automated machine learning pipelines in distributed systems</li>
-    <li>Classifying and analyze testcases based on simulation logs</li>
+    <li>Classifying and analyzing test cases based on simulation logs</li>
+</ul>
+<h5>Related Materials</h5>
+<ul>
+   <li>Paper in preparation (DVCon 2022)</li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -53,7 +56,11 @@ method with test clustering in distributed system <br/>
 <div>
     <div class="chip lang">Python</div>
     <div class="chip db">MongoDB</div>
-    <div class="chip tool">Spark</div>
+    <div class="chip tools">Spark</div>
+    <div class="chip tools">Pandas (Parallel)</div>
+    <div class="chip tools">Numpy</div>
+    <div class="chip tools">T-SNE</div>
+    <div class="chip theory">K-means</div>
     <div class="chip devops">Jenkins</div>
 
 </div>
@@ -62,63 +69,24 @@ method with test clustering in distributed system <br/>
 <br/>
 <br/>
 
-<h3>DevOps / MLOps</h3>
-<br/>
-<h5>Purpose</h5>
-<p>
-<ul>
-    <li>To automate MLOps pipeline for a team</li>
-    <li>To automate DevOps pipeline for a team</li>
-</ul>
-</p>
-<h5>Contribution</h5>
-<p>
-<ul>
-    <li>Deploying a machine learning model through REST API (MLOps)</li>
-    <li>Developing CI/CD for a machine learning model development and deployment (MLOps)</li>
-    <li>Developing CI/CD for software development and deployment (DevOps)</li>
-    <li>Setting up and manage Grafana and Prometheus to monitor web servers and databases (DevOps)</li>
-    <li>Setting up and manage Python virtual environment (Anaconda) in offline servers (DevOps)</li>
-</ul>
-</p>
-<h5>Period</h5>
-<p>
-<ul>
-    <li>2021 - Present</li>
-</ul>
-</p>
-<h5>Skills</h5>
-<div>
-    <div class="chip devops">Anaconda</div>
-    <div class="chip devops">Nginx</div>
-    <div class="chip devops">Gunicorn</div>
-    <div class="chip devops">Jenkins</div>
-    <div class="chip devops">Blue Ocean</div>
-    <div class="chip devops">Github</div>
-    <div class="chip devops">Grafana</div>
-    <div class="chip devops">Prometheus</div>
-</div>
-<br/>
-
-<br/>
-<br/>
-
-<h3>SoC / IP verification automation platform</h3>
+<h3>Exynos Design Verification Automation Platform</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1BJaBKN78o4cAsZ6X43GAd3MtugaVJhuS" alt="drawing" style="width:800px;"/>
-    <figcaption class="image-caption"><i>Architecture of Backend System</i></figcaption>
+    <figcaption class="image-caption"><i>System architecture</i></figcaption>
 </figure>
 
 <h5> Purpose</h5>
 <p>
 <ul>
-    <li>To automate SoC (System on Chip), IP & block and performance verification</li>
+    <li>To automate <a href="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> design verification workflow</li>
 </ul>
 </p>
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Developing a REST API server and manage Nginx</li>
+    <li>Designing and developing system architecture with Nginx, Gunicorn and Django REST Framework</li>
+    <li>Developing a REST API server with ORM (Object Relational Mapping)</li>
+    <li>Administering distributed MongoDB servers and databases</li>
     <li>Developing a CLI (Command Line Interface)</li>
 </ul>
 </p>
@@ -148,11 +116,56 @@ method with test clustering in distributed system <br/>
 <br/>
 <br/>
 
+<h3>Automated Machine Learning and Software Development Pipelines: MLOps & DevOps</h3>
+<br/>
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1YnmTqkjbdPIA36DejiughAU1HutT8brq" alt="drawing" style="width:800px;"/>
+    <figcaption class="image-caption"><i>Abstract processes of MLOps & DevOps</i></figcaption>
+</figure>
+<h5>Purpose</h5>
+<p>
+<ul>
+    <li>To automate MLOps pipeline for a team</li>
+    <li>To automate DevOps pipeline for a team</li>
+</ul>
+</p>
+<h5>Contribution</h5>
+<p>
+<ul>
+    <li>[MLOps]  Deploying a machine learning model through REST API</li>
+    <li>[MLOps]  Developing CI/CD for machine learning model development and deployment</li>
+    <li>[DevOps] Developing CI/CD for software development and deployment</li>
+    <li>[DevOps] Administering Grafana and Prometheus to monitor web servers and databases</li>
+    <li>[DevOps] Administering Python virtual environment in offline servers</li>
+</ul>
+</p>
+<h5>Period</h5>
+<p>
+<ul>
+    <li>2021 - Present</li>
+</ul>
+</p>
+<h5>Skills</h5>
+<div>
+    <div class="chip devops">Anaconda</div>
+    <div class="chip devops">Nginx</div>
+    <div class="chip devops">Gunicorn</div>
+    <div class="chip devops">Jenkins</div>
+    <div class="chip devops">Blue Ocean</div>
+    <div class="chip devops">Github</div>
+    <div class="chip devops">Grafana</div>
+    <div class="chip devops">Prometheus</div>
+</div>
+<br/>
+
+<br/>
+<br/>
+
 <h2 class="text-center">Past Projects</h2>
 <hr>
 <br/>
 
-<h3>Multi-user monitoring system for sleep data and respiration data</h3>
+<h3>Internet-based Unobtrusive Tele-monitoring System for Sleep and Respiration</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1uY5LdUZZ4ulvZQKKJgoSjHfuUG5qWIMO" alt="drawing" style="width:800px;"/>
     <figcaption class="image-caption"><i>Architecture of tele-monitoring system for sleep and respiration (left), real time graph (right)</i></figcaption>
@@ -192,7 +205,7 @@ method with test clustering in distributed system <br/>
 <br/>
 <br/>
 
-<h3>Optimal SoC emulation resource management with reinforcement learning</h3>
+<h3>Optimal SoC Emulation Resource Management with Reinforcement Learning</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Rewards in each episode on training (left), comparision between a trained model and no policy model (right)</i></figcaption>
@@ -208,8 +221,8 @@ method with test clustering in distributed system <br/>
 <p>
 <ul>
     <li>Collected and analyze data for resource management</li>
-    <li>Developed a hueristic algorithm based on data analysis</li>
-    <li>Researched reinforcement learning on resource management</li>
+    <li>Developed a data-driven algorithm for resource management</li>
+    <li>Researched a reinforcement learning model on resource management</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
@@ -239,7 +252,7 @@ method with test clustering in distributed system <br/>
 <br/>
 <br/>
 
-<h3>Automatic table tennis system with wearable devices and smartphones</h3>
+<h3>Automatic Table Tennis System with Wearable Devices and Smartphones</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Swing detection algorithm (top) and implementation of the architecture (bottom)</i></figcaption>
@@ -253,8 +266,8 @@ method with test clustering in distributed system <br/>
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Developed an algorithm to detect and classify swing gestures</li>
-    <li>Designed an overall architecture of an automatic table tennis system</li>
+    <li>Developed architecture of an automatic table tennis scoring system</li>
+    <li>Developed a swing gesture classification algorithm using wearable devices</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
@@ -282,7 +295,7 @@ method with test clustering in distributed system <br/>
 <br/>
 <br/>
 
-<h3>3D virtual companion for the elderly on smartphones</h3>
+<h3>3D Virtual Companion for the Elderly on Smartphones</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1fTrkUyzRfRYR02-Xd5BU-7wnu9P9QWCj"/>
     <figcaption class="image-caption"><i>3D virtual companion acts depending on weather conditions</i></figcaption>
@@ -290,15 +303,15 @@ method with test clustering in distributed system <br/>
 <h5>Purpose</h5>
 <p>
 <ul>
-    <li>To develop a 3D interface for better use of smartphones for the elderly</li>
+    <li>To develop a 3D interface with speech recognition for better use of smartphones, such as making phone calls, sending text messages, and informing of weather, for the elderly</li>
 </ul>
 </p>
 
 <h5>Contribution</h5>
 <p>
 <ul>
-    <li>Designed an overall architecture of a system</li>
-    <li>Developed a business logic for controlling Speech-To-Text and Text-To-Speech data on Android smartphone and interacting between 3D rendering interface and NLP engine</li>
+    <li>Designed and developed system architecture</li>
+    <li>Developed a business logic for controlling and interacting between 3D rendering interface and a NLP engine with STT (Speech-To-Text) and TTS (Text-To-Speech) data on Android smartphones</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
@@ -324,7 +337,7 @@ method with test clustering in distributed system <br/>
 <br/>
 <br/>
 
-<h3>Smart bicycle lock, BISECU</h3>
+<h3>Smart Bicycle Lock, BISECU</h3>
 <div class="video-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/E7TS0-HIPew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <figure>
     <figcaption class="image-caption"><i>BISECU on NBC news</i></figcaption>
@@ -339,7 +352,7 @@ method with test clustering in distributed system <br/>
 <h5>Contribution</h5>
 <ul>
     <li>Developed a human proximity dectection algorithm to recognize presence of owners</li>
-    <li>Developed an Android application to control a smart bicycle lock and monitor a riding history</li>
+    <li>Developed an Android application to control a smart bicycle lock and monitor riding history</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
