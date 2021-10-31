@@ -9,13 +9,13 @@ weight: 1
 <br/>
 
 <h5>Current Projects</h5>
-- Find a Needle in a Haystack: a Novel Log Analysis Method with Test Clustering in Distributed Systems<br/>
+- Finding a Needle in a Haystack: a Novel Log Analysis Method with Test Clustering in Distributed Systems<br/>
 - Exynos Design Verification Automation Platform<br/>
 - Automated Machine Learning and Software Development Pipelines: MLOps & DevOps<br/>
 <h5>Past Projects</h5>
 - Internet-based Unobtrusive Tele-monitoring System for Sleep and Respiration<br/>
-- Optimal SoC Emulation Resource Management with Reinforcement Learning<br/>
-- Automatic Table Tennis System with Wearable Devices and Smartphones<br/>
+- Optimal Emulation Resource Management for Digital Design with Reinforcement Learning<br/>
+- Multi-user Automatic Table Tennis Scoring System<br/>
 - 3D Virtual Companion for the Elderly on Smartphones<br/>
 - Smart Bicycle Lock, BISECU<br/>
 <br/>
@@ -26,25 +26,27 @@ weight: 1
 <br/>
 
 
-<h3>Find a Needle in a Haystack: a Novel Log Analysis Method with Test Clustering in Distributed Systems</h3>
+<h3>Finding a Needle in a Haystack: a Novel Log Analysis Method with Test Clustering in Distributed Systems</h3>
 <figure class="image">
-    <img src="https://drive.google.com/uc?id=1y6322rk_9hadVYMHDMrBPYAiTuh_5pHs" alt="drawing" style="width:800px;"/>
-    <figcaption class="image-caption"><i>Clustering results of normal K-means method and component-based weighted K-means method</i></figcaption>
+    <img src="https://drive.google.com/uc?id=1vjk_Gh7bPPgCNNrIKGAXX1ELJ39-DpgN" alt="drawing" style="width:800px;"/>
+</figure>
+<figure class="image">
+    <img src="https://drive.google.com/uc?id=1t2TX3MJNUM4uBDDLUVw1WpXIf88wIs82" alt="drawing" style="width:800px;"/>
 </figure>
 <h5>Purpose</h5>
 <p>
 <ul>
-    <li>To reduce repetitive works of debugging with the same errors in <a href="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> design verification</li>
+    <li>To reduce repetitive and tedious tasks of debugging with the same errors from different test cases in digital design verification</li>
 </ul>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
-    <li>Developing automated machine learning pipelines in distributed systems</li>
-    <li>Classifying and analyzing test cases based on simulation logs</li>
+    <li>Developing MLOps environment, including automated machine learning pipelines in distributed systems</li>
+    <li>Developing a prioritization algorithm based on weight K-means clustering from log data</li>
 </ul>
 <h5>Related Materials</h5>
 <ul>
-   <li>Paper in preparation (DVCon 2022)</li>
+   <li><a href="https://drive.google.com/file/d/1BXZ50XPnGz9PdNigT4OqctxXVU7LOuB3/view?usp=sharing">[Paper] DVCon Paper (2021)</a></li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -57,7 +59,7 @@ weight: 1
     <div class="chip lang">Python</div>
     <div class="chip db">MongoDB</div>
     <div class="chip tools">Spark</div>
-    <div class="chip tools">Pandas (Parallel)</div>
+    <div class="chip tools">Parallel Pandas</div>
     <div class="chip tools">Numpy</div>
     <div class="chip tools">T-SNE</div>
     <div class="chip theory">K-means</div>
@@ -78,14 +80,14 @@ weight: 1
 <h5> Purpose</h5>
 <p>
 <ul>
-    <li>To automate <a href="https://www.samsung.com/semiconductor/minisite/exynos/">Exynos</a> design verification workflow</li>
+    <li>To build an automation platform for digital design verification</li>
 </ul>
 </p>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
     <li>Designing and developing system architecture with Nginx, Gunicorn and Django REST Framework</li>
-    <li>Developing a REST API server with ORM (Object Relational Mapping)</li>
+    <li>Developing a REST API server with ORM (Object Relational Mapping) to interface different types of databases uniformly</li>
     <li>Administering distributed MongoDB servers and databases</li>
     <li>Developing a CLI (Command Line Interface)</li>
 </ul>
@@ -129,7 +131,7 @@ weight: 1
     <li>To automate DevOps pipeline for a team</li>
 </ul>
 </p>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
     <li>[MLOps]  Deploying a machine learning model through REST API</li>
@@ -173,19 +175,19 @@ weight: 1
 <h5>Purpose</h5>
 <p>
 <ul>
-    <li>To track respiration rate on sleeping</li>
+    <li>To build a system for monitoring multi-user sleep and respiration in real time</li>
 </ul>
 </p>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
-    <li>Developed a frontend and backend of a web page to store and monitor sleep and respiration data</li>
-    <li>Ran stress tests for servers</li>
+    <li>Developed frontend and backend systems for storing and monitoring sleep and respiration</li>
+    <li>Performed stress tests for servers</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
 <ul>
-   <li><a href="https://ieeexplore.ieee.org/document/9075220?denied=">[Paper] IEEE Open Access (2020)</a></li>
+   <li><a href="https://ieeexplore.ieee.org/document/9075220?denied=">[Paper] IEEE Access (2020)</a></li>
 </ul>
 <h5>Period</h5>
 <p>
@@ -205,7 +207,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3>Optimal SoC Emulation Resource Management with Reinforcement Learning</h3>
+<h3>Optimal Emulation Resource Management for Digital Design with Reinforcement Learning</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=13fJT9B2aiRNWWALF-6yPYo6uUQrnSb0F" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Rewards in each episode on training (left), comparision between a trained model and no policy model (right)</i></figcaption>
@@ -214,15 +216,15 @@ weight: 1
 <h5>Purpose</h5>
 <p>
 <ul>
-    <li>To maximize resource utilization in SoC emulator clusters</li>
+    <li>To maximize resource utilization in emulator clusters</li>
 </ul>
 </p>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
-    <li>Collected and analyze data for resource management</li>
+    <li>Collected and analyze time series data from emulation clusters</li>
     <li>Developed a data-driven algorithm for resource management</li>
-    <li>Researched a reinforcement learning model on resource management</li>
+    <li>Researched an agent to make an optimal resource management decision with reinforcement learning</li>
 </ul>
 </p>
 <h5>Related Materials</h5>
@@ -252,7 +254,7 @@ weight: 1
 <br/>
 <br/>
 
-<h3>Automatic Table Tennis System with Wearable Devices and Smartphones</h3>
+<h3>Multi-user Automatic Table Tennis Scoring System</h3>
 <figure class="image">
     <img src="https://drive.google.com/uc?id=1BJr03AlFKioEElL6Ho67CuraVkJSxUVW" alt="drawing" style="width:1000px;"/>
     <figcaption class="image-caption"><i>Swing detection algorithm (top) and implementation of the architecture (bottom)</i></figcaption>
@@ -260,13 +262,13 @@ weight: 1
 <h5>Purpose</h5>
 <p>
 <ul>
-<li>To score table tennic games automatically with wearable devices and smartphones</li>
+<li>To build a fully automatic table tennis system with commodity wearable devices and smartphones</li>
 </ul>
 </p>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
-    <li>Developed architecture of an automatic table tennis scoring system</li>
+    <li>Designed and developed system based on message passing architecture without third party entity</li>
     <li>Developed a swing gesture classification algorithm using wearable devices</li>
 </ul>
 </p>
@@ -307,7 +309,7 @@ weight: 1
 </ul>
 </p>
 
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <p>
 <ul>
     <li>Designed and developed system architecture</li>
@@ -349,7 +351,7 @@ weight: 1
 </ul>
 </p>
 <p>
-<h5>Contribution</h5>
+<h5>Contributions</h5>
 <ul>
     <li>Developed a human proximity dectection algorithm to recognize presence of owners</li>
     <li>Developed an Android application to control a smart bicycle lock and monitor riding history</li>
