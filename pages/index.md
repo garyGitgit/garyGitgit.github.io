@@ -13,6 +13,7 @@ permalink: /
 <p>
 Hi I'm <b>Sangwoo (Gary) Noh.</b>
 <br><br>
+<div style="text-align: justify">
 I'm currently working as a software engineer in <a href="https://www.samsung.com/semiconductor/minisite/exynos/">Samsung Electronics</a>, South Korea. 
 My role is to build both <b>frontend and backend systems</b> for design verification automation platform. 
 For frontend systems, I use <i>Vue.js</i> and <i>Electron</i>.
@@ -20,6 +21,7 @@ For backend systems, I use <i>Django REST framework</i> and <i>Object Relational
 <br/><br/>
 My main interests are <b>cooperative mobile computing and online learning on mobile devices for context-awareness of human activities</b>. Multi-user activity recognition was one of my research in <a href="https://sites.google.com/view/hcilab/research-projects?authuser=0" target="_blank">HCI/mobile healthcare lab</a> under Prof. Ahyoung Choi, Gachon Univ., as an undergraduate research assistant. Specifically, I developed a system that
 automatically calculate table tennis scores based on multimodal data - <i>accelerometer sensor, gravity sensor and audio data</i> - from wearable devices and smartphones. This system was a novel architecture in that it didn’t require third-party entity for integrating data and processing algorithms. It was designed with a message passing architecture based on wireless network: <i>WiFi-Direct</i>. 
+</div>
 <br/><br/>
 Please see <a href="https://garygitgit.github.io/projects">projects</a>, <a href="https://garygitgit.github.io/cv">CV</a> and <a href="https://garygitgit.github.io/publications">publications</a> for details.
 </p>
